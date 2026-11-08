@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Play – Out of Office</title>
+<meta name="description" content="The Out of Office staff handbook: how to play, earn, get promoted and climb the Synergex tower.">
+<style>
+  :root { --bg:#008080; --panel:#c0c0c0; --paper:#ffffff; --ink:#1a1a1a; --soft:#4a4a4a; --bar:#000080; --cash:#1e7a32; --kudos:#b8860b; --clip:#a8740a; --tint:#fff4d0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 Georgia, "Times New Roman", serif; }
+  .win { max-width:860px; margin:24px auto; background:var(--panel); border:2px solid; border-color:#fff #404040 #404040 #fff; }
+  .title { background:var(--bar); color:#fff; font:bold 15px/1 Tahoma, Verdana, sans-serif; padding:7px 10px; display:flex; justify-content:space-between; }
+  .title a { color:#fff; text-decoration:none; }
+  .body { background:var(--paper); margin:6px; padding:22px 28px; border:2px solid; border-color:#404040 #fff #fff #404040; }
+  h1 { font-size:1.8rem; margin:0 0 .2rem; }
+  h2 { font:bold 1.15rem Tahoma, Verdana, sans-serif; margin:2.2rem 0 .5rem; color:var(--bar); border-bottom:2px solid #c0c0c0; padding-bottom:.2rem; scroll-margin-top:12px; }
+  h3 { font:bold 1rem Tahoma, Verdana, sans-serif; margin:1.2rem 0 .3rem; }
+  .meta { color:var(--soft); margin:0 0 1rem; }
+  li { margin:.3rem 0; }
+  a { color:var(--bar); }
+  img.scene { width:100%; height:auto; image-rendering:pixelated; border:2px solid #404040; display:block; margin:.6rem 0 .3rem; background:#000; }
+  img.tower { max-width:260px; width:100%; image-rendering:pixelated; border:2px solid #404040; float:right; margin:0 0 1rem 1.2rem; }
+  img.ico { width:28px; height:28px; image-rendering:pixelated; vertical-align:middle; margin-right:6px; }
+  .caption { color:var(--soft); font-size:.9rem; margin:0 0 1rem; }
+  .hero { display:flex; gap:18px; align-items:center; margin-bottom:1rem; }
+  .hero img { width:88px; height:88px; image-rendering:pixelated; border:2px solid #404040; }
+  .toc { background:var(--tint); border:2px solid; border-color:#404040 #fff #fff #404040; padding:10px 16px; columns:2; column-gap:28px; font-family:Tahoma, Verdana, sans-serif; font-size:.92rem; }
+  .toc a { display:block; padding:2px 0; }
+  .callouts { counter-reset:c; list-style:none; padding:0; }
+  .callouts li { counter-increment:c; padding-left:2.2rem; position:relative; }
+  .callouts li::before { content:counter(c); position:absolute; left:0; top:.1rem; width:1.5rem; height:1.5rem; border-radius:50%; background:#c8102e; color:#fff; font:bold .85rem/1.5rem Tahoma, Verdana, sans-serif; text-align:center; border:2px solid #fff; box-shadow:0 0 0 1px #c8102e; }
+  table { border-collapse:collapse; width:100%; margin:.6rem 0 1rem; font-size:.95rem; }
+  th, td { border:1px solid #9a9a9a; padding:6px 8px; text-align:left; vertical-align:top; }
+  th { background:#e4e4e4; font-family:Tahoma, Verdana, sans-serif; font-size:.85rem; }
+  .tip { background:#eaf6ea; border-left:4px solid var(--cash); padding:8px 12px; margin:1rem 0; }
+  .clear { clear:both; }
+  footer { margin-top:2.5rem; color:var(--soft); font-size:.9rem; border-top:2px solid #c0c0c0; padding-top:.8rem; }
+  @media (max-width:640px) {
+    .win { margin:0; border:0; } .body { margin:0; padding:16px; }
+    .toc { columns:1; } img.tower { float:none; display:block; margin:0 auto 1rem; max-width:220px; }
+    .hero img { width:64px; height:64px; }
+  }
+</style>
+</head>
+<body>
+<div class="win">
+<div class="title"><span>How to Play – Out of Office</span><a href="index.html">✕</a></div>
+<div class="body">
+
+<div class="hero">
+  <img src="img/app-icon.png" alt="Out of Office app icon">
+  <div>
+    <h1>The Staff Handbook</h1>
+    <p class="meta">Everything you need to climb from tea-maker to The Big Boss Upstairs at Synergex plc.</p>
+  </div>
+</div>
+
+<nav class="toc" aria-label="Contents">
+  <a href="#basics">1. The basics</a>
+  <a href="#money">2. Cash, Kudos and paperclips</a>
+  <a href="#office">3. Getting around the office</a>
+  <a href="#foyer">4. The foyer</a>
+  <a href="#jobs">5. Jobs and levels</a>
+  <a href="#promotions">6. Promotions and floors</a>
+  <a href="#menus">7. Tasks, Tools, Career and Shop</a>
+  <a href="#away">8. While you're away</a>
+  <a href="#attendance">9. Clocking in every day</a>
+  <a href="#challenges">10. Challenges</a>
+  <a href="#events">11. Events</a>
+  <a href="#boosts">12. Coffee breaks, ads and VIP</a>
+  <a href="#settings">13. Settings and cloud saves</a>
+  <a href="#faq">14. Questions</a>
+</nav>
+
+<h2 id="basics">1. The basics</h2>
+<p>You start as the <strong>Work Experience Kid</strong> making tea in the basement kitchen of Synergex plc. Every floor of the 30-storey tower has its own <strong>job</strong>, a machine or desk that works on a timer and pays out whenever it finishes. Your aim is to earn, upgrade and get promoted all the way to the top floor.</p>
+<img class="scene" src="img/help-tea.png" alt="The first job: a kettle and toaster making tea">
+<p class="caption">Your first job: making the tea. Tap it to hurry it along.</p>
+<ul>
+  <li><strong>Jobs earn on their own.</strong> Once a job is started, it keeps going, even while the app is closed.</li>
+  <li><strong>Level jobs up</strong> to earn more and to fill the desks with staff.</li>
+  <li><strong>Fill the Office Kudos bar</strong> at the top of the screen, then tap it to ask for a promotion.</li>
+  <li><strong>Each promotion</strong> boosts everything you earn, and every few promotions you move up a floor to a new job.</li>
+</ul>
+<p>On your first day, Brenda from HR shows you round, so you can also learn as you go.</p>
+
+<h2 id="money">2. Cash, Office Kudos and golden paperclips</h2>
+<table>
+  <tr><th style="width:34%">Currency</th><th>What it's for</th></tr>
+  <tr><td><img class="ico" src="img/icon-cashwad.png" alt="">Cash (£)</td><td>Earned every time a job pays out. Spend it on job levels and tools.</td></tr>
+  <tr><td><img class="ico" src="img/icon-thumbsup.png" alt="">Office Kudos</td><td>Also earned by every payout. It's never spent: fill the bar to unlock your next promotion.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Golden paperclips</td><td>The premium currency. Earned from promotions, challenges, your attendance card, events and the free-paperclips ad, or bought in the Shop. Spend them on boosts, time skips and premium tools.</td></tr>
+</table>
+
+<h2 id="office">3. Getting around the office</h2>
+<p>The main screen is one floor of the tower, seen from the side. <strong>Drag left and right</strong> to walk along it and <strong>pinch to zoom</strong>. Almost everything can be tapped.</p>
+<img class="scene" src="img/help-office.png" alt="An office floor with numbered callouts">
+<ol class="callouts">
+  <li><strong>The floor's job.</strong> Tap it to hurry it. Its tag at the bottom of the screen shows its level, what it earns and the <em>Level up</em> button.</li>
+  <li><strong>Your staff.</strong> Desks fill up as the job levels up. Tap anyone for a quip.</li>
+  <li><strong>Your desk</strong> (marked YOU) is on the floor you've been promoted to.</li>
+  <li><strong>The manager's office.</strong> Tap the manager to hear what they think.</li>
+  <li><strong>The lifts.</strong> Tap a lift for the button panel and travel to any floor you've reached.</li>
+  <li><strong>The printer and water cooler.</strong> Tap them for a surprise.</li>
+  <li><strong>The fire escape.</strong> Keep an eye on the stairwell: people come and go.</li>
+</ol>
+<p>The <strong>map button</strong> in the top bar (the little tower) shows the whole building: the floors you've unlocked, where your desk is, and who runs each floor.</p>
+<p>The lights follow your phone's clock: day from 6am, night from 7pm.</p>
+
+<h2 id="foyer">4. The foyer</h2>
+<p>The ground floor is the foyer. Take the lift to <strong>G</strong> to visit.</p>
+<img class="scene" src="img/help-foyer.png" alt="The foyer with numbered callouts">
+<ol class="callouts">
+  <li><strong>The lifts</strong> back up to the offices.</li>
+  <li><strong>The clock-in machine.</strong> Tap it to see your attendance card and streak (see <a href="#attendance">Clocking in</a>).</li>
+  <li><strong>The noticeboard.</strong> Tap it to see events. While one is running, a ribbon in the event's colour runs across its corner.</li>
+  <li><strong>The "Event soon!" poster.</strong> It appears five days before an event starts. Tap it to see what's coming.</li>
+  <li><strong>Maxine on reception</strong>, always on the phone.</li>
+  <li><strong>Ron from security.</strong> He waves.</li>
+  <li><strong>Stan the janitor.</strong> Tap him for <em>About</em>: the app's version, what's new, and licences.</li>
+  <li><strong>The way in.</strong> Visitors arrive through the revolving door.</li>
+</ol>
+
+<h2 id="jobs">5. Jobs and levels</h2>
+<ul>
+  <li><strong>Start</strong> a job with its first level, then <strong>level it up</strong> with cash. Each level earns more.</li>
+  <li>At <strong>levels 10, 25, 50, 100</strong> and beyond, the job <strong>works twice as fast</strong>.</li>
+  <li><strong>Tap a job to hurry it.</strong> Every tap pushes the current batch along.</li>
+  <li>In the <strong>Tasks</strong> window you can buy one level, ten, or <strong>MAX</strong> (as many as you can afford) at once.</li>
+</ul>
+<div class="tip"><strong>Tip:</strong> new floors' jobs earn much more than old ones, so put most of your cash into your newest job, and pick up the cheap milestone levels on older ones.</div>
+
+<h2 id="promotions">6. Promotions and floors</h2>
+<img class="tower" src="img/help-tower.png" alt="The building map showing unlocked floors">
+<ul>
+  <li>There are <strong>150 promotions</strong>, five on each of the <strong>30 floors</strong>.</li>
+  <li>When the Office Kudos bar is full it flashes: <strong>tap it to ask for a promotion</strong>.</li>
+  <li><strong>Every promotion</strong> multiplies all cash (×1.10) and Office Kudos (×1.06).</li>
+  <li>The <strong>first promotion on each floor</strong> moves your desk up a floor, unlocks that floor's job and pays golden paperclips. A new manager introduces themselves.</li>
+  <li>The 2nd and 4th promotions on a floor unlock its <strong>tools</strong>.</li>
+  <li>Your outfit gets smarter the higher you climb.</li>
+</ul>
+<p>The floors run from Support (tea, post, photocopying) through Admin, IT and Facilities, Management and Senior, up to the Executive floors: mergers, golf and, at the very top, <em>Running the Empire</em>.</p>
+<div class="clear"></div>
+
+<h2 id="menus">7. Tasks, Tools, Career and Shop</h2>
+<p>The four buttons along the bottom open windows over the office:</p>
+<table>
+  <tr><th style="width:24%">Button</th><th>What's inside</th></tr>
+  <tr><td><img class="ico" src="img/icon-notepad.png" alt="">Tasks</td><td>All your jobs: levels, earnings, the next speed milestone, and buying levels in bulk.</td></tr>
+  <tr><td><img class="ico" src="img/icon-printer.png" alt="">Tools</td><td>One-off upgrades. Each floor has two (one triples its job's pay, one doubles its speed), plus company-wide tools for speed, pay, Kudos and longer away time, and premium tools bought with paperclips. If you can't quite afford a tool, <strong>Pay now</strong> puts in all your cash and paperclips cover the rest.</td></tr>
+  <tr><td><img class="ico" src="img/icon-chart.png" alt="">Career</td><td>Every rank in the company, the Office Kudos each one needs, and the paperclips it pays.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Shop</td><td>Today's deals, free stuff (ads), VIP, paperclip packs, and things to spend paperclips on: <em>Overtime</em> (double speed for 30 minutes) and time skips (<em>Long Lunch</em> 1 hour, <em>Half Day</em> 4 hours, <em>Bank Holiday</em> 24 hours of pay at once).</td></tr>
+</table>
+
+<h2 id="away">8. While you're away</h2>
+<ul>
+  <li>Your team <strong>keeps working while the app is closed</strong>, up to your <strong>away time</strong>: 3 hours to start, up to 24 hours with tools, plus 4 more for VIPs.</li>
+  <li>When you come back, the <strong>Back in the office</strong> card shows what you earned. Tap <strong>Collect</strong>, or <strong>Double it</strong> by watching a short ad (VIPs double it instantly).</li>
+  <li>When your away time runs out, work stops until you return. A <strong>reminder</strong> lets you know your in-tray is full (turn reminders on in Settings).</li>
+  <li><strong>Keep screen on</strong> (in Settings) keeps your phone awake while the game is open, so you can leave the office running in front of you.</li>
+  <li>Pressing <strong>Back</strong> asks whether you want to <strong>clock off</strong>. Clocking off saves your game, to the cloud too if you're signed in, before the screen switches off.</li>
+</ul>
+
+<h2 id="attendance">9. Clocking in every day</h2>
+<p>Tap the clock-in machine in the foyer (it also pops up on your first visit each day) to collect your <strong>attendance reward</strong>. The card runs for seven days, and the rewards grow through the week:</p>
+<table>
+  <tr><th style="width:22%">Day</th><th>Reward</th></tr>
+  <tr><td>1</td><td><img class="ico" src="img/icon-cashwad.png" alt="">30 minutes of pay</td></tr>
+  <tr><td>2</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">30 minutes of Office Kudos</td></tr>
+  <tr><td>3</td><td><img class="ico" src="img/icon-cashwad.png" alt="">1 hour of pay</td></tr>
+  <tr><td>4</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">1 hour of Office Kudos</td></tr>
+  <tr><td>5</td><td><img class="ico" src="img/icon-cashwad.png" alt="">2 hours of pay</td></tr>
+  <tr><td>6</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">2 hours of Office Kudos</td></tr>
+  <tr><td>7</td><td><img class="ico" src="img/icon-paperclip.png" alt="">5 golden paperclips</td></tr>
+</table>
+<ul>
+  <li><strong>Weekly streak bonus:</strong> every full week of streak adds <strong>+5%</strong> to the cash and Kudos rewards, up to <strong>+25%</strong>. Days 8–14 get +5%, days 15–21 get +10%, and so on. Paperclips stay the same. The card shows your streak and your current bonus.</li>
+  <li><strong>Missed a day?</strong> If you've missed two days or fewer, you can <strong>keep your streak</strong> by watching an ad (VIPs keep it for free), or start again from day 1.</li>
+  <li>A <strong>6:30pm reminder</strong> lets you know if today's reward is still waiting.</li>
+</ul>
+
+<h2 id="challenges">10. Challenges</h2>
+<p>There are <strong>50 challenges</strong>, shown one at a time by the <strong>#</strong> button on the right of the screen. Its bar fills as you go, and it flashes <strong>CLAIM!</strong> when one's done. Each pays golden paperclips, from 3 for the early ones up to 25. They point you towards things you might not have found yet: the lift, the map, coffee breaks, the Tools window. Later ones take days or weeks.</p>
+
+<h2 id="events">11. Events</h2>
+<ul>
+  <li>Events run for a set time with <strong>bonus jobs</strong> and <strong>boosts</strong>, such as double Kudos or ×1.5 cash.</li>
+  <li>Look for the <strong>"Event soon!" poster</strong> in the foyer five days before one starts, and the <strong>event button</strong> on the right while it's running.</li>
+  <li>Some events run <strong>one stage a day</strong>. Finish each day's stage on its day: a missed stage locks, and 5 paperclips reopen it until the event ends. Finish every stage to win a <strong>trophy</strong> for your desk.</li>
+  <li>Event jobs are priced by your own pay, so they're fair at any rank.</li>
+</ul>
+<img class="scene" src="img/help-christmas.png" alt="The office decorated for Christmas with snow outside and Santa flying past">
+<p class="caption">At Christmas the whole office gets dressed up: snow, tinsel and lights, festive jumpers, a tree in the foyer, and Santa flies past the windows.</p>
+
+<h2 id="boosts">12. Coffee breaks, ads and VIP</h2>
+<ul>
+  <li><img class="ico" src="img/icon-mug.png" alt=""><strong>Coffee break:</strong> watch a short ad and everything runs <strong>twice as fast for 15 minutes</strong>. Breaks stack up to 4 hours.</li>
+  <li><img class="ico" src="img/icon-paperclip.png" alt=""><strong>Free paperclips:</strong> watch an ad for 3 golden paperclips, up to three times a day.</li>
+  <li><img class="ico" src="img/icon-tv.png" alt="">Ads are always <strong>your choice</strong>, up to 10 rewarded ads a day. There's also a short ad after every third promotion.</li>
+  <li><strong>VIP</strong> (a one-off purchase) removes ads for good, gives you ad rewards instantly, saves broken streaks for free, adds 4 hours of away time, and gives you a gold lanyard.</li>
+</ul>
+
+<h2 id="settings">13. Settings and cloud saves</h2>
+<p>The cog at the top right opens Settings:</p>
+<ul>
+  <li><strong>Account:</strong> sign in with <strong>Google Play Games</strong> to save your career to the cloud. If you get a new phone, sign in there and choose <em>Load from cloud</em>.</li>
+  <li><strong>Sound:</strong> sound effects, office background noise and title music, each with its own volume. At the bottom are <strong>Vibration</strong> and <strong>Job payout SFX</strong> (the coin bleep).</li>
+  <li><strong>Game:</strong> reminders, and keep screen on.</li>
+  <li><strong>More:</strong> this handbook, language, <strong>restore purchases</strong>, privacy settings and the privacy policy.</li>
+</ul>
+
+<h2 id="faq">14. Questions</h2>
+<h3>Does the game keep earning when it's closed?</h3>
+<p>Yes, up to your away time (3 hours to start). Raise it with tools, or with VIP.</p>
+<h3>I bought something and it didn't arrive.</h3>
+<p>Open <strong>Settings → Restore purchases</strong>. Purchases are tied to your Google account.</p>
+<h3>How do I move my progress to a new phone?</h3>
+<p>On your old phone, sign in to Google Play Games in Settings and tap <strong>Save now</strong>. On the new phone, sign in with the same account and tap <strong>Load from cloud</strong>.</p>
+<h3>Can I turn the ads off?</h3>
+<p>Rewarded ads only play when you choose. VIP removes all ads, including the one after every third promotion.</p>
+<h3>Something looks wrong, or I've found a bug.</h3>
+<p>Email <a href="mailto:dialupstudios.games@gmail.com">dialupstudios.games@gmail.com</a>. Stan in the foyer will tell you which version you're on.</p>
+
+<footer>
+  Out of Office by Dial-Up Studios · <a href="index.html">Home</a> · <a href="privacy.html">Privacy policy</a> · <a href="mailto:dialupstudios.games@gmail.com">Contact</a>
+</footer>
+</div>
+</div>
+</body>
+</html>
