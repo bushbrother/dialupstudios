@@ -1,0 +1,5209 @@
+{
+  "schemaVersion": 2,
+  "contentVersion": 14,
+  "gameTitle": "Out of Office",
+  "company": "Synergex plc",
+  "economy": {
+    "baseOfflineCapHours": 3,
+    "maxOfflineCapHours": 24,
+    "milestoneLevels": [
+      10,
+      25,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      400,
+      500
+    ],
+    "milestoneSpeedMult": 2.0,
+    "minCycleSec": 0.25,
+    "rankCashMult": 1.1,
+    "rankKudosMult": 1.06,
+    "tapSpeedupFraction": 0.15,
+    "startingCash": 4
+  },
+  "ranks": [
+    {
+      "rank": 1,
+      "title": "Work Experience Kid",
+      "flavour": "A borrowed chair and a lanyard.",
+      "kudosRequired": 0.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 2,
+      "title": "Tea Runner",
+      "flavour": "Fourteen orders. Zero notepads.",
+      "kudosRequired": 4170.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 3,
+      "title": "Junior Kettle Operator",
+      "flavour": "Certified in the safe use of steam.",
+      "kudosRequired": 21700.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 4,
+      "title": "Senior Brew Technician",
+      "flavour": "Knows everyone's order by heart.",
+      "kudosRequired": 71400.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 5,
+      "title": "Head of the Tea Round",
+      "flavour": "The biscuit tin answers to you.",
+      "kudosRequired": 258000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 6,
+      "title": "Post Room Junior",
+      "flavour": "You know where everything goes. Mostly.",
+      "kudosRequired": 873000.0,
+      "rewardGems": 5
+    },
+    {
+      "rank": 7,
+      "title": "Junior Letter Sorter",
+      "flavour": "A to Z, and a bit of Q.",
+      "kudosRequired": 21100000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 8,
+      "title": "Franking Whisperer",
+      "flavour": "It only jams for other people.",
+      "kudosRequired": 21300000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 9,
+      "title": "Senior Post Sorter",
+      "flavour": "You can read any handwriting. Any.",
+      "kudosRequired": 85300000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 10,
+      "title": "Pigeonhole Overseer",
+      "flavour": "Every slot in its place.",
+      "kudosRequired": 86200000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 11,
+      "title": "Photocopy Assistant",
+      "flavour": "Warm paper, cold coffee.",
+      "kudosRequired": 147000000.0,
+      "rewardGems": 5
+    },
+    {
+      "rank": 12,
+      "title": "Toner Changer",
+      "flavour": "Grey fingers, golden future.",
+      "kudosRequired": 243000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 13,
+      "title": "Collating Specialist",
+      "flavour": "Pages 1 to 40, in order. Usually.",
+      "kudosRequired": 555000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 14,
+      "title": "Senior Copy Technician",
+      "flavour": "You know exactly where to kick it.",
+      "kudosRequired": 561000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 15,
+      "title": "Print Room Supervisor",
+      "flavour": "You can clear a jam blindfolded.",
+      "kudosRequired": 932000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 16,
+      "title": "Stationery Clerk",
+      "flavour": "Your own mug AND your own stapler.",
+      "kudosRequired": 1430000000.0,
+      "rewardGems": 6
+    },
+    {
+      "rank": 17,
+      "title": "Biro Auditor",
+      "flavour": "47 blue, 12 black, one suspicious red.",
+      "kudosRequired": 3310000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 18,
+      "title": "Staple Quartermaster",
+      "flavour": "Rations are rations.",
+      "kudosRequired": 3340000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 19,
+      "title": "Senior Supplies Officer",
+      "flavour": "The sticky notes fear you.",
+      "kudosRequired": 4510000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 20,
+      "title": "Head of the Cupboard",
+      "flavour": "The key is on a lanyard. Yours.",
+      "kudosRequired": 7240000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 21,
+      "title": "Receptionist",
+      "flavour": "Good morning, how may I direct your call?",
+      "kudosRequired": 11000000000.0,
+      "rewardGems": 6
+    },
+    {
+      "rank": 22,
+      "title": "Switchboard Operator",
+      "flavour": "Twelve lines, two hands.",
+      "kudosRequired": 14700000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 23,
+      "title": "Call Transfer Expert",
+      "flavour": "Putting you through now... gone.",
+      "kudosRequired": 24100000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 24,
+      "title": "Senior Telephonist",
+      "flavour": "Your hold music is legendary.",
+      "kudosRequired": 37000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 25,
+      "title": "Head of the Switchboard",
+      "flavour": "Every extension, memorised.",
+      "kudosRequired": 54400000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 26,
+      "title": "Filing Clerk",
+      "flavour": "A drawer of your very own.",
+      "kudosRequired": 76900000000.0,
+      "rewardGems": 7
+    },
+    {
+      "rank": 27,
+      "title": "Folder Wrangler",
+      "flavour": "Manila is your favourite colour.",
+      "kudosRequired": 88200000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 28,
+      "title": "Cross-Reference Clerk",
+      "flavour": "See also: Cross-Reference Clerk.",
+      "kudosRequired": 152000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 29,
+      "title": "Senior Filing Officer",
+      "flavour": "Drawers glide shut at your touch.",
+      "kudosRequired": 174000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 30,
+      "title": "Head of Filing",
+      "flavour": "Nothing is ever lost. Just misfiled.",
+      "kudosRequired": 226000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 31,
+      "title": "Admin Assistant",
+      "flavour": "Your own in-tray. Already full.",
+      "kudosRequired": 286000000000.0,
+      "rewardGems": 7
+    },
+    {
+      "rank": 32,
+      "title": "Copy Typist",
+      "flavour": "Two fingers, surprisingly fast.",
+      "kudosRequired": 452000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 33,
+      "title": "Shorthand Secretary",
+      "flavour": "Fluent in squiggles.",
+      "kudosRequired": 507000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 34,
+      "title": "Senior Typist",
+      "flavour": "Correction fluid is for amateurs.",
+      "kudosRequired": 764000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 35,
+      "title": "Typing Pool Captain",
+      "flavour": "Ding! Carriage return, people!",
+      "kudosRequired": 903000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 36,
+      "title": "Data Entry Clerk",
+      "flavour": "Your fingers have achieved 60 WPM.",
+      "kudosRequired": 1130000000000.0,
+      "rewardGems": 8
+    },
+    {
+      "rank": 37,
+      "title": "Keystroke Operator",
+      "flavour": "Clack clack clack, all day long.",
+      "kudosRequired": 1450000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 38,
+      "title": "Junior Analyst",
+      "flavour": "A calculator with a paper roll.",
+      "kudosRequired": 2010000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 39,
+      "title": "Analyst",
+      "flavour": "You make charts with three axes.",
+      "kudosRequired": 2530000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 40,
+      "title": "Senior Analyst",
+      "flavour": "People ask YOU what the numbers mean.",
+      "kudosRequired": 3120000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 41,
+      "title": "Archive Assistant",
+      "flavour": "You've found a floppy disk. Several.",
+      "kudosRequired": 3990000000000.0,
+      "rewardGems": 8
+    },
+    {
+      "rank": 42,
+      "title": "Box Labeller",
+      "flavour": "Your handwriting is finally legible.",
+      "kudosRequired": 4860000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 43,
+      "title": "Dust Specialist",
+      "flavour": "Allergies: managed.",
+      "kudosRequired": 7820000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 44,
+      "title": "Records Officer",
+      "flavour": "Seven-year retention, guaranteed.",
+      "kudosRequired": 9600000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 45,
+      "title": "Keeper of Records",
+      "flavour": "You know where every file is buried.",
+      "kudosRequired": 13000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 46,
+      "title": "Admin Officer",
+      "flavour": "You own a laminator. Respect.",
+      "kudosRequired": 15500000000000.0,
+      "rewardGems": 9
+    },
+    {
+      "rank": 47,
+      "title": "Diary Coordinator",
+      "flavour": "Your calendar has calendars.",
+      "kudosRequired": 21800000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 48,
+      "title": "Senior Admin Officer",
+      "flavour": "You say 'per my last email' a lot.",
+      "kudosRequired": 27100000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 49,
+      "title": "Office Coordinator",
+      "flavour": "You know the Wi-Fi password by heart.",
+      "kudosRequired": 35400000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 50,
+      "title": "Head of Admin",
+      "flavour": "The building runs on your clipboard.",
+      "kudosRequired": 44500000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 51,
+      "title": "Helpdesk Trainee",
+      "flavour": "You've learned to say 'known issue'.",
+      "kudosRequired": 53800000000000.0,
+      "rewardGems": 9
+    },
+    {
+      "rank": 52,
+      "title": "Printer Fixer",
+      "flavour": "Paper jam? Not on your watch.",
+      "kudosRequired": 74300000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 53,
+      "title": "IT Support Analyst",
+      "flavour": "Have you tried turning it off?",
+      "kudosRequired": 93600000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 54,
+      "title": "Senior Support Engineer",
+      "flavour": "Fluent in beeps.",
+      "kudosRequired": 119000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 55,
+      "title": "Helpdesk Manager",
+      "flavour": "Your ticket queue is finally empty.",
+      "kudosRequired": 151000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 56,
+      "title": "Cable Tidier",
+      "flavour": "The spaghetti is finally sorted.",
+      "kudosRequired": 187000000000000.0,
+      "rewardGems": 10
+    },
+    {
+      "rank": 57,
+      "title": "Server Room Junior",
+      "flavour": "A hoodie in July. Worth it.",
+      "kudosRequired": 235000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 58,
+      "title": "Network Technician",
+      "flavour": "You know what a router does.",
+      "kudosRequired": 298000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 59,
+      "title": "Systems Administrator",
+      "flavour": "Root access. Use it wisely.",
+      "kudosRequired": 367000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 60,
+      "title": "Head of Servers",
+      "flavour": "The blinking lights obey you.",
+      "kudosRequired": 448000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 61,
+      "title": "Spreadsheet Junior",
+      "flavour": "Your first macro. So proud.",
+      "kudosRequired": 563000000000000.0,
+      "rewardGems": 10
+    },
+    {
+      "rank": 62,
+      "title": "Formula Fiddler",
+      "flavour": "SUM, AVERAGE, and hope.",
+      "kudosRequired": 717000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 63,
+      "title": "Pivot Table Pro",
+      "flavour": "Pivot tables bend to your will.",
+      "kudosRequired": 924000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 64,
+      "title": "VLOOKUP Virtuoso",
+      "flavour": "Never once got #N/A.",
+      "kudosRequired": 1130000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 65,
+      "title": "Head of Spreadsheets",
+      "flavour": "Your cells are always green.",
+      "kudosRequired": 1420000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 66,
+      "title": "Odd Job Assistant",
+      "flavour": "You hold the ladder. Vital work.",
+      "kudosRequired": 1690000000000000.0,
+      "rewardGems": 11
+    },
+    {
+      "rank": 67,
+      "title": "Lightbulb Changer",
+      "flavour": "How many does it take? Just you.",
+      "kudosRequired": 2150000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 68,
+      "title": "Maintenance Technician",
+      "flavour": "You own a spirit level.",
+      "kudosRequired": 2790000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 69,
+      "title": "Building Fixer-Upper",
+      "flavour": "No leak escapes you.",
+      "kudosRequired": 3370000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 70,
+      "title": "Head of Facilities",
+      "flavour": "The radiators hum your name.",
+      "kudosRequired": 4130000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 71,
+      "title": "Safety Rep",
+      "flavour": "You own a whistle and use it.",
+      "kudosRequired": 4980000000000000.0,
+      "rewardGems": 11
+    },
+    {
+      "rank": 72,
+      "title": "Fire Warden",
+      "flavour": "The hi-vis vest really suits you.",
+      "kudosRequired": 6210000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 73,
+      "title": "Risk Assessor",
+      "flavour": "Everything is a trip hazard.",
+      "kudosRequired": 7900000000000000.0,
+      "rewardGems": 0
+    },
+    {
+      "rank": 74,
+      "title": "Senior Safety Officer",
+      "flavour": "Your clipboard has a clipboard.",
+      "kudosRequired": 1e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 75,
+      "title": "Head of Health & Safety",
+      "flavour": "Zero incidents. Well, one.",
+      "kudosRequired": 1.25e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 76,
+      "title": "Team Leader",
+      "flavour": "Three people await your thumbs-up.",
+      "kudosRequired": 1.62e+16,
+      "rewardGems": 12
+    },
+    {
+      "rank": 77,
+      "title": "Meeting Organiser",
+      "flavour": "You booked the room AND the biscuits.",
+      "kudosRequired": 1.93e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 78,
+      "title": "Agenda Setter",
+      "flavour": "Item 1: Any Other Business.",
+      "kudosRequired": 2.48e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 79,
+      "title": "Assistant Manager",
+      "flavour": "Assistant TO the manager? No.",
+      "kudosRequired": 3.22e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 80,
+      "title": "Manager",
+      "flavour": "A door. With your name on it.",
+      "kudosRequired": 3.86e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 81,
+      "title": "Minute Taker",
+      "flavour": "Shorthand speed: blistering.",
+      "kudosRequired": 4.66e+16,
+      "rewardGems": 12
+    },
+    {
+      "rank": 82,
+      "title": "Senior Minute Taker",
+      "flavour": "You've minuted a minute's silence.",
+      "kudosRequired": 5.98e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 83,
+      "title": "Executive Secretary",
+      "flavour": "You know where every key is.",
+      "kudosRequired": 7.44e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 84,
+      "title": "Senior Manager",
+      "flavour": "You have a parking space.",
+      "kudosRequired": 9.36e+16,
+      "rewardGems": 0
+    },
+    {
+      "rank": 85,
+      "title": "Department Head",
+      "flavour": "The floor goes quiet when you pass.",
+      "kudosRequired": 1.1e+17,
+      "rewardGems": 0
+    },
+    {
+      "rank": 86,
+      "title": "HR Assistant",
+      "flavour": "You've seen the personnel files.",
+      "kudosRequired": 1.39e+17,
+      "rewardGems": 13
+    },
+    {
+      "rank": 87,
+      "title": "People Partner",
+      "flavour": "You say 'let's take this offline'.",
+      "kudosRequired": 1.67e+17,
+      "rewardGems": 0
+    },
+    {
+      "rank": 88,
+      "title": "Appraisal Officer",
+      "flavour": "Meets expectations. Exceeds them.",
+      "kudosRequired": 2.41e+17,
+      "rewardGems": 0
+    },
+    {
+      "rank": 89,
+      "title": "Senior HR Manager",
+      "flavour": "Your door is always open. Sadly.",
+      "kudosRequired": 3e+17,
+      "rewardGems": 0
+    },
+    {
+      "rank": 90,
+      "title": "Director of People",
+      "flavour": "You decide who gets the window seat.",
+      "kudosRequired": 4.06e+17,
+      "rewardGems": 0
+    },
+    {
+      "rank": 91,
+      "title": "Training Coordinator",
+      "flavour": "You laminated the name badges.",
+      "kudosRequired": 4.96e+17,
+      "rewardGems": 13
+    },
+    {
+      "rank": 92,
+      "title": "Icebreaker Specialist",
+      "flavour": "Two truths and a lie, nailed it.",
+      "kudosRequired": 6.44e+17,
+      "rewardGems": 0
+    },
+    {
+      "rank": 93,
+      "title": "Workshop Facilitator",
+      "flavour": "Everyone gets a sticky note.",
+      "kudosRequired": 8.16e+17,
+      "rewardGems": 0
+    },
+    {
+      "rank": 94,
+      "title": "Senior Coach",
+      "flavour": "You say 'there are no bad ideas'.",
+      "kudosRequired": 1.05e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 95,
+      "title": "Director",
+      "flavour": "Your diary is managed by someone else.",
+      "kudosRequired": 1.33e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 96,
+      "title": "Accounts Assistant",
+      "flavour": "Your expenses claim was rejected.",
+      "kudosRequired": 1.56e+18,
+      "rewardGems": 14
+    },
+    {
+      "rank": 97,
+      "title": "Budget Analyst",
+      "flavour": "You found the missing biros.",
+      "kudosRequired": 1.95e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 98,
+      "title": "Management Accountant",
+      "flavour": "Spreadsheets, but with feelings.",
+      "kudosRequired": 2.57e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 99,
+      "title": "Senior Director",
+      "flavour": "Away days are 'strategy offsites'.",
+      "kudosRequired": 3.08e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 100,
+      "title": "Chief Number Cruncher",
+      "flavour": "Every penny has a name.",
+      "kudosRequired": 3.81e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 101,
+      "title": "Sales Trainee",
+      "flavour": "Always be closing. The door, mostly.",
+      "kudosRequired": 4.62e+18,
+      "rewardGems": 14
+    },
+    {
+      "rank": 102,
+      "title": "Account Executive",
+      "flavour": "You call everyone 'buddy'.",
+      "kudosRequired": 5.82e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 103,
+      "title": "Senior Account Manager",
+      "flavour": "Your golf handicap is improving.",
+      "kudosRequired": 7.69e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 104,
+      "title": "Sales Director",
+      "flavour": "Commission: eye-watering.",
+      "kudosRequired": 9.86e+18,
+      "rewardGems": 0
+    },
+    {
+      "rank": 105,
+      "title": "Vice President",
+      "flavour": "Business class. Obviously.",
+      "kudosRequired": 1.24e+19,
+      "rewardGems": 0
+    },
+    {
+      "rank": 106,
+      "title": "Marketing Executive",
+      "flavour": "You say 'leverage' as a verb.",
+      "kudosRequired": 1.54e+19,
+      "rewardGems": 15
+    },
+    {
+      "rank": 107,
+      "title": "Brand Champion",
+      "flavour": "The logo is 3 pixels too far left.",
+      "kudosRequired": 1.86e+19,
+      "rewardGems": 0
+    },
+    {
+      "rank": 108,
+      "title": "Creative Lead",
+      "flavour": "Your ideas have ideas.",
+      "kudosRequired": 2.35e+19,
+      "rewardGems": 0
+    },
+    {
+      "rank": 109,
+      "title": "Senior Vice President",
+      "flavour": "Your memos have memos.",
+      "kudosRequired": 2.89e+19,
+      "rewardGems": 0
+    },
+    {
+      "rank": 110,
+      "title": "Head of Marketing",
+      "flavour": "You rebranded the tea round.",
+      "kudosRequired": 3.62e+19,
+      "rewardGems": 0
+    },
+    {
+      "rank": 111,
+      "title": "Legal Assistant",
+      "flavour": "You signed an NDA about NDAs.",
+      "kudosRequired": 4.34e+19,
+      "rewardGems": 15
+    },
+    {
+      "rank": 112,
+      "title": "Paralegal",
+      "flavour": "Whereas, heretofore, notwithstanding.",
+      "kudosRequired": 5.48e+19,
+      "rewardGems": 0
+    },
+    {
+      "rank": 113,
+      "title": "Contracts Officer",
+      "flavour": "Terms and conditions apply.",
+      "kudosRequired": 6.85e+19,
+      "rewardGems": 0
+    },
+    {
+      "rank": 114,
+      "title": "Executive Vice President",
+      "flavour": "You have a view of the river.",
+      "kudosRequired": 8.44e+19,
+      "rewardGems": 0
+    },
+    {
+      "rank": 115,
+      "title": "General Counsel",
+      "flavour": "You read the small print. All of it.",
+      "kudosRequired": 1.03e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 116,
+      "title": "Strategy Analyst",
+      "flavour": "Your slides have frameworks.",
+      "kudosRequired": 1.2e+20,
+      "rewardGems": 16
+    },
+    {
+      "rank": 117,
+      "title": "Transformation Lead",
+      "flavour": "You've moved the teams. Again.",
+      "kudosRequired": 1.5e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 118,
+      "title": "Head of Strategy",
+      "flavour": "Five-year plan? Ten, actually.",
+      "kudosRequired": 1.88e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 119,
+      "title": "Chief Strategist",
+      "flavour": "You see the big picture. Framed.",
+      "kudosRequired": 2.46e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 120,
+      "title": "Chief Operating Officer",
+      "flavour": "Every process is your process.",
+      "kudosRequired": 2.99e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 121,
+      "title": "Investor Liaison",
+      "flavour": "You know which fork to use.",
+      "kudosRequired": 3.74e+20,
+      "rewardGems": 16
+    },
+    {
+      "rank": 122,
+      "title": "Shareholder Whisperer",
+      "flavour": "Share price: up. Spirits: up.",
+      "kudosRequired": 4.78e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 123,
+      "title": "Investor Relations Head",
+      "flavour": "Your expense account is legendary.",
+      "kudosRequired": 5.96e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 124,
+      "title": "Chief Financial Officer",
+      "flavour": "The numbers always add up. Now.",
+      "kudosRequired": 7.26e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 125,
+      "title": "Chief Executive Officer",
+      "flavour": "The buck stops at your desk.",
+      "kudosRequired": 8.81e+20,
+      "rewardGems": 0
+    },
+    {
+      "rank": 126,
+      "title": "Deal Analyst",
+      "flavour": "You speak fluent synergy.",
+      "kudosRequired": 1.08e+21,
+      "rewardGems": 17
+    },
+    {
+      "rank": 127,
+      "title": "Acquisitions Lead",
+      "flavour": "You bought the vending machine company.",
+      "kudosRequired": 1.34e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 128,
+      "title": "Takeover Specialist",
+      "flavour": "Hostile? Only before coffee.",
+      "kudosRequired": 1.69e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 129,
+      "title": "Mergers Maestro",
+      "flavour": "Two companies become one. Daily.",
+      "kudosRequired": 2.1e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 130,
+      "title": "Group CEO",
+      "flavour": "You own the company that owns the company.",
+      "kudosRequired": 2.47e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 131,
+      "title": "Board Observer",
+      "flavour": "You may watch. Silently.",
+      "kudosRequired": 2.91e+21,
+      "rewardGems": 17
+    },
+    {
+      "rank": 132,
+      "title": "Board Member",
+      "flavour": "Mahogany. Everywhere.",
+      "kudosRequired": 3.6e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 133,
+      "title": "Senior Board Member",
+      "flavour": "Your chair is slightly taller.",
+      "kudosRequired": 4.49e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 134,
+      "title": "Deputy Chairman",
+      "flavour": "You hold the small bell.",
+      "kudosRequired": 5.56e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 135,
+      "title": "Chairman of the Board",
+      "flavour": "You ring the bell to start meetings.",
+      "kudosRequired": 6.63e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 136,
+      "title": "Executive Chairman",
+      "flavour": "Your signature is worth millions.",
+      "kudosRequired": 7.84e+21,
+      "rewardGems": 18
+    },
+    {
+      "rank": 137,
+      "title": "Honorary President",
+      "flavour": "Ribbon-cutting is now your cardio.",
+      "kudosRequired": 9.84e+21,
+      "rewardGems": 0
+    },
+    {
+      "rank": 138,
+      "title": "Industry Titan",
+      "flavour": "They write case studies about you.",
+      "kudosRequired": 1.21e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 139,
+      "title": "Captain of Industry",
+      "flavour": "Your handshake moves markets.",
+      "kudosRequired": 1.48e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 140,
+      "title": "Global Tycoon",
+      "flavour": "Your office has its own postcode.",
+      "kudosRequired": 1.8e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 141,
+      "title": "Lounge Member",
+      "flavour": "The good biscuits, at last.",
+      "kudosRequired": 2.1e+22,
+      "rewardGems": 18
+    },
+    {
+      "rank": 142,
+      "title": "Golf Club Captain",
+      "flavour": "Your swing is a business strategy.",
+      "kudosRequired": 2.59e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 143,
+      "title": "Office Legend",
+      "flavour": "There's a statue of you by the copier.",
+      "kudosRequired": 3.23e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 144,
+      "title": "Living Legend",
+      "flavour": "Interns ask for your autograph.",
+      "kudosRequired": 3.97e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 145,
+      "title": "Tycoon Emeritus",
+      "flavour": "Retirement? Never heard of it.",
+      "kudosRequired": 4.84e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 146,
+      "title": "Penthouse Resident",
+      "flavour": "Your lift has its own lift.",
+      "kudosRequired": 5.71e+22,
+      "rewardGems": 19
+    },
+    {
+      "rank": 147,
+      "title": "Master of the Universe",
+      "flavour": "The skyline is your screensaver.",
+      "kudosRequired": 7.44e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 148,
+      "title": "Supreme Overseer",
+      "flavour": "You can see the whole city from here.",
+      "kudosRequired": 9.66e+22,
+      "rewardGems": 0
+    },
+    {
+      "rank": 149,
+      "title": "Owner of Everything",
+      "flavour": "Including the good mugs.",
+      "kudosRequired": 1.24e+23,
+      "rewardGems": 0
+    },
+    {
+      "rank": 150,
+      "title": "The Big Boss Upstairs",
+      "flavour": "Nobody has ever seen your floor. Until now.",
+      "kudosRequired": 1.52e+23,
+      "rewardGems": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tea",
+      "name": "Make the Tea",
+      "flavour": "Milk, two sugars, for fourteen people.",
+      "unlockRank": 1,
+      "baseDurationSec": 1.5,
+      "baseCash": 1.0,
+      "baseKudos": 1.0,
+      "baseCost": 4.0,
+      "costGrowth": 1.15,
+      "icon": "mug"
+    },
+    {
+      "id": "post",
+      "name": "Sort the Post",
+      "flavour": "Recorded delivery for accounts again.",
+      "unlockRank": 6,
+      "baseDurationSec": 2.0,
+      "baseCash": 10.0,
+      "baseKudos": 2.6,
+      "baseCost": 56.0,
+      "costGrowth": 1.15,
+      "icon": "envelope"
+    },
+    {
+      "id": "photocopy",
+      "name": "Photocopy Memos",
+      "flavour": "Jammed. Unjammed. Jammed.",
+      "unlockRank": 11,
+      "baseDurationSec": 2.6,
+      "baseCash": 100.0,
+      "baseKudos": 6.76,
+      "baseCost": 784.0,
+      "costGrowth": 1.15,
+      "icon": "copier"
+    },
+    {
+      "id": "stationery",
+      "name": "Stock the Stationery",
+      "flavour": "Count every biro. Twice.",
+      "unlockRank": 16,
+      "baseDurationSec": 3.4,
+      "baseCash": 1000.0,
+      "baseKudos": 17.6,
+      "baseCost": 11000.0,
+      "costGrowth": 1.15,
+      "icon": "stationery"
+    },
+    {
+      "id": "phones",
+      "name": "Answer the Phones",
+      "flavour": "Please hold, your call is important.",
+      "unlockRank": 21,
+      "baseDurationSec": 4.6,
+      "baseCash": 10000.0,
+      "baseKudos": 45.7,
+      "baseCost": 154000.0,
+      "costGrowth": 1.15,
+      "icon": "phone"
+    },
+    {
+      "id": "filing",
+      "name": "File Reports",
+      "flavour": "Under F for 'Finally'.",
+      "unlockRank": 26,
+      "baseDurationSec": 6.0,
+      "baseCash": 100000.0,
+      "baseKudos": 119.0,
+      "baseCost": 2150000.0,
+      "costGrowth": 1.15,
+      "icon": "cabinet"
+    },
+    {
+      "id": "typing",
+      "name": "Type Letters",
+      "flavour": "Dear Sir or Madam, yours faithfully.",
+      "unlockRank": 31,
+      "baseDurationSec": 7.9,
+      "baseCash": 1000000.0,
+      "baseKudos": 309.0,
+      "baseCost": 30100000.0,
+      "costGrowth": 1.15,
+      "icon": "typing"
+    },
+    {
+      "id": "data",
+      "name": "Data Entry",
+      "flavour": "Row 4,812 of 9,000.",
+      "unlockRank": 36,
+      "baseDurationSec": 10.5,
+      "baseCash": 10000000.0,
+      "baseKudos": 803.0,
+      "baseCost": 422000000.0,
+      "costGrowth": 1.15,
+      "icon": "terminal"
+    },
+    {
+      "id": "archive",
+      "name": "Archive Old Files",
+      "flavour": "Boxes from 1987. Do not open.",
+      "unlockRank": 41,
+      "baseDurationSec": 13.8,
+      "baseCash": 100000000.0,
+      "baseKudos": 2090.0,
+      "baseCost": 5900000000.0,
+      "costGrowth": 1.15,
+      "icon": "archive"
+    },
+    {
+      "id": "bookings",
+      "name": "Book Meeting Rooms",
+      "flavour": "Room 3 is double-booked. Again.",
+      "unlockRank": 46,
+      "baseDurationSec": 18.2,
+      "baseCash": 1000000000.0,
+      "baseKudos": 5430.0,
+      "baseCost": 82600000000.0,
+      "costGrowth": 1.15,
+      "icon": "bookings"
+    },
+    {
+      "id": "printer",
+      "name": "Fix the Printer",
+      "flavour": "PC LOAD LETTER?!",
+      "unlockRank": 51,
+      "baseDurationSec": 24.1,
+      "baseCash": 10000000000.0,
+      "baseKudos": 14100.0,
+      "baseCost": 1160000000000.0,
+      "costGrowth": 1.15,
+      "icon": "printer"
+    },
+    {
+      "id": "servers",
+      "name": "Reboot the Servers",
+      "flavour": "It's always the cable at the back.",
+      "unlockRank": 56,
+      "baseDurationSec": 31.8,
+      "baseCash": 100000000000.0,
+      "baseKudos": 36700.0,
+      "baseCost": 16200000000000.0,
+      "costGrowth": 1.15,
+      "icon": "servers"
+    },
+    {
+      "id": "spreadsheet",
+      "name": "Spreadsheet Wrangling",
+      "flavour": "VLOOKUP is a lifestyle.",
+      "unlockRank": 61,
+      "baseDurationSec": 42.0,
+      "baseCash": 1000000000000.0,
+      "baseKudos": 95400.0,
+      "baseCost": 227000000000000.0,
+      "costGrowth": 1.15,
+      "icon": "sheet"
+    },
+    {
+      "id": "facilities",
+      "name": "Fix the Facilities",
+      "flavour": "Lightbulbs, leaks and wobbly chairs.",
+      "unlockRank": 66,
+      "baseDurationSec": 55.4,
+      "baseCash": 10000000000000.0,
+      "baseKudos": 248000.0,
+      "baseCost": 3170000000000000.0,
+      "costGrowth": 1.15,
+      "icon": "facilities"
+    },
+    {
+      "id": "safety",
+      "name": "Assess the Risks",
+      "flavour": "Risk: paper cut. Severity: moderate.",
+      "unlockRank": 71,
+      "baseDurationSec": 73.1,
+      "baseCash": 100000000000000.0,
+      "baseKudos": 645000.0,
+      "baseCost": 4.44e+16,
+      "costGrowth": 1.15,
+      "icon": "safety"
+    },
+    {
+      "id": "meetings",
+      "name": "Run Meetings",
+      "flavour": "This could have been an email.",
+      "unlockRank": 76,
+      "baseDurationSec": 96.5,
+      "baseCash": 1000000000000000.0,
+      "baseKudos": 1680000.0,
+      "baseCost": 6.22e+17,
+      "costGrowth": 1.15,
+      "icon": "table"
+    },
+    {
+      "id": "minutes",
+      "name": "Write the Minutes",
+      "flavour": "Action: everyone to action actions.",
+      "unlockRank": 81,
+      "baseDurationSec": 127.4,
+      "baseCash": 1e+16,
+      "baseKudos": 4360000.0,
+      "baseCost": 8.71e+18,
+      "costGrowth": 1.15,
+      "icon": "notepad"
+    },
+    {
+      "id": "appraisals",
+      "name": "Conduct Appraisals",
+      "flavour": "On a scale of 1 to 5, how was your year?",
+      "unlockRank": 86,
+      "baseDurationSec": 168.2,
+      "baseCash": 1e+17,
+      "baseKudos": 11300000.0,
+      "baseCost": 1.22e+20,
+      "costGrowth": 1.15,
+      "icon": "appraisals"
+    },
+    {
+      "id": "teambuilding",
+      "name": "Run Team-Building",
+      "flavour": "Trust falls. Mostly caught.",
+      "unlockRank": 91,
+      "baseDurationSec": 222.0,
+      "baseCash": 1e+18,
+      "baseKudos": 29500000.0,
+      "baseCost": 1.71e+21,
+      "costGrowth": 1.15,
+      "icon": "teambuilding"
+    },
+    {
+      "id": "budget",
+      "name": "Quarterly Budget",
+      "flavour": "Where did all the biros go?",
+      "unlockRank": 96,
+      "baseDurationSec": 293.1,
+      "baseCash": 1e+19,
+      "baseKudos": 76600000.0,
+      "baseCost": 2.39e+22,
+      "costGrowth": 1.15,
+      "icon": "chart"
+    },
+    {
+      "id": "pitch",
+      "name": "Client Pitches",
+      "flavour": "Slide 47: Blue Sky Thinking.",
+      "unlockRank": 101,
+      "baseDurationSec": 386.9,
+      "baseCash": 1e+20,
+      "baseKudos": 199000000.0,
+      "baseCost": 3.35e+23,
+      "costGrowth": 1.15,
+      "icon": "easel"
+    },
+    {
+      "id": "slogans",
+      "name": "Brainstorm Slogans",
+      "flavour": "Synergex: we do things. Probably.",
+      "unlockRank": 106,
+      "baseDurationSec": 510.7,
+      "baseCash": 1e+21,
+      "baseKudos": 518000000.0,
+      "baseCost": 4.69e+24,
+      "costGrowth": 1.15,
+      "icon": "slogans"
+    },
+    {
+      "id": "smallprint",
+      "name": "Read the Small Print",
+      "flavour": "Terms and conditions may apply.",
+      "unlockRank": 111,
+      "baseDurationSec": 674.1,
+      "baseCash": 1e+22,
+      "baseKudos": 1350000000.0,
+      "baseCost": 6.56e+25,
+      "costGrowth": 1.15,
+      "icon": "smallprint"
+    },
+    {
+      "id": "restructure",
+      "name": "Restructure the Dept",
+      "flavour": "Moving the deckchairs, strategically.",
+      "unlockRank": 116,
+      "baseDurationSec": 889.8,
+      "baseCash": 1e+23,
+      "baseKudos": 3500000000.0,
+      "baseCost": 9.18e+26,
+      "costGrowth": 1.15,
+      "icon": "org"
+    },
+    {
+      "id": "lunches",
+      "name": "Host Investor Lunches",
+      "flavour": "Prawn cocktail and a profit forecast.",
+      "unlockRank": 121,
+      "baseDurationSec": 1174.5,
+      "baseCash": 1e+24,
+      "baseKudos": 9110000000.0,
+      "baseCost": 1.29e+28,
+      "costGrowth": 1.15,
+      "icon": "lunches"
+    },
+    {
+      "id": "merger",
+      "name": "Mergers & Acquisitions",
+      "flavour": "Buy the company across the road.",
+      "unlockRank": 126,
+      "baseDurationSec": 1550.4,
+      "baseCash": 1e+25,
+      "baseKudos": 23700000000.0,
+      "baseCost": 1.8e+29,
+      "costGrowth": 1.15,
+      "icon": "briefcase"
+    },
+    {
+      "id": "board",
+      "name": "Board Presentation",
+      "flavour": "The final slide just says 'MORE'.",
+      "unlockRank": 131,
+      "baseDurationSec": 2046.5,
+      "baseCash": 1e+26,
+      "baseKudos": 61600000000.0,
+      "baseCost": 2.52e+30,
+      "costGrowth": 1.15,
+      "icon": "podium"
+    },
+    {
+      "id": "signing",
+      "name": "Sign Important Papers",
+      "flavour": "Initial here, here and here.",
+      "unlockRank": 136,
+      "baseDurationSec": 2701.4,
+      "baseCash": 1e+27,
+      "baseKudos": 160000000000.0,
+      "baseCost": 3.53e+31,
+      "costGrowth": 1.15,
+      "icon": "signing"
+    },
+    {
+      "id": "golf",
+      "name": "Network at Golf",
+      "flavour": "Fore! And a takeover, if you like.",
+      "unlockRank": 141,
+      "baseDurationSec": 3565.8,
+      "baseCash": 1e+28,
+      "baseKudos": 416000000000.0,
+      "baseCost": 4.94e+32,
+      "costGrowth": 1.15,
+      "icon": "golf"
+    },
+    {
+      "id": "empire",
+      "name": "Run the Empire",
+      "flavour": "Everything you can see. And more.",
+      "unlockRank": 146,
+      "baseDurationSec": 4706.9,
+      "baseCash": 1e+29,
+      "baseKudos": 1080000000000.0,
+      "baseCost": 6.91e+33,
+      "costGrowth": 1.15,
+      "icon": "empire"
+    }
+  ],
+  "tools": [
+    {
+      "id": "tea_pay",
+      "name": "Big Brown Teapot",
+      "description": "Tea rounds pay triple.",
+      "unlockRank": 2,
+      "currency": "CASH",
+      "cost": 11400.0,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "tea"
+        }
+      ]
+    },
+    {
+      "id": "tea_speed",
+      "name": "Rapid-Boil Kettle",
+      "description": "Tea is made twice as fast.",
+      "unlockRank": 4,
+      "currency": "CASH",
+      "cost": 43900.0,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "tea"
+        }
+      ]
+    },
+    {
+      "id": "post_pay",
+      "name": "Post Trolley",
+      "description": "Sorting the post pays triple.",
+      "unlockRank": 7,
+      "currency": "CASH",
+      "cost": 146000000.0,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "post"
+        }
+      ]
+    },
+    {
+      "id": "post_speed",
+      "name": "Rubber Band Ball",
+      "description": "Post is sorted twice as fast.",
+      "unlockRank": 9,
+      "currency": "CASH",
+      "cost": 900000000.0,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "post"
+        }
+      ]
+    },
+    {
+      "id": "photocopy_pay",
+      "name": "Spare Toner",
+      "description": "Photocopies pay triple.",
+      "unlockRank": 12,
+      "currency": "CASH",
+      "cost": 2550000000.0,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "photocopy"
+        }
+      ]
+    },
+    {
+      "id": "photocopy_speed",
+      "name": "Double-Sided Setting",
+      "description": "Memos are copied twice as fast.",
+      "unlockRank": 14,
+      "currency": "CASH",
+      "cost": 18800000000.0,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "photocopy"
+        }
+      ]
+    },
+    {
+      "id": "stationery_pay",
+      "name": "Bulk Order Form",
+      "description": "Stocking stationery pays triple.",
+      "unlockRank": 17,
+      "currency": "CASH",
+      "cost": 168000000000.0,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "stationery"
+        }
+      ]
+    },
+    {
+      "id": "stationery_speed",
+      "name": "Label Maker",
+      "description": "Stationery is stocked twice as fast.",
+      "unlockRank": 19,
+      "currency": "CASH",
+      "cost": 616000000000.0,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "stationery"
+        }
+      ]
+    },
+    {
+      "id": "phones_pay",
+      "name": "Rolodex",
+      "description": "Phone work pays triple.",
+      "unlockRank": 22,
+      "currency": "CASH",
+      "cost": 3290000000000.0,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "phones"
+        }
+      ]
+    },
+    {
+      "id": "phones_speed",
+      "name": "Speed Dial Buttons",
+      "description": "Calls are answered twice as fast.",
+      "unlockRank": 24,
+      "currency": "CASH",
+      "cost": 22500000000000.0,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "phones"
+        }
+      ]
+    },
+    {
+      "id": "filing_pay",
+      "name": "Coloured Tabs",
+      "description": "Filing reports pays triple.",
+      "unlockRank": 27,
+      "currency": "CASH",
+      "cost": 42700000000000.0,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "filing"
+        }
+      ]
+    },
+    {
+      "id": "filing_speed",
+      "name": "Glide-Rail Drawers",
+      "description": "Reports are filed twice as fast.",
+      "unlockRank": 29,
+      "currency": "CASH",
+      "cost": 285000000000000.0,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "filing"
+        }
+      ]
+    },
+    {
+      "id": "typing_pay",
+      "name": "Electric Typewriter",
+      "description": "Typing letters pays triple.",
+      "unlockRank": 32,
+      "currency": "CASH",
+      "cost": 707000000000000.0,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "typing"
+        }
+      ]
+    },
+    {
+      "id": "typing_speed",
+      "name": "Correction Ribbon",
+      "description": "Letters are typed twice as fast.",
+      "unlockRank": 34,
+      "currency": "CASH",
+      "cost": 3560000000000000.0,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "typing"
+        }
+      ]
+    },
+    {
+      "id": "data_pay",
+      "name": "Dial-Up Modem",
+      "description": "Data entry pays triple.",
+      "unlockRank": 37,
+      "currency": "CASH",
+      "cost": 6720000000000000.0,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "data"
+        }
+      ]
+    },
+    {
+      "id": "data_speed",
+      "name": "Numeric Keypad",
+      "description": "Data is entered twice as fast.",
+      "unlockRank": 39,
+      "currency": "CASH",
+      "cost": 4.46e+16,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "data"
+        }
+      ]
+    },
+    {
+      "id": "archive_pay",
+      "name": "Archive Boxes",
+      "description": "Archiving files pays triple.",
+      "unlockRank": 42,
+      "currency": "CASH",
+      "cost": 1.03e+17,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "archive"
+        }
+      ]
+    },
+    {
+      "id": "archive_speed",
+      "name": "Rolling Shelves",
+      "description": "Files are archived twice as fast.",
+      "unlockRank": 44,
+      "currency": "CASH",
+      "cost": 5.38e+17,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "archive"
+        }
+      ]
+    },
+    {
+      "id": "bookings_pay",
+      "name": "Wall Planner",
+      "description": "Room bookings pay triple.",
+      "unlockRank": 47,
+      "currency": "CASH",
+      "cost": 1.29e+18,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "bookings"
+        }
+      ]
+    },
+    {
+      "id": "bookings_speed",
+      "name": "Fax Confirmations",
+      "description": "Rooms are booked twice as fast.",
+      "unlockRank": 49,
+      "currency": "CASH",
+      "cost": 6.66e+18,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "bookings"
+        }
+      ]
+    },
+    {
+      "id": "printer_pay",
+      "name": "Laser Printer",
+      "description": "Fixing printers pays triple.",
+      "unlockRank": 52,
+      "currency": "CASH",
+      "cost": 3.29e+19,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "printer"
+        }
+      ]
+    },
+    {
+      "id": "printer_speed",
+      "name": "Spare Fuses",
+      "description": "Printers are fixed twice as fast.",
+      "unlockRank": 54,
+      "currency": "CASH",
+      "cost": 1.69e+20,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "printer"
+        }
+      ]
+    },
+    {
+      "id": "servers_pay",
+      "name": "Server Racks",
+      "description": "Rebooting servers pays triple.",
+      "unlockRank": 57,
+      "currency": "CASH",
+      "cost": 3.97e+20,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "servers"
+        }
+      ]
+    },
+    {
+      "id": "servers_speed",
+      "name": "Industrial Fans",
+      "description": "Servers reboot twice as fast.",
+      "unlockRank": 59,
+      "currency": "CASH",
+      "cost": 2.06e+21,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "servers"
+        }
+      ]
+    },
+    {
+      "id": "spreadsheet_pay",
+      "name": "Big Monitor",
+      "description": "Spreadsheets pay triple.",
+      "unlockRank": 62,
+      "currency": "CASH",
+      "cost": 7.51e+21,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "spreadsheet_speed",
+      "name": "Macro Shortcuts",
+      "description": "Spreadsheets are done twice as fast.",
+      "unlockRank": 64,
+      "currency": "CASH",
+      "cost": 3.95e+22,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "facilities_pay",
+      "name": "Big Toolbox",
+      "description": "Facilities jobs pay triple.",
+      "unlockRank": 67,
+      "currency": "CASH",
+      "cost": 9.13e+22,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "facilities"
+        }
+      ]
+    },
+    {
+      "id": "facilities_speed",
+      "name": "Stepladder",
+      "description": "Facilities are fixed twice as fast.",
+      "unlockRank": 69,
+      "currency": "CASH",
+      "cost": 4.85e+23,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "facilities"
+        }
+      ]
+    },
+    {
+      "id": "safety_pay",
+      "name": "Hard Hats",
+      "description": "Risk assessments pay triple.",
+      "unlockRank": 72,
+      "currency": "CASH",
+      "cost": 1.11e+24,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "safety"
+        }
+      ]
+    },
+    {
+      "id": "safety_speed",
+      "name": "Laminated Signs",
+      "description": "Risks are assessed twice as fast.",
+      "unlockRank": 74,
+      "currency": "CASH",
+      "cost": 5.88e+24,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "safety"
+        }
+      ]
+    },
+    {
+      "id": "meetings_pay",
+      "name": "Big Whiteboard",
+      "description": "Meetings pay triple.",
+      "unlockRank": 77,
+      "currency": "CASH",
+      "cost": 1.32e+25,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "meetings"
+        }
+      ]
+    },
+    {
+      "id": "meetings_speed",
+      "name": "Egg Timer",
+      "description": "Meetings run twice as fast.",
+      "unlockRank": 79,
+      "currency": "CASH",
+      "cost": 7.15e+25,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "meetings"
+        }
+      ]
+    },
+    {
+      "id": "minutes_pay",
+      "name": "Dictaphone",
+      "description": "Writing minutes pays triple.",
+      "unlockRank": 82,
+      "currency": "CASH",
+      "cost": 1.63e+26,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "minutes"
+        }
+      ]
+    },
+    {
+      "id": "minutes_speed",
+      "name": "Shorthand Pad",
+      "description": "Minutes are written twice as fast.",
+      "unlockRank": 84,
+      "currency": "CASH",
+      "cost": 8.69e+26,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "minutes"
+        }
+      ]
+    },
+    {
+      "id": "appraisals_pay",
+      "name": "Feedback Forms",
+      "description": "Appraisals pay triple.",
+      "unlockRank": 87,
+      "currency": "CASH",
+      "cost": 2.88e+27,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "appraisals"
+        }
+      ]
+    },
+    {
+      "id": "appraisals_speed",
+      "name": "Comfy Sofa",
+      "description": "Appraisals are done twice as fast.",
+      "unlockRank": 89,
+      "currency": "CASH",
+      "cost": 1.6e+28,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "appraisals"
+        }
+      ]
+    },
+    {
+      "id": "teambuilding_pay",
+      "name": "Away Day Minibus",
+      "description": "Team-building pays triple.",
+      "unlockRank": 92,
+      "currency": "CASH",
+      "cost": 3.69e+28,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "teambuilding"
+        }
+      ]
+    },
+    {
+      "id": "teambuilding_speed",
+      "name": "Icebreaker Cards",
+      "description": "Team-building runs twice as fast.",
+      "unlockRank": 94,
+      "currency": "CASH",
+      "cost": 1.96e+29,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "teambuilding"
+        }
+      ]
+    },
+    {
+      "id": "budget_pay",
+      "name": "Adding Machine",
+      "description": "Budgets pay triple.",
+      "unlockRank": 97,
+      "currency": "CASH",
+      "cost": 4.48e+29,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "budget"
+        }
+      ]
+    },
+    {
+      "id": "budget_speed",
+      "name": "Rubber Stamp",
+      "description": "Budgets are balanced twice as fast.",
+      "unlockRank": 99,
+      "currency": "CASH",
+      "cost": 2.37e+30,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "budget"
+        }
+      ]
+    },
+    {
+      "id": "pitch_pay",
+      "name": "Overhead Projector",
+      "description": "Client pitches pay triple.",
+      "unlockRank": 102,
+      "currency": "CASH",
+      "cost": 5.36e+30,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "pitch"
+        }
+      ]
+    },
+    {
+      "id": "pitch_speed",
+      "name": "Laser Pointer",
+      "description": "Pitches are delivered twice as fast.",
+      "unlockRank": 104,
+      "currency": "CASH",
+      "cost": 2.9e+31,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "pitch"
+        }
+      ]
+    },
+    {
+      "id": "slogans_pay",
+      "name": "Beanbags",
+      "description": "Slogan brainstorms pay triple.",
+      "unlockRank": 107,
+      "currency": "CASH",
+      "cost": 6.53e+31,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "slogans"
+        }
+      ]
+    },
+    {
+      "id": "slogans_speed",
+      "name": "Mood Board",
+      "description": "Slogans are written twice as fast.",
+      "unlockRank": 109,
+      "currency": "CASH",
+      "cost": 3.51e+32,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "slogans"
+        }
+      ]
+    },
+    {
+      "id": "smallprint_pay",
+      "name": "Magnifying Glass",
+      "description": "Reading small print pays triple.",
+      "unlockRank": 112,
+      "currency": "CASH",
+      "cost": 8e+32,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "smallprint"
+        }
+      ]
+    },
+    {
+      "id": "smallprint_speed",
+      "name": "Legal Highlighters",
+      "description": "Small print is read twice as fast.",
+      "unlockRank": 114,
+      "currency": "CASH",
+      "cost": 4.25e+33,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "smallprint"
+        }
+      ]
+    },
+    {
+      "id": "restructure_pay",
+      "name": "Giant Org Chart",
+      "description": "Restructures pay triple.",
+      "unlockRank": 117,
+      "currency": "CASH",
+      "cost": 2.95e+34,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "restructure"
+        }
+      ]
+    },
+    {
+      "id": "restructure_speed",
+      "name": "Coloured Arrows",
+      "description": "Restructures happen twice as fast.",
+      "unlockRank": 119,
+      "currency": "CASH",
+      "cost": 1.64e+35,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "restructure"
+        }
+      ]
+    },
+    {
+      "id": "lunches_pay",
+      "name": "Silver Cloches",
+      "description": "Investor lunches pay triple.",
+      "unlockRank": 122,
+      "currency": "CASH",
+      "cost": 4.05e+35,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "lunches"
+        }
+      ]
+    },
+    {
+      "id": "lunches_speed",
+      "name": "Express Waiters",
+      "description": "Lunches are served twice as fast.",
+      "unlockRank": 124,
+      "currency": "CASH",
+      "cost": 1.99e+36,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "lunches"
+        }
+      ]
+    },
+    {
+      "id": "merger_pay",
+      "name": "Deal Briefcase",
+      "description": "Mergers pay triple.",
+      "unlockRank": 127,
+      "currency": "CASH",
+      "cost": 4.9e+36,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "merger"
+        }
+      ]
+    },
+    {
+      "id": "merger_speed",
+      "name": "Due Diligence Team",
+      "description": "Deals close twice as fast.",
+      "unlockRank": 129,
+      "currency": "CASH",
+      "cost": 2.43e+37,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "merger"
+        }
+      ]
+    },
+    {
+      "id": "board_pay",
+      "name": "Mahogany Table",
+      "description": "Board presentations pay triple.",
+      "unlockRank": 132,
+      "currency": "CASH",
+      "cost": 5.9e+37,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "board"
+        }
+      ]
+    },
+    {
+      "id": "board_speed",
+      "name": "Clicker Remote",
+      "description": "Presentations run twice as fast.",
+      "unlockRank": 134,
+      "currency": "CASH",
+      "cost": 2.94e+38,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "board"
+        }
+      ]
+    },
+    {
+      "id": "signing_pay",
+      "name": "Gold Fountain Pen",
+      "description": "Signing papers pays triple.",
+      "unlockRank": 137,
+      "currency": "CASH",
+      "cost": 7.18e+38,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "signing"
+        }
+      ]
+    },
+    {
+      "id": "signing_speed",
+      "name": "Signature Stamp",
+      "description": "Papers are signed twice as fast.",
+      "unlockRank": 139,
+      "currency": "CASH",
+      "cost": 3.55e+39,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "signing"
+        }
+      ]
+    },
+    {
+      "id": "golf_pay",
+      "name": "Golf Simulator",
+      "description": "Golf networking pays triple.",
+      "unlockRank": 142,
+      "currency": "CASH",
+      "cost": 8.65e+39,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "golf"
+        }
+      ]
+    },
+    {
+      "id": "golf_speed",
+      "name": "Motorised Buggy",
+      "description": "Rounds of golf go twice as fast.",
+      "unlockRank": 144,
+      "currency": "CASH",
+      "cost": 4.32e+40,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "golf"
+        }
+      ]
+    },
+    {
+      "id": "empire_pay",
+      "name": "Golden Desk",
+      "description": "Running the empire pays triple.",
+      "unlockRank": 147,
+      "currency": "CASH",
+      "cost": 1.3e+41,
+      "effects": [
+        {
+          "type": "CASH_TASK",
+          "value": 3.0,
+          "taskId": "empire"
+        }
+      ]
+    },
+    {
+      "id": "empire_speed",
+      "name": "Private Helipad",
+      "description": "The empire runs twice as fast.",
+      "unlockRank": 149,
+      "currency": "CASH",
+      "cost": 6.89e+41,
+      "effects": [
+        {
+          "type": "SPEED_TASK",
+          "value": 2.0,
+          "taskId": "empire"
+        }
+      ]
+    },
+    {
+      "id": "ergonomic_chair",
+      "name": "Ergonomic Chair",
+      "description": "Lumbar support! Everyone 25% faster.",
+      "unlockRank": 3,
+      "currency": "CASH",
+      "cost": 17200.0,
+      "effects": [
+        {
+          "type": "SPEED_ALL",
+          "value": 1.25
+        }
+      ]
+    },
+    {
+      "id": "filter_coffee_machine",
+      "name": "Filter Coffee Machine",
+      "description": "Caffeine! Everyone works 50% faster.",
+      "unlockRank": 18,
+      "currency": "CASH",
+      "cost": 461000000000.0,
+      "effects": [
+        {
+          "type": "SPEED_ALL",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "id": "personal_assistant",
+      "name": "Personal Assistant",
+      "description": "Diary handled. Everyone 50% faster.",
+      "unlockRank": 85,
+      "currency": "CASH",
+      "cost": 1.31e+27,
+      "effects": [
+        {
+          "type": "SPEED_ALL",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "id": "486_desktop_pc",
+      "name": "486 Desktop PC",
+      "description": "Turbo button engaged. All cash x2.",
+      "unlockRank": 13,
+      "currency": "CASH",
+      "cost": 18400000000.0,
+      "effects": [
+        {
+          "type": "CASH_ALL",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "id": "corner_office",
+      "name": "Corner Office",
+      "description": "Two windows! All cash x2.",
+      "unlockRank": 48,
+      "currency": "CASH",
+      "cost": 3.94e+18,
+      "effects": [
+        {
+          "type": "CASH_ALL",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "id": "company_car",
+      "name": "Company Car",
+      "description": "Very shiny. All cash x3.",
+      "unlockRank": 115,
+      "currency": "CASH",
+      "cost": 6.39e+33,
+      "effects": [
+        {
+          "type": "CASH_ALL",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "id": "employee_of_the_month",
+      "name": "Employee of the Month",
+      "description": "Framed photo. Office Kudos +50%.",
+      "unlockRank": 38,
+      "currency": "CASH",
+      "cost": 5.19e+16,
+      "effects": [
+        {
+          "type": "KUDOS_ALL",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "id": "brick_mobile_phone",
+      "name": "Brick Mobile Phone",
+      "description": "Status symbol. Office Kudos +25%.",
+      "unlockRank": 72,
+      "currency": "CASH",
+      "cost": 2.96e+24,
+      "effects": [
+        {
+          "type": "KUDOS_ALL",
+          "value": 1.25
+        }
+      ]
+    },
+    {
+      "id": "out_of_office_reply",
+      "name": "Out-of-Office Reply",
+      "description": "Work continues while you're away: +3h.",
+      "unlockRank": 8,
+      "currency": "CASH",
+      "cost": 258000000.0,
+      "effects": [
+        {
+          "type": "OFFLINE_CAP_HOURS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "pager",
+      "name": "Pager",
+      "description": "Always reachable: +3h of away time.",
+      "unlockRank": 28,
+      "currency": "CASH",
+      "cost": 166000000000000.0,
+      "effects": [
+        {
+          "type": "OFFLINE_CAP_HOURS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "answering_machine",
+      "name": "Answering Machine",
+      "description": "Leave a message: +6h of away time.",
+      "unlockRank": 60,
+      "currency": "CASH",
+      "cost": 3.98e+21,
+      "effects": [
+        {
+          "type": "OFFLINE_CAP_HOURS",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "heavy_laptop",
+      "name": "Heavy Laptop",
+      "description": "Work from anywhere: +6h of away time.",
+      "unlockRank": 100,
+      "currency": "CASH",
+      "cost": 1.78e+30,
+      "effects": [
+        {
+          "type": "OFFLINE_CAP_HOURS",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "goldstapler",
+      "name": "Platinum Stapler",
+      "description": "Premium. All cash x1.5 forever.",
+      "unlockRank": 1,
+      "currency": "GEMS",
+      "cost": 150,
+      "effects": [
+        {
+          "type": "CASH_ALL",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "id": "rubberplant",
+      "name": "Lucky Rubber Plant",
+      "description": "Premium. Office Kudos +30% forever.",
+      "unlockRank": 10,
+      "currency": "GEMS",
+      "cost": 250,
+      "effects": [
+        {
+          "type": "KUDOS_ALL",
+          "value": 1.3
+        }
+      ]
+    },
+    {
+      "id": "lavalamp",
+      "name": "Executive Lava Lamp",
+      "description": "Premium. Everyone 30% faster forever.",
+      "unlockRank": 20,
+      "currency": "GEMS",
+      "cost": 400,
+      "effects": [
+        {
+          "type": "SPEED_ALL",
+          "value": 1.3
+        }
+      ]
+    },
+    {
+      "id": "desktoy",
+      "name": "Newton's Cradle",
+      "description": "Premium. Click-clack. Office Kudos +30% forever.",
+      "unlockRank": 50,
+      "currency": "GEMS",
+      "cost": 600,
+      "effects": [
+        {
+          "type": "KUDOS_ALL",
+          "value": 1.3
+        }
+      ]
+    },
+    {
+      "id": "paperweight",
+      "name": "Diamond Paperweight",
+      "description": "Premium. All cash x2 forever.",
+      "unlockRank": 80,
+      "currency": "GEMS",
+      "cost": 900,
+      "effects": [
+        {
+          "type": "CASH_ALL",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "id": "goldchair",
+      "name": "Gilded Swivel Chair",
+      "description": "Premium. Everyone 50% faster forever.",
+      "unlockRank": 110,
+      "currency": "GEMS",
+      "cost": 1200,
+      "effects": [
+        {
+          "type": "SPEED_ALL",
+          "value": 1.5
+        }
+      ]
+    }
+  ],
+  "floors": [
+    {
+      "floor": 1,
+      "name": "Basement Kitchen",
+      "theme": "SUPPORT",
+      "jobId": "tea",
+      "manager": {
+        "name": "Doreen Pike",
+        "title": "Head of Hot Beverages",
+        "personality": "fiercely protective of the good mugs",
+        "look": {
+          "skin": "#F2D0B0",
+          "hair": "#C8C8C8",
+          "hairStyle": 1,
+          "shirt": "#C8102E",
+          "pants": "#3A3A4A",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "Hands off the good mugs. I've got them numbered.",
+          "Kettle's been on since 1979. Never once let me down.",
+          "A proper brew is three minutes. Not two. Not four. Three.",
+          "Those desks won't fill themselves. Hire someone, love."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Ah, the new starter! HR said you'd be down. I'm Doreen. Kettle's that way."
+        },
+        {
+          "who": "you",
+          "text": "Lovely to meet you. Where do I start?"
+        },
+        {
+          "who": "manager",
+          "text": "Fourteen teas, two sugars, one oat milk. Tap the kettle if they get impatient."
+        },
+        {
+          "who": "you",
+          "text": "Got it. Hands off the good mugs?"
+        },
+        {
+          "who": "manager",
+          "text": "Clever one. Upgrade the tea round and you'll be upstairs before the biscuits run out."
+        }
+      ]
+    },
+    {
+      "floor": 2,
+      "name": "Post Room",
+      "theme": "SUPPORT",
+      "jobId": "post",
+      "manager": {
+        "name": "Stan Okafor",
+        "title": "Post Room Supervisor",
+        "personality": "has a nickname for every pigeonhole",
+        "look": {
+          "skin": "#7A4E33",
+          "hair": "#111111",
+          "hairStyle": 0,
+          "shirt": "#4A6B8A",
+          "pants": "#2A2E45",
+          "tie": "",
+          "glasses": false
+        },
+        "quips": [
+          "'Urgent' in red biro? Goes to the bottom. House rule.",
+          "Pigeonhole 14 bites. Long story. Wear gloves.",
+          "I can tell a gas bill by the smell. It's a gift.",
+          "Upgrade the sorting desk and I'll name a pigeonhole after you."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Fresh up from the kitchen? Doreen says you make a mean brew. I'm Stan."
+        },
+        {
+          "who": "you",
+          "text": "Word travels fast round here."
+        },
+        {
+          "who": "manager",
+          "text": "Not as fast as the post. Every letter in this building comes through these hands."
+        },
+        {
+          "who": "you",
+          "text": "So... where do these go?"
+        },
+        {
+          "who": "manager",
+          "text": "Pigeonholes, A to Z. Tap the sorting desk when the pile wobbles. Mind the franker."
+        }
+      ]
+    },
+    {
+      "floor": 3,
+      "name": "Print Room",
+      "theme": "SUPPORT",
+      "jobId": "photocopy",
+      "manager": {
+        "name": "Gwen Llewellyn",
+        "title": "Print Room Manager",
+        "personality": "speaks fluent error code",
+        "look": {
+          "skin": "#F2C9A0",
+          "hair": "#B5651D",
+          "hairStyle": 3,
+          "shirt": "#7B3FA0",
+          "pants": "#2A2A34",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "Margaret's humming. That means she's happy. Or about to explode.",
+          "PC LOAD LETTER? She's just being dramatic.",
+          "Toner on your shirt is a badge of honour down here.",
+          "Tap her when she sulks. Firmly, but with love."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Duck! Sorry, she spits toner when she's nervous. I'm Gwen. You're the promotion?"
+        },
+        {
+          "who": "you",
+          "text": "That's me. Is the copier... alive?"
+        },
+        {
+          "who": "manager",
+          "text": "Practically. Her name's Margaret. Treat her nicely and the memos fly out."
+        },
+        {
+          "who": "you",
+          "text": "And if she jams?"
+        },
+        {
+          "who": "manager",
+          "text": "Tap her firmly to hurry things along. And upgrade her. She likes attention."
+        }
+      ]
+    },
+    {
+      "floor": 4,
+      "name": "Stationery Store",
+      "theme": "SUPPORT",
+      "jobId": "stationery",
+      "manager": {
+        "name": "Bernard Fisk",
+        "title": "Keeper of the Cupboard",
+        "personality": "has never once lent out a stapler",
+        "look": {
+          "skin": "#E8B88A",
+          "hair": "#9A9A9A",
+          "hairStyle": 2,
+          "shirt": "#C8A040",
+          "pants": "#4A3A2A",
+          "tie": "#1F2A5A",
+          "glasses": true
+        },
+        "quips": [
+          "That stapler? Signed out to me. Permanently.",
+          "Someone took a green highlighter in March. I haven't forgotten.",
+          "Every biro has a serial number. I wrote them on myself.",
+          "Restock the shelves before the sticky notes revolt."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Sign in, please. Nobody enters the stationery store without signing the ledger."
+        },
+        {
+          "who": "you",
+          "text": "With which pen?"
+        },
+        {
+          "who": "manager",
+          "text": "Your own. Pens leave this cupboard over my dead body. Name's Bernard."
+        },
+        {
+          "who": "you",
+          "text": "So my job is... guarding biros?"
+        },
+        {
+          "who": "manager",
+          "text": "Stocking them. Keep the shelves full and upgrade often. Golden paperclips? Don't ask."
+        }
+      ]
+    },
+    {
+      "floor": 5,
+      "name": "Switchboard",
+      "theme": "SUPPORT",
+      "jobId": "phones",
+      "manager": {
+        "name": "Priya Mistry",
+        "title": "Switchboard Supervisor",
+        "personality": "can hold six calls and a conversation",
+        "look": {
+          "skin": "#A8754F",
+          "hair": "#1A1410",
+          "hairStyle": 1,
+          "shirt": "#2E6FD8",
+          "pants": "#2A2E45",
+          "tie": "",
+          "glasses": false
+        },
+        "quips": [
+          "Synergex plc, please hold... sorry, habit.",
+          "The hold music is a pan pipe medley. I chose it. You're welcome.",
+          "I once transferred a call to the canteen by accident. He stayed.",
+          "Busy lines mean busy business. Hire another operator!"
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Synergex plc, how may I direct your... oh! You're the new one. Priya. Headset's yours."
+        },
+        {
+          "who": "you",
+          "text": "Do I just press the flashing lights?"
+        },
+        {
+          "who": "manager",
+          "text": "All of them, eventually. Every call is important. Some more than others."
+        },
+        {
+          "who": "you",
+          "text": "Which ones?"
+        },
+        {
+          "who": "manager",
+          "text": "Ones from upstairs. Tap the switchboard when the queue builds. Never say 'hang on'."
+        }
+      ]
+    },
+    {
+      "floor": 6,
+      "name": "Filing Room",
+      "theme": "ADMIN",
+      "jobId": "filing",
+      "manager": {
+        "name": "Marjorie Thwaite",
+        "title": "Chief Filing Officer",
+        "personality": "alphabetises her packed lunch",
+        "look": {
+          "skin": "#F2D0B0",
+          "hair": "#7A3B1E",
+          "hairStyle": 1,
+          "shirt": "#3B8F3B",
+          "pants": "#3A3A4A",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "I filed my birthday card under B. For Brilliant.",
+          "Misfiled is just lost with extra steps.",
+          "Drawer three sticks. Lift, wiggle, pull. Like a lock.",
+          "Fill those empty desks. The cabinets are getting lonely."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Welcome to Admin! I've filed your arrival under A. For Arrival. Marjorie Thwaite."
+        },
+        {
+          "who": "you",
+          "text": "Very organised."
+        },
+        {
+          "who": "manager",
+          "text": "Very. Every report at Synergex ends up in these cabinets. Eventually."
+        },
+        {
+          "who": "you",
+          "text": "And my job is to make that sooner?"
+        },
+        {
+          "who": "manager",
+          "text": "Precisely. Upgrade the filing and you'll be upstairs before I've cross-referenced you."
+        }
+      ]
+    },
+    {
+      "floor": 7,
+      "name": "Typing Pool",
+      "theme": "ADMIN",
+      "jobId": "typing",
+      "manager": {
+        "name": "Babs Delaney",
+        "title": "Typing Pool Supervisor",
+        "personality": "types 140 words a minute while chatting",
+        "look": {
+          "skin": "#D9A27A",
+          "hair": "#E0B040",
+          "hairStyle": 1,
+          "shirt": "#E07A2E",
+          "pants": "#2A2A34",
+          "tie": "",
+          "glasses": false
+        },
+        "quips": [
+          "Ding! That's the sound of productivity, love.",
+          "Yours faithfully, yours sincerely. Know the difference.",
+          "Correction fluid fumes? Character building.",
+          "Upgrade the pool. We could hit two hundred words a minute."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Shh! Hear that? Forty typewriters in perfect rhythm. Gorgeous. I'm Babs."
+        },
+        {
+          "who": "you",
+          "text": "It's very... loud."
+        },
+        {
+          "who": "manager",
+          "text": "It's music, love. Every letter Synergex sends goes out from this pool."
+        },
+        {
+          "who": "you",
+          "text": "I can do about thirty words a minute."
+        },
+        {
+          "who": "manager",
+          "text": "We'll fix that. Upgrade the pool and tap to hurry when the in-tray piles up."
+        }
+      ]
+    },
+    {
+      "floor": 8,
+      "name": "Data Entry",
+      "theme": "ADMIN",
+      "jobId": "data",
+      "manager": {
+        "name": "Kevin Osei",
+        "title": "Data Entry Team Lead",
+        "personality": "keeps a spreadsheet of his spreadsheets",
+        "look": {
+          "skin": "#7A4E33",
+          "hair": "#111111",
+          "hairStyle": 3,
+          "shirt": "#F2F2F2",
+          "pants": "#2A2E45",
+          "tie": "#C8102E",
+          "glasses": true
+        },
+        "quips": [
+          "Row 9,001 is where the magic happens. Allegedly.",
+          "I dream in tab-separated values. It's restful.",
+          "Never trust a cell that says 'see attached'.",
+          "More keyboards, more clacking. Hire someone, please."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "You must be the new keystroke. Kevin. Data Entry. We put numbers in boxes."
+        },
+        {
+          "who": "you",
+          "text": "Which numbers?"
+        },
+        {
+          "who": "manager",
+          "text": "All of them. The screens hum, the keyboards clack, and the database grows."
+        },
+        {
+          "who": "you",
+          "text": "Sounds hypnotic."
+        },
+        {
+          "who": "manager",
+          "text": "It is. Upgrade the team, and if anyone asks for 'a quick favour', run."
+        }
+      ]
+    },
+    {
+      "floor": 9,
+      "name": "Archives",
+      "theme": "ADMIN",
+      "jobId": "archive",
+      "manager": {
+        "name": "Ambrose Hale",
+        "title": "Senior Archivist",
+        "personality": "has not seen daylight since 1994",
+        "look": {
+          "skin": "#F2C9A0",
+          "hair": "#E8E8E8",
+          "hairStyle": 2,
+          "shirt": "#5A5A5A",
+          "pants": "#3A3A3A",
+          "tie": "#7A1F2B",
+          "glasses": true
+        },
+        "quips": [
+          "That box is from 1987. Do not open. I mean it.",
+          "Daylight? I've read about it. Sounds overrated.",
+          "Every invoice tells a story. Mostly about invoices.",
+          "The dust won't shelve itself. Neither will the boxes."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Ah. A visitor. We don't get many. I'm Ambrose. I keep the past in order."
+        },
+        {
+          "who": "you",
+          "text": "It's very dusty up here."
+        },
+        {
+          "who": "manager",
+          "text": "History is dusty. Every box has a story. Most of them are invoices."
+        },
+        {
+          "who": "you",
+          "text": "What do I do with them?"
+        },
+        {
+          "who": "manager",
+          "text": "Label, box, shelve. Upgrade the archive and the dust settles itself."
+        }
+      ]
+    },
+    {
+      "floor": 10,
+      "name": "Admin Office",
+      "theme": "ADMIN",
+      "jobId": "bookings",
+      "manager": {
+        "name": "Fiona Grant",
+        "title": "Office Manager",
+        "personality": "runs the calendar with an iron fist",
+        "look": {
+          "skin": "#F2D0B0",
+          "hair": "#3A2410",
+          "hairStyle": 1,
+          "shirt": "#2E5FB8",
+          "pants": "#1F2A5A",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "Room 3 is double-booked. It's always double-booked.",
+          "I booked the fire drill. Then the fire. Then the fire brigade.",
+          "Nobody takes my laminator. Nobody.",
+          "Upgrade the bookings desk before the away day becomes a riot."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Right on time. I like that. Fiona Grant, Office Manager. I book the rooms."
+        },
+        {
+          "who": "you",
+          "text": "All of them?"
+        },
+        {
+          "who": "manager",
+          "text": "Every single one. Board meetings, away days, the fire drill. Even the fire."
+        },
+        {
+          "who": "you",
+          "text": "What if two teams want the same room?"
+        },
+        {
+          "who": "manager",
+          "text": "Diplomacy. And biscuits. Upgrade the bookings desk and the clashes sort themselves."
+        }
+      ]
+    },
+    {
+      "floor": 11,
+      "name": "IT Helpdesk",
+      "theme": "IT",
+      "jobId": "printer",
+      "manager": {
+        "name": "Dev Kapoor",
+        "title": "IT Helpdesk Lead",
+        "personality": "asks if you've tried turning it off",
+        "look": {
+          "skin": "#A8754F",
+          "hair": "#1A1410",
+          "hairStyle": 0,
+          "shirt": "#2B2B2B",
+          "pants": "#3A3A4A",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "Have you tried turning it off and on again? Not you. The printer.",
+          "Don't look at the fax machine. It knows.",
+          "My ticket queue is empty. I don't trust it.",
+          "Printers fear upgrades. That's why we do them."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Have you tried turning it off and on again? Sorry, reflex. Dev, IT Helpdesk."
+        },
+        {
+          "who": "you",
+          "text": "I'm the new promotion."
+        },
+        {
+          "who": "manager",
+          "text": "Brilliant. The printers here are possessed. Not metaphorically."
+        },
+        {
+          "who": "you",
+          "text": "How do I fix a possessed printer?"
+        },
+        {
+          "who": "manager",
+          "text": "Same as anything. Tap it, upgrade it, and never make eye contact with the fax."
+        }
+      ]
+    },
+    {
+      "floor": 12,
+      "name": "Server Room",
+      "theme": "IT",
+      "jobId": "servers",
+      "manager": {
+        "name": "Zara Quinn",
+        "title": "Head of Infrastructure",
+        "personality": "thinks the servers have feelings",
+        "look": {
+          "skin": "#7A4E33",
+          "hair": "#7B3FA0",
+          "hairStyle": 3,
+          "shirt": "#2B2B2B",
+          "pants": "#2A2A34",
+          "tie": "",
+          "glasses": false
+        },
+        "quips": [
+          "Shh. They're sleeping. That's what the blinking means.",
+          "It's always the cable at the back. Always.",
+          "Rack seven sings when it's happy. Rack nine never sings.",
+          "Fans wheezing? Tap the job. They like the attention."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Close the door, you're letting the cold out. Zara. I look after the machines."
+        },
+        {
+          "who": "you",
+          "text": "It's freezing in here!"
+        },
+        {
+          "who": "manager",
+          "text": "They like it that way. Forty racks, blinking happily. Mostly happily."
+        },
+        {
+          "who": "you",
+          "text": "And when they stop blinking?"
+        },
+        {
+          "who": "manager",
+          "text": "You reboot them. Gently. Upgrade the racks and tap when the fans start wheezing."
+        }
+      ]
+    },
+    {
+      "floor": 13,
+      "name": "Spreadsheet Team",
+      "theme": "IT",
+      "jobId": "spreadsheet",
+      "manager": {
+        "name": "Graham Petty",
+        "title": "Spreadsheet Team Lead",
+        "personality": "colour-codes his feelings",
+        "look": {
+          "skin": "#F2C9A0",
+          "hair": "#5A3A1A",
+          "hairStyle": 0,
+          "shirt": "#A8C8E8",
+          "pants": "#2A2E45",
+          "tie": "#3B8F3B",
+          "glasses": true
+        },
+        "quips": [
+          "Never merge cells. That way lies madness.",
+          "Green means good. Red means meeting. Amber means panic.",
+          "A circular reference walked in here once. Never left.",
+          "Upgrade the team and the formulas practically write themselves."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Ah, our new cell! Graham. I've given you a row. Row 47. Don't merge it."
+        },
+        {
+          "who": "you",
+          "text": "Merge it? Why would I...?"
+        },
+        {
+          "who": "manager",
+          "text": "People do. Terrible things happen. Circular references. Hash errors."
+        },
+        {
+          "who": "you",
+          "text": "I'll stick to my row."
+        },
+        {
+          "who": "manager",
+          "text": "Wise. Upgrade the team and the formulas will practically write themselves."
+        }
+      ]
+    },
+    {
+      "floor": 14,
+      "name": "Facilities",
+      "theme": "IT",
+      "jobId": "facilities",
+      "manager": {
+        "name": "Big Terry",
+        "title": "Facilities Manager",
+        "personality": "carries a toolbox to every meeting",
+        "look": {
+          "skin": "#D9A27A",
+          "hair": "#5A3A1A",
+          "hairStyle": 2,
+          "shirt": "#E07A2E",
+          "pants": "#2A2E45",
+          "tie": "",
+          "glasses": false
+        },
+        "quips": [
+          "That drip has been dripping since the Coronation. Of someone.",
+          "The lift has moods. Today it's sulking at floor nine.",
+          "Every radiator sings a different note. I've named them all.",
+          "More hands, fewer leaks. Hire another fixer-upper."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Alright? Terry. Facilities. If it's broken, leaking or squeaking, it's mine."
+        },
+        {
+          "who": "you",
+          "text": "That sounds like a lot."
+        },
+        {
+          "who": "manager",
+          "text": "Old building, mate. The lift's got moods and the radiators sing."
+        },
+        {
+          "who": "you",
+          "text": "Where do I start?"
+        },
+        {
+          "who": "manager",
+          "text": "Grab a ladder. Upgrade the team and tap the job when the drips get dramatic."
+        }
+      ]
+    },
+    {
+      "floor": 15,
+      "name": "Health & Safety",
+      "theme": "IT",
+      "jobId": "safety",
+      "manager": {
+        "name": "Hilary Bloom",
+        "title": "Health & Safety Officer",
+        "personality": "wears a hard hat indoors, just in case",
+        "look": {
+          "skin": "#F2D0B0",
+          "hair": "#E8C060",
+          "hairStyle": 1,
+          "shirt": "#FFD23F",
+          "pants": "#3A3A4A",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "That chair has four legs. Have you assessed all four?",
+          "A biro is a stabbing hazard if you believe in yourself.",
+          "Fire drill Thursday. Bring a sensible cardigan.",
+          "Clipboard's full. Tap the job before it overflows. Safely."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Stop! Before you step off that lift: have you read the induction booklet?"
+        },
+        {
+          "who": "you",
+          "text": "There's a booklet?"
+        },
+        {
+          "who": "manager",
+          "text": "There are eleven. I'm Hilary. Nothing here happens without a risk assessment."
+        },
+        {
+          "who": "you",
+          "text": "Even making tea?"
+        },
+        {
+          "who": "manager",
+          "text": "Especially making tea. Upgrade the assessments and tap when the clipboard's full."
+        }
+      ]
+    },
+    {
+      "floor": 16,
+      "name": "Meeting Suite",
+      "theme": "MANAGEMENT",
+      "jobId": "meetings",
+      "manager": {
+        "name": "Clive Hargreaves",
+        "title": "Head of Meetings",
+        "personality": "has never ended a meeting early",
+        "look": {
+          "skin": "#F2C9A0",
+          "hair": "#9A9A9A",
+          "hairStyle": 0,
+          "shirt": "#3B4A6B",
+          "pants": "#2A2A34",
+          "tie": "#C8102E",
+          "glasses": false
+        },
+        "quips": [
+          "This meeting could have been an email. So could that one.",
+          "Any Other Business? There's always Other Business.",
+          "Five minutes, I said. Two hours, it was. Lovely.",
+          "Upgrade the meetings and they might finish on time. Might."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Welcome to Management! We have a quick five-minute catch-up. It's two hours."
+        },
+        {
+          "who": "you",
+          "text": "What's on the agenda?"
+        },
+        {
+          "who": "manager",
+          "text": "Agreeing the agenda. Then a meeting about the meeting. Then biscuits."
+        },
+        {
+          "who": "you",
+          "text": "When does the actual work happen?"
+        },
+        {
+          "who": "manager",
+          "text": "In meetings, mostly. Upgrade them and they'll start finishing on time. Allegedly."
+        }
+      ]
+    },
+    {
+      "floor": 17,
+      "name": "Secretariat",
+      "theme": "MANAGEMENT",
+      "jobId": "minutes",
+      "manager": {
+        "name": "Agnes Okonkwo",
+        "title": "Head of Secretariat",
+        "personality": "minutes everything, including this",
+        "look": {
+          "skin": "#7A4E33",
+          "hair": "#2A1A10",
+          "hairStyle": 1,
+          "shirt": "#C8102E",
+          "pants": "#2A2A34",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "I minuted that. And that. And now this.",
+          "If it's not in the minutes, it never happened.",
+          "Action: everyone to action their actions by Friday.",
+          "Fill those desks. My pen can only go so fast."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Noted. Arrival of new manager, 9:02. Two minutes late. I'm Agnes."
+        },
+        {
+          "who": "you",
+          "text": "The lift was slow!"
+        },
+        {
+          "who": "manager",
+          "text": "Also noted. Minutes, memos and action points. If it was said, we wrote it."
+        },
+        {
+          "who": "you",
+          "text": "Even the awkward bits?"
+        },
+        {
+          "who": "manager",
+          "text": "Especially those. Upgrade the team, and remember: if it's not minuted, it never happened."
+        }
+      ]
+    },
+    {
+      "floor": 18,
+      "name": "Human Resources",
+      "theme": "MANAGEMENT",
+      "jobId": "appraisals",
+      "manager": {
+        "name": "Brenda Marsh",
+        "title": "Head of People",
+        "personality": "warm, relentless, always holding a lanyard",
+        "look": {
+          "skin": "#F2D0B0",
+          "hair": "#8A3020",
+          "hairStyle": 1,
+          "shirt": "#7B3FA0",
+          "pants": "#3A3A4A",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "My door's always open. The draught is terrible.",
+          "Exceeds expectations. Just. Don't tell anyone.",
+          "I remember your first day. You carried fourteen mugs!",
+          "Happy staff work faster. Upgrade appraisals, love."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Well, well! I remember your first day. Look at you now! Welcome to HR, love."
+        },
+        {
+          "who": "you",
+          "text": "Brenda! You hired me."
+        },
+        {
+          "who": "manager",
+          "text": "And now you're helping me appraise everyone else. Full circle! Sit, sit."
+        },
+        {
+          "who": "you",
+          "text": "Do I have to give people scores?"
+        },
+        {
+          "who": "manager",
+          "text": "Gently. Upgrade appraisals and everyone's morale goes up. Biscuits help too."
+        }
+      ]
+    },
+    {
+      "floor": 19,
+      "name": "Training Suite",
+      "theme": "MANAGEMENT",
+      "jobId": "teambuilding",
+      "manager": {
+        "name": "Kelly Summers",
+        "title": "Head of Learning",
+        "personality": "relentlessly upbeat, owns six flipcharts",
+        "look": {
+          "skin": "#E8B88A",
+          "hair": "#E0B040",
+          "hairStyle": 1,
+          "shirt": "#3B8F3B",
+          "pants": "#2A2E45",
+          "tie": "",
+          "glasses": false
+        },
+        "quips": [
+          "There are no bad ideas! Except the ones that are bad!",
+          "Trust fall! Ooh, sorry. Next time. Promise.",
+          "I've got sticky notes in colours you've never seen.",
+          "Energy's dipping! Tap the workshop and let's GO!"
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Welcome, welcome! Icebreaker time! Two truths and a lie! Go!"
+        },
+        {
+          "who": "you",
+          "text": "I... like tea? I'm excited? I'm not nervous?"
+        },
+        {
+          "who": "manager",
+          "text": "Love it! Super energy! I'm Kelly. This floor turns colleagues into a TEAM."
+        },
+        {
+          "who": "you",
+          "text": "Are there trust falls?"
+        },
+        {
+          "who": "manager",
+          "text": "So many. Upgrade the sessions and morale soars. Tap to hurry a flagging workshop!"
+        }
+      ]
+    },
+    {
+      "floor": 20,
+      "name": "Finance",
+      "theme": "MANAGEMENT",
+      "jobId": "budget",
+      "manager": {
+        "name": "Rupert Vane",
+        "title": "Finance Director",
+        "personality": "flinches at the word 'expenses'",
+        "look": {
+          "skin": "#F2C9A0",
+          "hair": "#3A2410",
+          "hairStyle": 0,
+          "shirt": "#F2F2F2",
+          "pants": "#1F2A5A",
+          "tie": "#1F2A5A",
+          "glasses": true
+        },
+        "quips": [
+          "Forty pounds. On custard creams. Last quarter. Forty.",
+          "Receipts, please. Yes, even for the bus.",
+          "I balanced the books once. Then someone ordered biros.",
+          "An upgrade is an investment. A biscuit is not."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Sit. Mind the chair, it's leased. Rupert. Finance. Every penny comes through me."
+        },
+        {
+          "who": "you",
+          "text": "Even the biscuit budget?"
+        },
+        {
+          "who": "manager",
+          "text": "Especially that. We spent forty pounds on custard creams last quarter. Forty."
+        },
+        {
+          "who": "you",
+          "text": "That seems... reasonable?"
+        },
+        {
+          "who": "manager",
+          "text": "Hmm. Balance the books, upgrade the budget, and we'll get along. Receipts, please."
+        }
+      ]
+    },
+    {
+      "floor": 21,
+      "name": "Sales Floor",
+      "theme": "SENIOR",
+      "jobId": "pitch",
+      "manager": {
+        "name": "Danny Fortune",
+        "title": "Head of Sales",
+        "personality": "shakes hands for slightly too long",
+        "look": {
+          "skin": "#D9A27A",
+          "hair": "#111111",
+          "hairStyle": 0,
+          "shirt": "#3B4A6B",
+          "pants": "#3B4A6B",
+          "tie": "#E2C044",
+          "glasses": false
+        },
+        "quips": [
+          "Smile and dial, champ. Smile and dial.",
+          "What do we sell? Confidence! And some forms, I think.",
+          "Slide 47 is where they sign. Never skip slide 47.",
+          "Hire more closers. The deals won't close themselves."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "There they are! Danny Fortune, Head of Sales. Firm handshake. Firmer. There."
+        },
+        {
+          "who": "you",
+          "text": "Ow. Nice to meet you."
+        },
+        {
+          "who": "manager",
+          "text": "On this floor we sell. What do we sell? Doesn't matter! Confidence, mostly."
+        },
+        {
+          "who": "you",
+          "text": "So I'll be pitching to clients?"
+        },
+        {
+          "who": "manager",
+          "text": "Every day. Upgrade your pitches and the deals close themselves. Smile, champ!"
+        }
+      ]
+    },
+    {
+      "floor": 22,
+      "name": "Marketing",
+      "theme": "SENIOR",
+      "jobId": "slogans",
+      "manager": {
+        "name": "Tash Morgan",
+        "title": "Head of Brand",
+        "personality": "says 'let's ideate' unironically",
+        "look": {
+          "skin": "#A8754F",
+          "hair": "#E07A2E",
+          "hairStyle": 3,
+          "shirt": "#F2B33D",
+          "pants": "#2A2A34",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "Let's ideate. Then synergise. Then lunch.",
+          "The logo is three pixels too far left. I can feel it.",
+          "Teal is the new beige. You heard it here first.",
+          "Tap the brainstorm when we're stuck. We're often stuck."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Ooh, love the energy! Tash, Head of Brand. Do you vibe with the colour teal?"
+        },
+        {
+          "who": "you",
+          "text": "I... think so?"
+        },
+        {
+          "who": "manager",
+          "text": "Perfect. We brainstorm slogans. Big ideas. Bold ideas. Sticky notes everywhere."
+        },
+        {
+          "who": "you",
+          "text": "Any slogans so far?"
+        },
+        {
+          "who": "manager",
+          "text": "'Synergex: we do things.' Needs work. Upgrade the brainstorms and tap when we're stuck!"
+        }
+      ]
+    },
+    {
+      "floor": 23,
+      "name": "Legal",
+      "theme": "SENIOR",
+      "jobId": "smallprint",
+      "manager": {
+        "name": "Cecil Pemberton",
+        "title": "Head of Legal",
+        "personality": "speaks only in subclauses",
+        "look": {
+          "skin": "#F2C9A0",
+          "hair": "#E8E8E8",
+          "hairStyle": 0,
+          "shirt": "#2B2B2B",
+          "pants": "#2B2B2B",
+          "tie": "#7A1F2B",
+          "glasses": true
+        },
+        "quips": [
+          "Notwithstanding the foregoing, good morning.",
+          "Clause 4.2 is very important. Nobody knows why.",
+          "I read the back of a cereal box once. Took three days.",
+          "Hire another paralegal. Whereas I am tired."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Whereas the party of the first part, namely you, has arrived. Welcome. Pemberton."
+        },
+        {
+          "who": "you",
+          "text": "Thank you? I think?"
+        },
+        {
+          "who": "manager",
+          "text": "Without prejudice, of course. Here we read every contract. Every comma. Every footnote."
+        },
+        {
+          "who": "you",
+          "text": "Isn't that very slow?"
+        },
+        {
+          "who": "manager",
+          "text": "Notwithstanding that, yes. Upgrade the team and tap to hurry. See clause 4.2."
+        }
+      ]
+    },
+    {
+      "floor": 24,
+      "name": "Strategy",
+      "theme": "SENIOR",
+      "jobId": "restructure",
+      "manager": {
+        "name": "Victoria Crane",
+        "title": "Chief Strategy Officer",
+        "personality": "draws arrows on everything",
+        "look": {
+          "skin": "#F2D0B0",
+          "hair": "#1A1410",
+          "hairStyle": 1,
+          "shirt": "#2B2B2B",
+          "pants": "#2B2B2B",
+          "tie": "",
+          "glasses": false
+        },
+        "quips": [
+          "Restructure the restructure. Then review it. Then restructure.",
+          "Draw an arrow. Any arrow. That's strategy.",
+          "You were a box. Now you're a slightly bigger box.",
+          "Upgrade the restructures and the whole company speeds up."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "You're the one climbing fast. I've already drawn you on the org chart. Victoria."
+        },
+        {
+          "who": "you",
+          "text": "Am I a box or an arrow?"
+        },
+        {
+          "who": "manager",
+          "text": "A box with arrows. The best kind. Up here we restructure. Constantly."
+        },
+        {
+          "who": "you",
+          "text": "Doesn't everyone get confused?"
+        },
+        {
+          "who": "manager",
+          "text": "That's the strategy. Upgrade the restructures and the whole company speeds up."
+        }
+      ]
+    },
+    {
+      "floor": 25,
+      "name": "Investor Relations",
+      "theme": "SENIOR",
+      "jobId": "lunches",
+      "manager": {
+        "name": "Hugo Ashby",
+        "title": "Head of Investor Relations",
+        "personality": "has never paid for his own lunch",
+        "look": {
+          "skin": "#F2C9A0",
+          "hair": "#E0B040",
+          "hairStyle": 0,
+          "shirt": "#F2F2F2",
+          "pants": "#1F2A5A",
+          "tie": "#C8102E",
+          "glasses": false
+        },
+        "quips": [
+          "Never trust an investor who skips pudding.",
+          "Prawn cocktail is the language of shareholders.",
+          "A three-hour lunch is a two-hour lunch with ambition.",
+          "Fill those tables. The investors are getting peckish."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Darling! Hugo. Investor Relations. Have you eaten? You simply must eat."
+        },
+        {
+          "who": "you",
+          "text": "I had a sandwich at my desk."
+        },
+        {
+          "who": "manager",
+          "text": "At your desk? Heavens. Up here we lunch. With investors. For hours."
+        },
+        {
+          "who": "you",
+          "text": "Is that... work?"
+        },
+        {
+          "who": "manager",
+          "text": "The hardest kind. Upgrade the lunches and keep shareholders smiling. Never skip pudding."
+        }
+      ]
+    },
+    {
+      "floor": 26,
+      "name": "Mergers & Acquisitions",
+      "theme": "EXECUTIVE",
+      "jobId": "merger",
+      "manager": {
+        "name": "Sloane Barrett",
+        "title": "Head of Acquisitions",
+        "personality": "buys things when bored",
+        "look": {
+          "skin": "#7A4E33",
+          "hair": "#1A1410",
+          "hairStyle": 2,
+          "shirt": "#2B2B2B",
+          "pants": "#2B2B2B",
+          "tie": "#E2C044",
+          "glasses": true
+        },
+        "quips": [
+          "I bought the bakery opposite. The croissants were too good.",
+          "Hostile takeover? I'm perfectly pleasant about it.",
+          "Hesitation costs millions. So does that chair.",
+          "Sign faster. Tap the deal before someone else buys it."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Barrett. Acquisitions. You've got ten seconds. Nine. Eight. Kidding! Sit down."
+        },
+        {
+          "who": "you",
+          "text": "You had me worried."
+        },
+        {
+          "who": "manager",
+          "text": "Up here we buy companies. The bakery opposite, a rival, a small island. Whatever."
+        },
+        {
+          "who": "you",
+          "text": "An island?"
+        },
+        {
+          "who": "manager",
+          "text": "It was on sale. Upgrade the deals and sign fast. Hesitation costs millions."
+        }
+      ]
+    },
+    {
+      "floor": 27,
+      "name": "The Boardroom",
+      "theme": "EXECUTIVE",
+      "jobId": "board",
+      "manager": {
+        "name": "Dame Olivia Frost",
+        "title": "Senior Non-Exec Director",
+        "personality": "silences rooms with one eyebrow",
+        "look": {
+          "skin": "#F2D0B0",
+          "hair": "#C8C8C8",
+          "hairStyle": 1,
+          "shirt": "#1F2A5A",
+          "pants": "#1F2A5A",
+          "tie": "",
+          "glasses": true
+        },
+        "quips": [
+          "Not that chair. The small one. Sit.",
+          "The board wants 'more'. They always want more.",
+          "One eyebrow. That's all it takes to end a meeting.",
+          "Upgrade your presentations. Give them more."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "So you're the one everyone's talking about. Dame Olivia. Take a seat. Not that one."
+        },
+        {
+          "who": "you",
+          "text": "Sorry. Which one?"
+        },
+        {
+          "who": "manager",
+          "text": "The small one. You'll earn the big one. Here we present to the board."
+        },
+        {
+          "who": "you",
+          "text": "What do they want to hear?"
+        },
+        {
+          "who": "manager",
+          "text": "'More.' They always want more. Upgrade your presentations and give it to them."
+        }
+      ]
+    },
+    {
+      "floor": 28,
+      "name": "Chairman's Office",
+      "theme": "EXECUTIVE",
+      "jobId": "signing",
+      "manager": {
+        "name": "Sir Reginald Moss",
+        "title": "Chairman Emeritus",
+        "personality": "dozes mid-sentence, wakes up wise",
+        "look": {
+          "skin": "#F2C9A0",
+          "hair": "#E8E8E8",
+          "hairStyle": 2,
+          "shirt": "#3B4A6B",
+          "pants": "#3B4A6B",
+          "tie": "#7A1F2B",
+          "glasses": true
+        },
+        "quips": [
+          "Zzz... hm? Yes! Sign here. And here. And... zzz.",
+          "I've used the same fountain pen since 1962.",
+          "Initial here, here and, oh, wherever you like really.",
+          "Pile's getting tall. Tap the job before it topples."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Ah... yes... the youngster. Reginald. I've chaired this company since... zzz."
+        },
+        {
+          "who": "you",
+          "text": "Sir Reginald? Hello?"
+        },
+        {
+          "who": "manager",
+          "text": "Hm? Yes! Signatures. Everything important gets signed in this office. By hand."
+        },
+        {
+          "who": "you",
+          "text": "Doesn't your hand get tired?"
+        },
+        {
+          "who": "manager",
+          "text": "That's why you're here. Upgrade the signing and tap when the pile's tall. Pen?"
+        }
+      ]
+    },
+    {
+      "floor": 29,
+      "name": "Executive Lounge",
+      "theme": "EXECUTIVE",
+      "jobId": "golf",
+      "manager": {
+        "name": "Chip Lancaster",
+        "title": "Lounge Host",
+        "personality": "never seen without a putter",
+        "look": {
+          "skin": "#E8B88A",
+          "hair": "#B5651D",
+          "hairStyle": 0,
+          "shirt": "#F8BBD0",
+          "pants": "#E8E4D8",
+          "tie": "",
+          "glasses": false
+        },
+        "quips": [
+          "Fore! And a takeover, if you've got a minute.",
+          "Nobody here can actually play golf. Don't tell them.",
+          "Hole seven is behind the water cooler. Mind the slice.",
+          "Hire a caddie, old sport. The rounds are dragging."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "Welcome to the Lounge! Chip Lancaster. Drink? Putt? Merger? All three?"
+        },
+        {
+          "who": "you",
+          "text": "Is this... a golf course? Indoors?"
+        },
+        {
+          "who": "manager",
+          "text": "Eighteen holes across the whole floor. Deals happen on the green, old sport."
+        },
+        {
+          "who": "you",
+          "text": "I've never played golf."
+        },
+        {
+          "who": "manager",
+          "text": "Nobody here has. Upgrade your networking and tap when the round's dragging."
+        }
+      ]
+    },
+    {
+      "floor": 30,
+      "name": "The Penthouse",
+      "theme": "EXECUTIVE",
+      "jobId": "empire",
+      "manager": {
+        "name": "Augustus Grey",
+        "title": "The Old Boss Upstairs",
+        "personality": "mysterious, very fond of his cat",
+        "look": {
+          "skin": "#A8754F",
+          "hair": "#E8E8E8",
+          "hairStyle": 0,
+          "shirt": "#202020",
+          "pants": "#202020",
+          "tie": "#E2C044",
+          "glasses": true
+        },
+        "quips": [
+          "The cat sits in the comfy chair. You may sit near the cat.",
+          "From the kitchen to the penthouse. I knew you'd make it.",
+          "Everything you can see is yours. Including that pigeon.",
+          "Remember who makes the tea. It all started there."
+        ]
+      },
+      "arrival": [
+        {
+          "who": "manager",
+          "text": "So. You made it. From the kitchen to the top floor. I'm Augustus. Was."
+        },
+        {
+          "who": "you",
+          "text": "Was?"
+        },
+        {
+          "who": "manager",
+          "text": "I'm retiring. The empire is yours. The view, the cat, the very comfy chair."
+        },
+        {
+          "who": "you",
+          "text": "What do I do now?"
+        },
+        {
+          "who": "manager",
+          "text": "Run it. Upgrade the empire, and remember who makes the tea. It all started there."
+        }
+      ]
+    }
+  ],
+  "foyer": {
+    "receptionist": {
+      "name": "Maxine Bell",
+      "look": {
+        "skin": "#C68B59",
+        "hair": "#2A1A10",
+        "hairStyle": 1,
+        "shirt": "#E0457B",
+        "pants": "#2A2A34",
+        "tie": "",
+        "glasses": true
+      },
+      "quips": [
+        "Good morning and welcome to Synergex plc! Lanyard on, please.",
+        "Clock in at the machine. HR counts. Brenda counts twice.",
+        "Check the noticeboard, love. There's always something on.",
+        "Lift's that way. Press the button once. It hears you.",
+        "Visitors sign in. Staff clock in. Pigeons get shooed out.",
+        "Turn up every day and the clock-in machine gets generous."
+      ]
+    },
+    "guard": {
+      "name": "Ron Baxter",
+      "look": {
+        "skin": "#8A5A3B",
+        "hair": "#9A9A9A",
+        "hairStyle": 0,
+        "shirt": "#1F2A5A",
+        "pants": "#1F2A5A",
+        "tie": "#202020",
+        "glasses": false
+      },
+      "quips": [
+        "Pass, please. Yes, I know you. Pass anyway.",
+        "Thirty years on this desk. Seen it all. Twice.",
+        "Nobody gets past Ron. Except Doreen. She brings flapjacks.",
+        "That lift goes all the way up. Few have seen the top."
+      ]
+    }
+  },
+  "challenges": [
+    {
+      "id": "c01_first_brew",
+      "title": "First Brew",
+      "description": "Tap the tea counter 10 times to hurry the tea round along.",
+      "kind": "TAPS",
+      "target": 10,
+      "rewardGems": 3
+    },
+    {
+      "id": "c02_hire_help",
+      "title": "Hire Some Help",
+      "description": "Get Make the Tea to level 10. Tap the job's tag to open its upgrades.",
+      "kind": "TASK_LEVEL",
+      "taskId": "tea",
+      "target": 10,
+      "rewardGems": 3
+    },
+    {
+      "id": "c03_ask_nicely",
+      "title": "Ask Nicely",
+      "description": "Fill the Office Kudos bar, then tap it to get promoted. Reach rank 3.",
+      "kind": "RANK",
+      "target": 3,
+      "rewardGems": 3
+    },
+    {
+      "id": "c04_treat_yourself",
+      "title": "Treat Yourself",
+      "description": "Buy your first tool from the Tools window.",
+      "kind": "TOOLS_OWNED",
+      "target": 1,
+      "rewardGems": 3
+    },
+    {
+      "id": "c05_birds_eye",
+      "title": "Bird's-Eye View",
+      "description": "Tap the little tower at the top to see the whole Synergex building.",
+      "kind": "MAP",
+      "target": 1,
+      "rewardGems": 3
+    },
+    {
+      "id": "c06_say_hello",
+      "title": "Say Hello",
+      "description": "Tap your manager in the glass office on the right of the floor.",
+      "kind": "CHATS",
+      "target": 1,
+      "rewardGems": 3
+    },
+    {
+      "id": "c07_going_down",
+      "title": "Going Down?",
+      "description": "Take the lift somewhere. It's on the far left of every floor.",
+      "kind": "LIFT",
+      "target": 1,
+      "rewardGems": 3
+    },
+    {
+      "id": "c08_coffee_break",
+      "title": "Coffee Break",
+      "description": "Take a coffee break with the mug button on the right. Everyone works faster.",
+      "kind": "BOOSTS",
+      "target": 1,
+      "rewardGems": 3
+    },
+    {
+      "id": "c09_moving_up",
+      "title": "Moving Up",
+      "description": "Get promoted onto floor 2, the Post Room (rank 6).",
+      "kind": "RANK",
+      "target": 6,
+      "rewardGems": 3
+    },
+    {
+      "id": "c10_upgrade_spree",
+      "title": "Upgrade Spree",
+      "description": "Buy 100 job levels.",
+      "kind": "LEVELS",
+      "target": 100,
+      "rewardGems": 3
+    },
+    {
+      "id": "c11_clock_in",
+      "title": "Clock In",
+      "description": "Clock in at the machine in the foyer to collect your attendance reward.",
+      "kind": "DAILY",
+      "target": 1,
+      "rewardGems": 3
+    },
+    {
+      "id": "c12_tea_for_fourteen",
+      "title": "Tea for Fourteen",
+      "description": "Complete 50,000 tea rounds.",
+      "kind": "TASK_CYCLES",
+      "taskId": "tea",
+      "target": 50000,
+      "rewardGems": 3
+    },
+    {
+      "id": "c13_welcome_back",
+      "title": "Welcome Back",
+      "description": "Take a break, come back, and collect what your team earned while you were away.",
+      "kind": "OFFLINE",
+      "target": 1,
+      "rewardGems": 3
+    },
+    {
+      "id": "c14_post_haste",
+      "title": "Post Haste",
+      "description": "Get Sort the Post to level 100.",
+      "kind": "TASK_LEVEL",
+      "taskId": "post",
+      "target": 100,
+      "rewardGems": 3
+    },
+    {
+      "id": "c15_away_day",
+      "title": "Away Day",
+      "description": "Raise your away time to 6 hours. Tools like the Out-of-Office Reply help.",
+      "kind": "OFFLINE_HOURS",
+      "target": 6,
+      "rewardGems": 5
+    },
+    {
+      "id": "c16_floor_three",
+      "title": "Floor Three",
+      "description": "Reach the Print Room on floor 3 (rank 11).",
+      "kind": "RANK",
+      "target": 11,
+      "rewardGems": 5
+    },
+    {
+      "id": "c17_busy_fingers",
+      "title": "Busy Fingers",
+      "description": "Tap jobs 300 times. Every tap knocks a bit off the cycle.",
+      "kind": "TAPS",
+      "target": 300,
+      "rewardGems": 5
+    },
+    {
+      "id": "c18_million_cycles",
+      "title": "A Million Little Jobs",
+      "description": "Complete 1,000,000 job cycles across the building.",
+      "kind": "CYCLES",
+      "target": 1000000,
+      "rewardGems": 5
+    },
+    {
+      "id": "c19_three_day_week",
+      "title": "Three-Day Week",
+      "description": "Clock in 3 days in a row.",
+      "kind": "STREAK",
+      "target": 3,
+      "rewardGems": 5
+    },
+    {
+      "id": "c20_toolbox",
+      "title": "Toolbox",
+      "description": "Own 12 tools.",
+      "kind": "TOOLS_OWNED",
+      "target": 12,
+      "rewardGems": 5
+    },
+    {
+      "id": "c21_five_jobs",
+      "title": "Spinning Plates",
+      "description": "Have 5 jobs running at once.",
+      "kind": "JOBS_HIRED",
+      "target": 5,
+      "rewardGems": 5
+    },
+    {
+      "id": "c22_caffeine_habit",
+      "title": "Caffeine Habit",
+      "description": "Take 10 coffee breaks.",
+      "kind": "BOOSTS",
+      "target": 10,
+      "rewardGems": 5
+    },
+    {
+      "id": "c23_admin_floor",
+      "title": "Paper Pusher",
+      "description": "Reach Filing on floor 6 (rank 26).",
+      "kind": "RANK",
+      "target": 26,
+      "rewardGems": 5
+    },
+    {
+      "id": "c24_full_week",
+      "title": "Full Week",
+      "description": "Clock in 7 days in a row.",
+      "kind": "STREAK",
+      "target": 7,
+      "rewardGems": 7
+    },
+    {
+      "id": "c25_tea_legend",
+      "title": "Tea Legend",
+      "description": "Get Make the Tea to level 200.",
+      "kind": "TASK_LEVEL",
+      "taskId": "tea",
+      "target": 200,
+      "rewardGems": 5
+    },
+    {
+      "id": "c26_lift_regular",
+      "title": "Lift Regular",
+      "description": "Take the lift 15 times. Pop in on your old managers.",
+      "kind": "LIFT",
+      "target": 15,
+      "rewardGems": 5
+    },
+    {
+      "id": "c27_shopping_trip",
+      "title": "Shopping Trip",
+      "description": "Spend 100 golden paperclips in the Shop.",
+      "kind": "CLIPS_SPENT",
+      "target": 100,
+      "rewardGems": 5
+    },
+    {
+      "id": "c28_typing_pro",
+      "title": "Typing Pool Pro",
+      "description": "Get Type Letters to level 150.",
+      "kind": "TASK_LEVEL",
+      "taskId": "typing",
+      "target": 150,
+      "rewardGems": 7
+    },
+    {
+      "id": "c29_level_grinder",
+      "title": "Level Grinder",
+      "description": "Buy 500 job levels.",
+      "kind": "LEVELS",
+      "target": 500,
+      "rewardGems": 7
+    },
+    {
+      "id": "c30_floor_ten",
+      "title": "Double Figures",
+      "description": "Reach the Admin Office on floor 10 (rank 46).",
+      "kind": "RANK",
+      "target": 46,
+      "rewardGems": 7
+    },
+    {
+      "id": "c31_it_crowd",
+      "title": "Have You Tried Turning It Off?",
+      "description": "Reach the IT Helpdesk on floor 11 (rank 51).",
+      "kind": "RANK",
+      "target": 51,
+      "rewardGems": 7
+    },
+    {
+      "id": "c32_ten_million",
+      "title": "Ten Million",
+      "description": "Complete 10,000,000 job cycles.",
+      "kind": "CYCLES",
+      "target": 10000000,
+      "rewardGems": 7
+    },
+    {
+      "id": "c33_twelve_hours",
+      "title": "Twelve-Hour Day",
+      "description": "Raise your away time to 12 hours.",
+      "kind": "OFFLINE_HOURS",
+      "target": 12,
+      "rewardGems": 7
+    },
+    {
+      "id": "c34_fortnight",
+      "title": "Two Weeks Straight",
+      "description": "Clock in 14 days in a row.",
+      "kind": "STREAK",
+      "target": 14,
+      "rewardGems": 9
+    },
+    {
+      "id": "c35_tool_hoarder",
+      "title": "Tool Hoarder",
+      "description": "Own 40 tools.",
+      "kind": "TOOLS_OWNED",
+      "target": 40,
+      "rewardGems": 7
+    },
+    {
+      "id": "c36_ad_break",
+      "title": "And Now a Word...",
+      "description": "Collect 25 ad rewards. VIPs get them without the ads.",
+      "kind": "ADS",
+      "target": 25,
+      "rewardGems": 7
+    },
+    {
+      "id": "c37_middle_management",
+      "title": "Middle Management",
+      "description": "Reach the Meeting Suite on floor 16 (rank 76).",
+      "kind": "RANK",
+      "target": 76,
+      "rewardGems": 9
+    },
+    {
+      "id": "c38_tap_legend",
+      "title": "Tap Legend",
+      "description": "Tap jobs 2,000 times.",
+      "kind": "TAPS",
+      "target": 2000,
+      "rewardGems": 7
+    },
+    {
+      "id": "c39_server_whisperer",
+      "title": "Server Whisperer",
+      "description": "Get Reboot the Servers to level 200.",
+      "kind": "TASK_LEVEL",
+      "taskId": "servers",
+      "target": 200,
+      "rewardGems": 9
+    },
+    {
+      "id": "c40_people_person",
+      "title": "People Person",
+      "description": "Reach HR on floor 18 (rank 86). Brenda's been expecting you.",
+      "kind": "RANK",
+      "target": 86,
+      "rewardGems": 9
+    },
+    {
+      "id": "c41_level_machine",
+      "title": "Level Machine",
+      "description": "Buy 1,000 job levels.",
+      "kind": "LEVELS",
+      "target": 1000,
+      "rewardGems": 9
+    },
+    {
+      "id": "c42_twenty_jobs",
+      "title": "Twenty Jobs",
+      "description": "Have 20 jobs running at once.",
+      "kind": "JOBS_HIRED",
+      "target": 20,
+      "rewardGems": 9
+    },
+    {
+      "id": "c43_senior_partner",
+      "title": "Corner Office Material",
+      "description": "Reach Sales on floor 21 (rank 101).",
+      "kind": "RANK",
+      "target": 101,
+      "rewardGems": 10
+    },
+    {
+      "id": "c44_all_day_away",
+      "title": "Working From Home",
+      "description": "Raise your away time to 18 hours.",
+      "kind": "OFFLINE_HOURS",
+      "target": 18,
+      "rewardGems": 9
+    },
+    {
+      "id": "c45_hundred_million",
+      "title": "A Hundred Million",
+      "description": "Complete 100,000,000 job cycles.",
+      "kind": "CYCLES",
+      "target": 100000000,
+      "rewardGems": 9
+    },
+    {
+      "id": "c46_month_of_mondays",
+      "title": "Month of Mondays",
+      "description": "Clock in 30 days in a row.",
+      "kind": "STREAK",
+      "target": 30,
+      "rewardGems": 12
+    },
+    {
+      "id": "c47_executive_suite",
+      "title": "Executive Suite",
+      "description": "Reach Mergers & Acquisitions on floor 26 (rank 126).",
+      "kind": "RANK",
+      "target": 126,
+      "rewardGems": 12
+    },
+    {
+      "id": "c48_collectors_edition",
+      "title": "Collector's Edition",
+      "description": "Own 70 tools.",
+      "kind": "TOOLS_OWNED",
+      "target": 70,
+      "rewardGems": 12
+    },
+    {
+      "id": "c49_empire_builder",
+      "title": "Empire Builder",
+      "description": "Have all 30 jobs running at once.",
+      "kind": "JOBS_HIRED",
+      "target": 30,
+      "rewardGems": 15
+    },
+    {
+      "id": "c50_big_boss",
+      "title": "The Big Boss Upstairs",
+      "description": "Reach the very top: rank 150.",
+      "kind": "RANK",
+      "target": 150,
+      "rewardGems": 25
+    }
+  ],
+  "intro": {
+    "hostFloor": 18,
+    "heading": "FIRST DAY",
+    "subheading": "Brenda Marsh, Head of People",
+    "lines": [
+      {
+        "who": "hr",
+        "stage": "foyer",
+        "text": "Welcome to Synergex plc! I'm Brenda, Head of People. Lanyard on, love."
+      },
+      {
+        "who": "you",
+        "text": "Thanks! So... what do I actually do here?"
+      },
+      {
+        "who": "hr",
+        "stage": "tea",
+        "text": "Everything, eventually. Thirty floors, 150 promotions. You start in the basement."
+      },
+      {
+        "who": "you",
+        "text": "The basement?"
+      },
+      {
+        "who": "hr",
+        "text": "The tea round. Hire help, buy upgrades, and the work runs itself. Even when you go home."
+      },
+      {
+        "who": "you",
+        "text": "Hang on. It keeps going when I'm not here?"
+      },
+      {
+        "who": "hr",
+        "text": "Until your in-tray fills up. Pop back now and then to collect."
+      },
+      {
+        "who": "you",
+        "text": "And how do I get out of the basement?"
+      },
+      {
+        "who": "hr",
+        "stage": "appraisals",
+        "text": "Office Kudos. Earn enough, ask for a promotion. Five of those and you're up a floor."
+      },
+      {
+        "who": "you",
+        "text": "Sounds simple enough."
+      },
+      {
+        "who": "hr",
+        "text": "It never is. Clock in at the foyer every day and I'll make it worth your while."
+      },
+      {
+        "who": "hr",
+        "stage": "tea",
+        "text": "Right. Doreen's expecting you downstairs. Mind the good mugs."
+      }
+    ]
+  },
+  "deals": [
+    {
+      "productId": "deal_daily_099",
+      "fallbackPrice": "\u00a30.99",
+      "badge": "SNAP IT UP",
+      "variants": [
+        {
+          "title": "Petty Cash",
+          "tagline": "Found it down the back of the sofa.",
+          "gems": 150
+        },
+        {
+          "title": "Elevenses",
+          "tagline": "Paperclips, plus an hour's pay with your biscuit.",
+          "gems": 110,
+          "warpHours": 1
+        },
+        {
+          "title": "Coffee Run",
+          "tagline": "Paperclips and an hour of double-speed caffeine.",
+          "gems": 100,
+          "boostMinutes": 60
+        }
+      ]
+    },
+    {
+      "productId": "deal_daily_199",
+      "fallbackPrice": "\u00a31.99",
+      "badge": "POPULAR",
+      "variants": [
+        {
+          "title": "Expense Claim",
+          "tagline": "Nobody checks the receipts.",
+          "gems": 360
+        },
+        {
+          "title": "Overtime Pack",
+          "tagline": "Paperclips, plus four hours' pay right now.",
+          "gems": 280,
+          "warpHours": 4
+        },
+        {
+          "title": "Team Lunch",
+          "tagline": "Paperclips and two hours of everyone at double speed.",
+          "gems": 300,
+          "boostMinutes": 120
+        }
+      ]
+    },
+    {
+      "productId": "deal_daily_499",
+      "fallbackPrice": "\u00a34.99",
+      "badge": "BEST VALUE",
+      "variants": [
+        {
+          "title": "Quarterly Bonus",
+          "tagline": "A thousand golden paperclips. Treat yourself.",
+          "gems": 1000
+        },
+        {
+          "title": "Bank Holiday Bundle",
+          "tagline": "Paperclips, plus a whole day's pay up front.",
+          "gems": 800,
+          "warpHours": 24
+        },
+        {
+          "title": "Bumper Payday",
+          "tagline": "Paperclips and four hours at double speed.",
+          "gems": 850,
+          "boostMinutes": 240
+        }
+      ]
+    }
+  ],
+  "staffQuips": {
+    "ALL": [
+      "Is it Friday yet?",
+      "I've replied-all by mistake. Twice.",
+      "Who keeps microwaving fish?",
+      "My password expired again.",
+      "I'm not lazy, I'm in energy-saving mode.",
+      "Per my last email...",
+      "Has anyone seen my stapler?",
+      "Can we circle back on that?",
+      "Somebody ate my yoghurt. I know it was Gary.",
+      "Let's take this offline. Forever.",
+      "I've been 'just finishing something' since nine.",
+      "Does anyone actually read the newsletter?",
+      "My chair squeaks. I've named it Kevin.",
+      "Out of office? I wish.",
+      "I only come in for the free biscuits.",
+      "I'll get to it after this cup of tea.",
+      "Ten more minutes and it's lunch.",
+      "I've alphabetised my sticky notes.",
+      "Is there cake? I heard there was cake.",
+      "Don't tell HR, but I quite like it here.",
+      "Did you get the memo about the memos?",
+      "Thanks for your patience. Mine's gone.",
+      "Who set the printer to Swedish?",
+      "Back-to-back meetings. About meetings.",
+      "I'm on mute. In real life."
+    ],
+    "SUPPORT": [
+      "The kettle and I have an understanding.",
+      "Two sugars or three? Everyone says three.",
+      "This envelope says 'urgent'. It's from 2009.",
+      "Paper jam. Again. It's personal now.",
+      "I've counted the biros. One's missing. Suspicious."
+    ],
+    "ADMIN": [
+      "File it under 'later'.",
+      "I type 90 words a minute. Mostly 'sorry'.",
+      "Room 3 is double-booked. Classic Room 3.",
+      "Row 4,812. Nearly there.",
+      "Never open the 1987 box. Never."
+    ],
+    "IT": [
+      "Have you tried turning it off and on again?",
+      "It works on my machine.",
+      "Don't touch the red cable.",
+      "The server's fine. The server is always fine.",
+      "That's not a bug. It's a feature."
+    ],
+    "MANAGEMENT": [
+      "Let's blue-sky this.",
+      "This meeting is about the next meeting.",
+      "On a scale of 1 to 5, I'm a solid 3.",
+      "Action point: more action points.",
+      "Synergy! No, I don't know what it means either."
+    ],
+    "SENIOR": [
+      "Slide 47 is where the magic happens.",
+      "Terms and conditions apply. To everything.",
+      "Let's restructure the restructure.",
+      "Investor lunch. Prawn cocktail again.",
+      "We're pivoting. Again."
+    ],
+    "EXECUTIVE": [
+      "I've never seen the basement. Is it nice?",
+      "Put it on the company card.",
+      "Fore! Sorry, wrong building.",
+      "The yacht's in for repairs, so here I am.",
+      "Buy the company across the road. Then the road."
+    ],
+    "FOYER": [
+      "I'm here for the three o'clock. It's four.",
+      "Is this the way to Accounts?",
+      "I'm a consultant. I'll be billing you for this chat.",
+      "Lovely lobby. Very marble.",
+      "Courier for Synergex. Sign here, please."
+    ],
+    "STAIRS": [
+      "You didn't see anything.",
+      "I'm just... checking the fire exit.",
+      "Don't tell Brenda!",
+      "Five minutes, then straight back to it.",
+      "We're discussing the quarterly figures. Closely.",
+      "The lift's slow. Honest."
+    ],
+    "LOBBY": [
+      "Says here the canteen's doing chips on Friday.",
+      "Just waiting for a lift. For an hour.",
+      "Shh, I'm on my break.",
+      "Have you seen the crossword? Seven down's 'synergy'."
+    ]
+  },
+  "shop": {
+    "timeWarps": [
+      {
+        "id": "warp_1h",
+        "name": "Long Lunch",
+        "hours": 1,
+        "gemCost": 20
+      },
+      {
+        "id": "warp_4h",
+        "name": "Half Day",
+        "hours": 4,
+        "gemCost": 60
+      },
+      {
+        "id": "warp_24h",
+        "name": "Bank Holiday",
+        "hours": 24,
+        "gemCost": 280
+      }
+    ],
+    "boosts": [
+      {
+        "id": "overtime",
+        "name": "Overtime",
+        "speedMult": 2.0,
+        "minutes": 30,
+        "gemCost": 15
+      }
+    ]
+  },
+  "ads": {
+    "coffeeBreakMinutes": 15,
+    "coffeeBreakSpeedMult": 2.0,
+    "maxBoostStackMinutes": 240,
+    "gemReward": 3,
+    "gemAdDailyCap": 3,
+    "dailyRewardCap": 10,
+    "interstitialEveryNPromotions": 3
+  },
+  "daily": {
+    "rewards": [
+      {
+        "day": 1,
+        "type": "CASH_MINUTES",
+        "amount": 30
+      },
+      {
+        "day": 2,
+        "type": "KUDOS_MINUTES",
+        "amount": 30
+      },
+      {
+        "day": 3,
+        "type": "CASH_MINUTES",
+        "amount": 60
+      },
+      {
+        "day": 4,
+        "type": "KUDOS_MINUTES",
+        "amount": 60
+      },
+      {
+        "day": 5,
+        "type": "CASH_MINUTES",
+        "amount": 120
+      },
+      {
+        "day": 6,
+        "type": "KUDOS_MINUTES",
+        "amount": 120
+      },
+      {
+        "day": 7,
+        "type": "PAPERCLIPS",
+        "amount": 5
+      }
+    ],
+    "maxSaveGapDays": 2
+  },
+  "vip": {
+    "offlineCapBonusHours": 4
+  },
+  "iap": [
+    {
+      "productId": "paperclips_small",
+      "name": "Pocket Change",
+      "gems": 100
+    },
+    {
+      "productId": "paperclips_medium",
+      "name": "Pay Packet",
+      "gems": 550
+    },
+    {
+      "productId": "paperclips_large",
+      "name": "Annual Bonus",
+      "gems": 1200
+    },
+    {
+      "productId": "paperclips_huge",
+      "name": "Golden Handshake",
+      "gems": 2600
+    },
+    {
+      "productId": "vip_lifetime",
+      "name": "VIP Lanyard",
+      "gems": 0,
+      "grantsVip": true
+    }
+  ],
+  "events": [
+    {
+      "id": "bonfire_2026",
+      "title": "Bonfire Night Bash",
+      "description": "Remember, remember... double Office Kudos all week!",
+      "startUtc": "2026-11-01T00:00:00Z",
+      "endUtc": "2026-11-09T00:00:00Z",
+      "bannerColor": "#FF7A1A",
+      "cashMult": 1.0,
+      "kudosMult": 2.0,
+      "speedMult": 1.0,
+      "bonusTasks": [
+        {
+          "id": "ev_sparklers",
+          "name": "Hand Out Sparklers",
+          "flavour": "Gloves on, please.",
+          "unlockRank": 1,
+          "baseDurationSec": 5,
+          "baseCash": 1,
+          "baseKudos": 2,
+          "baseCost": 10,
+          "costGrowth": 1.08,
+          "icon": "spark"
+        },
+        {
+          "id": "ev_guy",
+          "name": "Build the Guy",
+          "flavour": "Old suit from lost property.",
+          "unlockRank": 1,
+          "baseDurationSec": 20,
+          "baseCash": 12,
+          "baseKudos": 10,
+          "baseCost": 150,
+          "costGrowth": 1.1,
+          "icon": "guy"
+        }
+      ],
+      "goalCycles": 400,
+      "goalRewardGems": 40
+    },
+    {
+      "id": "xmas_2026",
+      "title": "Office Christmas Party",
+      "description": "Tinsel on every monitor and cash x1.5 all December. Twelve days of jobs, one a day: miss one and it locks.",
+      "startUtc": "2026-12-01T00:00:00Z",
+      "endUtc": "2027-01-02T00:00:00Z",
+      "bannerColor": "#C8102E",
+      "cashMult": 1.5,
+      "kudosMult": 1.0,
+      "speedMult": 1.0,
+      "bonusTasks": [
+        {
+          "id": "ev_santa",
+          "name": "Wrap Secret Santa",
+          "flavour": "Another novelty mug.",
+          "unlockRank": 1,
+          "baseDurationSec": 30,
+          "baseCash": 1,
+          "baseKudos": 2,
+          "baseCost": 2,
+          "costGrowth": 1.15,
+          "icon": "gift"
+        },
+        {
+          "id": "ev_party",
+          "name": "Plan the Xmas Do",
+          "flavour": "Buffet for 40, karaoke till 1.",
+          "unlockRank": 1,
+          "baseDurationSec": 120,
+          "baseCash": 14,
+          "baseKudos": 12,
+          "baseCost": 6,
+          "costGrowth": 1.15,
+          "icon": "party",
+          "unlockStage": 3
+        },
+        {
+          "id": "ev_carols",
+          "name": "Lead the Carols",
+          "flavour": "Three verses, one key. Roughly.",
+          "unlockRank": 1,
+          "baseDurationSec": 300,
+          "baseCash": 40,
+          "baseKudos": 30,
+          "baseCost": 10,
+          "costGrowth": 1.15,
+          "icon": "notepad",
+          "unlockStage": 7
+        }
+      ],
+      "stages": [
+        {
+          "title": "Deck the Halls",
+          "description": "Hire the Secret Santa wrappers and get them to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_santa",
+          "target": 10,
+          "rewardGems": 3
+        },
+        {
+          "title": "The Draw",
+          "description": "Wrap 1,500 Secret Santa presents.",
+          "goal": "CYCLES",
+          "taskId": "ev_santa",
+          "target": 1500,
+          "rewardGems": 4
+        },
+        {
+          "title": "Elbow Grease",
+          "description": "Tap the Christmas jobs 100 times to hurry them along.",
+          "goal": "TAPS",
+          "taskId": "",
+          "target": 100,
+          "rewardGems": 4
+        },
+        {
+          "title": "Book the Venue",
+          "description": "Plan the Xmas Do has turned up: get it to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_party",
+          "target": 10,
+          "rewardGems": 5
+        },
+        {
+          "title": "Mince Pie Mountain",
+          "description": "Wrap 3,000 Secret Santa presents.",
+          "goal": "CYCLES",
+          "taskId": "ev_santa",
+          "target": 3000,
+          "rewardGems": 5
+        },
+        {
+          "title": "The Seating Plan",
+          "description": "Plan the Xmas Do 300 times. Keep Gary away from the bar.",
+          "goal": "CYCLES",
+          "taskId": "ev_party",
+          "target": 300,
+          "rewardGems": 6
+        },
+        {
+          "title": "Tinsel Emergency",
+          "description": "Tap the Christmas jobs 120 times. It's everywhere.",
+          "goal": "TAPS",
+          "taskId": "",
+          "target": 120,
+          "rewardGems": 6
+        },
+        {
+          "title": "Carol Practice",
+          "description": "Lead the Carols has turned up: get it to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_carols",
+          "target": 10,
+          "rewardGems": 7
+        },
+        {
+          "title": "Raffle Prizes",
+          "description": "Plan the Xmas Do 400 times. Someone has to win the hamper.",
+          "goal": "CYCLES",
+          "taskId": "ev_party",
+          "target": 400,
+          "rewardGems": 8
+        },
+        {
+          "title": "Carols by the Lifts",
+          "description": "Lead the Carols 150 times.",
+          "goal": "CYCLES",
+          "taskId": "ev_carols",
+          "target": 150,
+          "rewardGems": 8
+        },
+        {
+          "title": "Dress Rehearsal",
+          "description": "Wrap 4,000 Secret Santa presents.",
+          "goal": "CYCLES",
+          "taskId": "ev_santa",
+          "target": 4000,
+          "rewardGems": 10
+        },
+        {
+          "title": "The Big Night",
+          "description": "Plan the Xmas Do 500 times. Then home, somehow.",
+          "goal": "CYCLES",
+          "taskId": "ev_party",
+          "target": 500,
+          "rewardGems": 12
+        }
+      ],
+      "reopenCostGems": 5,
+      "finalRewardGems": 30,
+      "trophyName": "Christmas Party Cup",
+      "pricedInPayMinutes": true,
+      "theme": "christmas"
+    },
+    {
+      "id": "valentine_2027",
+      "title": "Love Is in the Air (Con)",
+      "description": "Valentine's week at Synergex: cards, carnations and awkward eye contact by the water cooler. Office Kudos x1.5 all week.",
+      "startUtc": "2027-02-09T00:00:00Z",
+      "endUtc": "2027-02-16T00:00:00Z",
+      "bannerColor": "#E8405A",
+      "cashMult": 1.0,
+      "kudosMult": 1.5,
+      "speedMult": 1.0,
+      "bonusTasks": [
+        {
+          "id": "ev_cards",
+          "name": "Deliver Valentine's Cards",
+          "flavour": "Anonymous. Obviously from Gary.",
+          "unlockRank": 1,
+          "baseDurationSec": 6,
+          "baseCash": 1,
+          "baseKudos": 2,
+          "baseCost": 10,
+          "costGrowth": 1.08,
+          "icon": "heart"
+        },
+        {
+          "id": "ev_carnation",
+          "name": "Sell Carnation Grams",
+          "flavour": "\u00a31 each, for the Christmas fund.",
+          "unlockRank": 1,
+          "baseDurationSec": 24,
+          "baseCash": 12,
+          "baseKudos": 10,
+          "baseCost": 150,
+          "costGrowth": 1.1,
+          "icon": "gift"
+        }
+      ],
+      "goalCycles": 400,
+      "goalRewardGems": 40
+    },
+    {
+      "id": "easter_2027",
+      "title": "The Great Easter Egg Hunt",
+      "description": "Seven days of eggs, hunts and hot cross buns, one a day: miss one and it locks. Cash x1.25 for a fortnight.",
+      "startUtc": "2027-03-22T00:00:00Z",
+      "endUtc": "2027-04-06T00:00:00Z",
+      "bannerColor": "#E9A23B",
+      "cashMult": 1.25,
+      "kudosMult": 1.0,
+      "speedMult": 1.0,
+      "bonusTasks": [
+        {
+          "id": "ev_eggs",
+          "name": "Hide the Eggs",
+          "flavour": "Not in the server room. Again.",
+          "unlockRank": 1,
+          "baseDurationSec": 30,
+          "baseCash": 1,
+          "baseKudos": 2,
+          "baseCost": 2,
+          "costGrowth": 1.15,
+          "icon": "egg"
+        },
+        {
+          "id": "ev_hunt",
+          "name": "Run the Egg Hunt",
+          "flavour": "Clipboards at the ready.",
+          "unlockRank": 1,
+          "baseDurationSec": 120,
+          "baseCash": 14,
+          "baseKudos": 12,
+          "baseCost": 6,
+          "costGrowth": 1.15,
+          "icon": "notepad",
+          "unlockStage": 2
+        },
+        {
+          "id": "ev_buns",
+          "name": "Bake Hot Cross Buns",
+          "flavour": "The office oven's first outing.",
+          "unlockRank": 1,
+          "baseDurationSec": 300,
+          "baseCash": 40,
+          "baseKudos": 30,
+          "baseCost": 10,
+          "costGrowth": 1.15,
+          "icon": "bun",
+          "unlockStage": 4
+        }
+      ],
+      "stages": [
+        {
+          "title": "Shopping List",
+          "description": "Hire the egg hiders and get them to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_eggs",
+          "target": 10,
+          "rewardGems": 3
+        },
+        {
+          "title": "Under the Desks",
+          "description": "Hide 1,500 eggs.",
+          "goal": "CYCLES",
+          "taskId": "ev_eggs",
+          "target": 1500,
+          "rewardGems": 4
+        },
+        {
+          "title": "On Your Marks",
+          "description": "Run the Egg Hunt has turned up: get it to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_hunt",
+          "target": 10,
+          "rewardGems": 4
+        },
+        {
+          "title": "Chocolate Rush",
+          "description": "Tap the Easter jobs 100 times to hurry them along.",
+          "goal": "TAPS",
+          "taskId": "",
+          "target": 100,
+          "rewardGems": 5
+        },
+        {
+          "title": "Bake Off",
+          "description": "Bake Hot Cross Buns has turned up: get it to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_buns",
+          "target": 10,
+          "rewardGems": 5
+        },
+        {
+          "title": "Lost Eggs Report",
+          "description": "Run the Egg Hunt 300 times. Check behind the radiators.",
+          "goal": "CYCLES",
+          "taskId": "ev_hunt",
+          "target": 300,
+          "rewardGems": 6
+        },
+        {
+          "title": "Easter Sunday",
+          "description": "Bake 150 batches of Hot Cross Buns.",
+          "goal": "CYCLES",
+          "taskId": "ev_buns",
+          "target": 150,
+          "rewardGems": 8
+        }
+      ],
+      "stagesStartUtc": "2027-03-22T00:00:00Z",
+      "reopenCostGems": 5,
+      "finalRewardGems": 15,
+      "trophyName": "Golden Egg",
+      "pricedInPayMinutes": true
+    },
+    {
+      "id": "heatwave_2027",
+      "title": "Heatwave!",
+      "description": "It's 34\u00b0C, the air con has given up and someone's brought a paddling pool to Accounts. Everything runs x1.25 faster while it lasts.",
+      "startUtc": "2027-07-19T00:00:00Z",
+      "endUtc": "2027-07-26T00:00:00Z",
+      "bannerColor": "#FF9A1A",
+      "cashMult": 1.0,
+      "kudosMult": 1.0,
+      "speedMult": 1.25,
+      "bonusTasks": [
+        {
+          "id": "ev_aircon",
+          "name": "Fix the Air Con",
+          "flavour": "It's making a noise like a goose.",
+          "unlockRank": 1,
+          "baseDurationSec": 8,
+          "baseCash": 1,
+          "baseKudos": 2,
+          "baseCost": 12,
+          "costGrowth": 1.08,
+          "icon": "fan"
+        },
+        {
+          "id": "ev_icecream",
+          "name": "Ice-Cream Run",
+          "flavour": "Mr Whippy's parked outside.",
+          "unlockRank": 1,
+          "baseDurationSec": 30,
+          "baseCash": 14,
+          "baseKudos": 12,
+          "baseCost": 180,
+          "costGrowth": 1.1,
+          "icon": "icecream"
+        }
+      ],
+      "goalCycles": 500,
+      "goalRewardGems": 50
+    }
+  ]
+}
