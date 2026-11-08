@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 14,
+  "contentVersion": 15,
   "gameTitle": "Out of Office",
   "company": "Synergex plc",
   "economy": {
@@ -5016,9 +5016,9 @@
     {
       "id": "valentine_2027",
       "title": "Love Is in the Air (Con)",
-      "description": "Valentine's week at Synergex: cards, carnations and awkward eye contact by the water cooler. Office Kudos x1.5 all week.",
+      "description": "Seven days of cards, carnations and speed networking, one a day: miss one and it locks. Office Kudos x1.5 for a fortnight.",
       "startUtc": "2027-02-09T00:00:00Z",
-      "endUtc": "2027-02-16T00:00:00Z",
+      "endUtc": "2027-02-23T00:00:00Z",
       "bannerColor": "#E8405A",
       "cashMult": 1.0,
       "kudosMult": 1.5,
@@ -5029,11 +5029,11 @@
           "name": "Deliver Valentine's Cards",
           "flavour": "Anonymous. Obviously from Gary.",
           "unlockRank": 1,
-          "baseDurationSec": 6,
+          "baseDurationSec": 30,
           "baseCash": 1,
           "baseKudos": 2,
-          "baseCost": 10,
-          "costGrowth": 1.08,
+          "baseCost": 2,
+          "costGrowth": 1.15,
           "icon": "heart"
         },
         {
@@ -5041,16 +5041,91 @@
           "name": "Sell Carnation Grams",
           "flavour": "\u00a31 each, for the Christmas fund.",
           "unlockRank": 1,
-          "baseDurationSec": 24,
-          "baseCash": 12,
-          "baseKudos": 10,
-          "baseCost": 150,
-          "costGrowth": 1.1,
-          "icon": "gift"
+          "baseDurationSec": 120,
+          "baseCash": 14,
+          "baseKudos": 12,
+          "baseCost": 6,
+          "costGrowth": 1.15,
+          "icon": "gift",
+          "unlockStage": 2
+        },
+        {
+          "id": "ev_speed",
+          "name": "Host Speed Networking",
+          "flavour": "Three minutes, then the bell. Ding.",
+          "unlockRank": 1,
+          "baseDurationSec": 300,
+          "baseCash": 40,
+          "baseKudos": 30,
+          "baseCost": 10,
+          "costGrowth": 1.15,
+          "icon": "party",
+          "unlockStage": 4
         }
       ],
-      "goalCycles": 400,
-      "goalRewardGems": 40
+      "stages": [
+        {
+          "title": "Card Shop Run",
+          "description": "Hire the card deliverers and get them to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_cards",
+          "target": 10,
+          "rewardGems": 3
+        },
+        {
+          "title": "Secret Admirers",
+          "description": "Deliver 1,500 Valentine's cards.",
+          "goal": "CYCLES",
+          "taskId": "ev_cards",
+          "target": 1500,
+          "rewardGems": 4
+        },
+        {
+          "title": "Say It With Flowers",
+          "description": "Sell Carnation Grams has turned up: get it to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_carnation",
+          "target": 10,
+          "rewardGems": 4
+        },
+        {
+          "title": "Butterflies",
+          "description": "Tap the Valentine's jobs 100 times to hurry them along.",
+          "goal": "TAPS",
+          "taskId": "",
+          "target": 100,
+          "rewardGems": 5
+        },
+        {
+          "title": "Ding Ding",
+          "description": "Host Speed Networking has turned up: get it to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_speed",
+          "target": 10,
+          "rewardGems": 5
+        },
+        {
+          "title": "Flower Power",
+          "description": "Sell 300 Carnation Grams. Accounts bought 40.",
+          "goal": "CYCLES",
+          "taskId": "ev_carnation",
+          "target": 300,
+          "rewardGems": 6
+        },
+        {
+          "title": "The Big Day",
+          "description": "Host 150 rounds of Speed Networking.",
+          "goal": "CYCLES",
+          "taskId": "ev_speed",
+          "target": 150,
+          "rewardGems": 8
+        }
+      ],
+      "stagesStartUtc": "2027-02-09T00:00:00Z",
+      "reopenCostGems": 5,
+      "finalRewardGems": 15,
+      "trophyName": "Golden Heart",
+      "pricedInPayMinutes": true
     },
     {
       "id": "easter_2027",
@@ -5169,9 +5244,9 @@
     {
       "id": "heatwave_2027",
       "title": "Heatwave!",
-      "description": "It's 34\u00b0C, the air con has given up and someone's brought a paddling pool to Accounts. Everything runs x1.25 faster while it lasts.",
+      "description": "It's 34\u00b0C, the air con has given up and someone's brought a paddling pool to Accounts. Seven days of jobs, one a day: miss one and it locks. Everything runs x1.25 faster for a fortnight.",
       "startUtc": "2027-07-19T00:00:00Z",
-      "endUtc": "2027-07-26T00:00:00Z",
+      "endUtc": "2027-08-02T00:00:00Z",
       "bannerColor": "#FF9A1A",
       "cashMult": 1.0,
       "kudosMult": 1.0,
@@ -5182,11 +5257,11 @@
           "name": "Fix the Air Con",
           "flavour": "It's making a noise like a goose.",
           "unlockRank": 1,
-          "baseDurationSec": 8,
+          "baseDurationSec": 30,
           "baseCash": 1,
           "baseKudos": 2,
-          "baseCost": 12,
-          "costGrowth": 1.08,
+          "baseCost": 2,
+          "costGrowth": 1.15,
           "icon": "fan"
         },
         {
@@ -5194,16 +5269,91 @@
           "name": "Ice-Cream Run",
           "flavour": "Mr Whippy's parked outside.",
           "unlockRank": 1,
-          "baseDurationSec": 30,
+          "baseDurationSec": 120,
           "baseCash": 14,
           "baseKudos": 12,
-          "baseCost": 180,
-          "costGrowth": 1.1,
-          "icon": "icecream"
+          "baseCost": 6,
+          "costGrowth": 1.15,
+          "icon": "icecream",
+          "unlockStage": 2
+        },
+        {
+          "id": "ev_pool",
+          "name": "Fill the Paddling Pool",
+          "flavour": "Accounts have taken their shoes off.",
+          "unlockRank": 1,
+          "baseDurationSec": 300,
+          "baseCash": 40,
+          "baseKudos": 30,
+          "baseCost": 10,
+          "costGrowth": 1.15,
+          "icon": "facilities",
+          "unlockStage": 4
         }
       ],
-      "goalCycles": 500,
-      "goalRewardGems": 50
+      "stages": [
+        {
+          "title": "Melting Point",
+          "description": "Hire the air-con fixers and get them to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_aircon",
+          "target": 10,
+          "rewardGems": 3
+        },
+        {
+          "title": "Hot Under the Collar",
+          "description": "Fix the air con 1,500 times. It keeps breaking.",
+          "goal": "CYCLES",
+          "taskId": "ev_aircon",
+          "target": 1500,
+          "rewardGems": 4
+        },
+        {
+          "title": "Ninety-Nines",
+          "description": "Ice-Cream Run has turned up: get it to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_icecream",
+          "target": 10,
+          "rewardGems": 4
+        },
+        {
+          "title": "Fan Club",
+          "description": "Tap the heatwave jobs 100 times to hurry them along.",
+          "goal": "TAPS",
+          "taskId": "",
+          "target": 100,
+          "rewardGems": 5
+        },
+        {
+          "title": "Make a Splash",
+          "description": "Fill the Paddling Pool has turned up: get it to level 10.",
+          "goal": "LEVEL",
+          "taskId": "ev_pool",
+          "target": 10,
+          "rewardGems": 5
+        },
+        {
+          "title": "Flake Shortage",
+          "description": "Do 300 ice-cream runs. Someone ate all the flakes.",
+          "goal": "CYCLES",
+          "taskId": "ev_icecream",
+          "target": 300,
+          "rewardGems": 6
+        },
+        {
+          "title": "Scorchio",
+          "description": "Fill the paddling pool 150 times.",
+          "goal": "CYCLES",
+          "taskId": "ev_pool",
+          "target": 150,
+          "rewardGems": 8
+        }
+      ],
+      "stagesStartUtc": "2027-07-19T00:00:00Z",
+      "reopenCostGems": 5,
+      "finalRewardGems": 15,
+      "trophyName": "Golden Ice Lolly",
+      "pricedInPayMinutes": true
     }
   ]
 }
