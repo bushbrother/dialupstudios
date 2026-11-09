@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spielanleitung – Out of Office</title>
+<meta name="description" content="Das Out of Office-Mitarbeiterhandbuch: wie du spielst, Geld verdienst, befördert wirst und den Synergex-Turm erklimmst.">
+<style>
+  :root { --bg:#008080; --panel:#c0c0c0; --paper:#ffffff; --ink:#1a1a1a; --soft:#4a4a4a; --bar:#000080; --cash:#1e7a32; --kudos:#b8860b; --clip:#a8740a; --tint:#fff4d0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 Georgia, "Times New Roman", serif; }
+  .win { max-width:860px; margin:24px auto; background:var(--panel); border:2px solid; border-color:#fff #404040 #404040 #fff; }
+  .title { background:var(--bar); color:#fff; font:bold 15px/1 Tahoma, Verdana, sans-serif; padding:7px 10px; display:flex; justify-content:space-between; }
+  .title a { color:#fff; text-decoration:none; }
+  .body { background:var(--paper); margin:6px; padding:22px 28px; border:2px solid; border-color:#404040 #fff #fff #404040; }
+  h1 { font-size:1.8rem; margin:0 0 .2rem; }
+  h2 { font:bold 1.15rem Tahoma, Verdana, sans-serif; margin:2.2rem 0 .5rem; color:var(--bar); border-bottom:2px solid #c0c0c0; padding-bottom:.2rem; scroll-margin-top:12px; }
+  h3 { font:bold 1rem Tahoma, Verdana, sans-serif; margin:1.2rem 0 .3rem; }
+  .meta { color:var(--soft); margin:0 0 1rem; }
+  li { margin:.3rem 0; }
+  a { color:var(--bar); }
+  img.scene { width:100%; height:auto; image-rendering:pixelated; border:2px solid #404040; display:block; margin:.6rem 0 .3rem; background:#000; }
+  img.tower { max-width:260px; width:100%; image-rendering:pixelated; border:2px solid #404040; float:right; margin:0 0 1rem 1.2rem; }
+  img.ico { width:28px; height:28px; image-rendering:pixelated; vertical-align:middle; margin-right:6px; }
+  .caption { color:var(--soft); font-size:.9rem; margin:0 0 1rem; }
+  .hero { display:flex; gap:18px; align-items:center; margin-bottom:1rem; }
+  .hero img { width:88px; height:88px; image-rendering:pixelated; border:2px solid #404040; }
+  .toc { background:var(--tint); border:2px solid; border-color:#404040 #fff #fff #404040; padding:10px 16px; columns:2; column-gap:28px; font-family:Tahoma, Verdana, sans-serif; font-size:.92rem; }
+  .toc a { display:block; padding:2px 0; }
+  .callouts { counter-reset:c; list-style:none; padding:0; }
+  .callouts li { counter-increment:c; padding-left:2.2rem; position:relative; }
+  .callouts li::before { content:counter(c); position:absolute; left:0; top:.1rem; width:1.5rem; height:1.5rem; border-radius:50%; background:#c8102e; color:#fff; font:bold .85rem/1.5rem Tahoma, Verdana, sans-serif; text-align:center; border:2px solid #fff; box-shadow:0 0 0 1px #c8102e; }
+  table { border-collapse:collapse; width:100%; margin:.6rem 0 1rem; font-size:.95rem; }
+  th, td { border:1px solid #9a9a9a; padding:6px 8px; text-align:left; vertical-align:top; }
+  th { background:#e4e4e4; font-family:Tahoma, Verdana, sans-serif; font-size:.85rem; }
+  .tip { background:#eaf6ea; border-left:4px solid var(--cash); padding:8px 12px; margin:1rem 0; }
+  .clear { clear:both; }
+  footer { margin-top:2.5rem; color:var(--soft); font-size:.9rem; border-top:2px solid #c0c0c0; padding-top:.8rem; }
+  @media (max-width:640px) {
+    .win { margin:0; border:0; } .body { margin:0; padding:16px; }
+    .toc { columns:1; } img.tower { float:none; display:block; margin:0 auto 1rem; max-width:220px; }
+    .hero img { width:64px; height:64px; }
+  }
+</style>
+<!--langs--><link rel="alternate" hreflang="en" href="help.html"><link rel="alternate" hreflang="fr" href="help.fr.html"><link rel="alternate" hreflang="de" href="help.de.html"><link rel="alternate" hreflang="es" href="help.es.html"><link rel="alternate" hreflang="it" href="help.it.html"><link rel="alternate" hreflang="el" href="help.el.html"><!--/langs-->
+</head>
+<body>
+<div class="win">
+<div class="title"><span>Spielanleitung – Out of Office</span><a href="index.de.html">✕</a></div>
+<div class="body"><!--langs--><nav class="langs" style="font:13px/1.4 sans-serif;text-align:right;margin:0 0 .6rem"><a href="help.html" lang="en" hreflang="en">English</a> · <a href="help.fr.html" lang="fr" hreflang="fr">Français</a> · <strong>Deutsch</strong> · <a href="help.es.html" lang="es" hreflang="es">Español</a> · <a href="help.it.html" lang="it" hreflang="it">Italiano</a> · <a href="help.el.html" lang="el" hreflang="el">Ελληνικά</a></nav><!--/langs-->
+
+<div class="hero">
+  <img src="img/app-icon.png" alt="Out of Office app icon">
+  <div>
+    <h1>Das Mitarbeiterhandbuch</h1>
+    <p class="meta">Alles, was du brauchst, um vom Teekocher zum Big Boss ganz oben bei der Synergex plc aufzusteigen.</p>
+  </div>
+</div>
+
+<nav class="toc" aria-label="Inhalt">
+  <a href="#basics">1. Die Grundlagen</a>
+  <a href="#money">2. Bargeld, Kudos und Klammern</a>
+  <a href="#office">3. Orientierung im Büro</a>
+  <a href="#foyer">4. Das Foyer</a>
+  <a href="#jobs">5. Jobs und Level</a>
+  <a href="#promotions">6. Beförderungen und Etagen</a>
+  <a href="#menus">7. Aufgaben, Werkzeuge, Karriere und Shop</a>
+  <a href="#away">8. Während du weg bist</a>
+  <a href="#attendance">9. Tägliches Einstempeln</a>
+  <a href="#challenges">10. Herausforderungen</a>
+  <a href="#events">11. Events</a>
+  <a href="#boosts">12. Kaffeepausen, Werbung und VIP</a>
+  <a href="#settings">13. Einstellungen und Cloud-Speicher</a>
+  <a href="#faq">14. Fragen</a>
+</nav>
+
+<h2 id="basics">1. Die Grundlagen</h2>
+<p>Du startest als <strong>Praktikant</strong>, der in der Teeküche im Keller der Synergex plc Tee kocht. Jede Etage des 30-stöckigen Turms hat ihren eigenen <strong>Job</strong> – ein Gerät oder einen Schreibtisch, der auf Zeit arbeitet und bei Fertigstellung Geld ausschüttet. Dein Ziel ist es, Geld zu verdienen, Upgrades zu kaufen und dich bis in die oberste Etage befördern zu lassen.</p>
+<img class="scene" src="img/help-tea.png" alt="The first job: a kettle and toaster making tea">
+<p class="caption">Dein erster Job: Tee kochen. Tippe darauf, um die Runde zu beschleunigen.</p>
+<ul>
+  <li><strong>Jobs verdienen von ganz allein.</strong> Sobald ein Job gestartet ist, läuft er weiter – selbst wenn die App geschlossen ist.</li>
+  <li><strong>Level Jobs auf</strong>, um mehr zu verdienen und die Plätze mit Kollegen zu füllen.</li>
+  <li><strong>Fülle die Büro-Kudos-Leiste</strong> oben auf dem Bildschirm und tippe darauf, um um eine Beförderung zu bitten.</li>
+  <li><strong>Jede Beförderung</strong> steigert alle deine Einnahmen, und alle paar Beförderungen ziehst du eine Etage höher zu einem neuen Job.</li>
+</ul>
+<p>An deinem ersten Tag führt dich Brenda aus der Personalabteilung herum, sodass du alles direkt in der Praxis lernst.</p>
+
+<h2 id="money">2. Bargeld, Büro-Kudos und goldene Büroklammern</h2>
+<table>
+  <tr><th style="width:34%">Währung</th><th>Wofür sie da ist</th></tr>
+  <tr><td><img class="ico" src="img/icon-cashwad.png" alt="">Bargeld (£)</td><td>Wird jedes Mal verdient, wenn ein Job fertig wird. Gib es für Job-Level und Werkzeuge aus.</td></tr>
+  <tr><td><img class="ico" src="img/icon-thumbsup.png" alt="">Büro-Kudos</td><td>Wird ebenfalls bei jeder Auszahlung verdient. Wird nie ausgegeben: Fülle die Leiste, um deine nächste Beförderung freizuschalten.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Goldene Büroklammern</td><td>Die Premium-Währung. Erhältlich durch Beförderungen, Herausforderungen, deine Stempelkarte, Events und Werbebelohnungen oder im Shop gekauft. Nutze sie für Boosts, Zeitsprünge und Premium-Werkzeuge.</td></tr>
+</table>
+
+<h2 id="office">3. Orientierung im Büro</h2>
+<p>Der Hauptbildschirm zeigt eine Etage des Turms in der Seitenansicht. <strong>Wische nach links und rechts</strong>, um hindurchzugehen, und <strong>zoome mit zwei Fingern</strong>. Fast alles lässt sich antippen.</p>
+<img class="scene" src="img/help-office.png" alt="An office floor with numbered callouts">
+<ol class="callouts">
+  <li><strong>Der Job der Etage.</strong> Tippe darauf, um ihn zu beschleunigen. Das Etikett unten zeigt sein Level, die Einnahmen und den <em>Level Up</em>-Button.</li>
+  <li><strong>Deine Kollegen.</strong> Die Tische füllen sich mit steigendem Job-Level. Tippe jeden an für einen flotten Spruch.</li>
+  <li><strong>Dein Schreibtisch</strong> (markiert mit DU) steht auf der Etage, auf die du befördert wurdest.</li>
+  <li><strong>Das Büro der Leitung.</strong> Tippe den Chef an, um zu hören, was er denkt.</li>
+  <li><strong>Die Aufzüge.</strong> Tippe auf einen Aufzug für die Etagenknöpfe und fahre zu jeder freigeschalteten Etage.</li>
+  <li><strong>Drucker und Wasserspender.</strong> Tippe sie für eine Überraschung an.</li>
+  <li><strong>Das Fluchttreppenhaus.</strong> Behalte das Treppenhaus im Auge: Leute kommen und gehen.</li>
+</ol>
+<p>Der <strong>Karten-Button</strong> in der oberen Leiste (der kleine Turm) zeigt das gesamte Gebäude: deine freigeschalteten Etagen, deinen Schreibtisch und wer welche Etage leitet.</p>
+<p>Die Beleuchtung richtet sich nach der Uhrzeit deines Handys: Tag ab 6:00 Uhr, Nacht ab 19:00 Uhr.</p>
+
+<h2 id="foyer">4. Das Foyer</h2>
+<p>Das Erdgeschoss ist das Foyer. Nimm den Aufzug zu <strong>EG</strong> für einen Besuch.</p>
+<img class="scene" src="img/help-foyer.png" alt="The foyer with numbered callouts">
+<ol class="callouts">
+  <li><strong>Die Aufzüge</strong> zurück zu den Büros.</li>
+  <li><strong>Die Stempeluhr.</strong> Tippe darauf für deine Stempelkarte und Serie (siehe <a href="#attendance">Einstempeln</a>).</li>
+  <li><strong>Das Schwarze Brett.</strong> Während eines Events zieht sich ein EVENT-Band über die Ecke: Tippe das Brett fürs Event an. Sonst hängen dort die üblichen Büromitteilungen.</li>
+  <li><strong>Das „Baldiges Event!“-Plakat.</strong> Es erscheint fünf Tage vor Beginn eines Events. Tippe darauf, um zu sehen, was ansteht.</li>
+  <li><strong>Maxine am Empfang</strong>, ständig am Telefon.</li>
+  <li><strong>Ron vom Sicherheitsdienst.</strong> Er winkt freundlich.</li>
+  <li><strong>Stan der Hausmeister.</strong> Tippe ihn an für <em>Über das Spiel</em>: App-Version, Neuigkeiten und Lizenzen.</li>
+  <li><strong>Der Eingang.</strong> Besucher kommen durch die Drehtür herein.</li>
+</ol>
+
+<h2 id="jobs">5. Jobs und Level</h2>
+<ul>
+  <li><strong>Starte</strong> einen Job mit seinem ersten Level und <strong>level ihn auf</strong> mit Bargeld. Jedes Level bringt mehr ein.</li>
+  <li>Bei <strong>Level 10, 25, 50, 100</strong> und darüber hinaus arbeitet der Job <strong>doppelt so schnell</strong>.</li>
+  <li><strong>Tippe auf einen Job, um ihn anzutreiben.</strong> Jeder Tipp verkürzt die aktuelle Runde und die Einnahmen steigen in Gold auf.</li>
+  <li><strong>Büro-Überlastung.</strong> Tippe schnell und die <em>Büro-Überlastung</em>-Anzeige erscheint links. Je heißer sie wird, desto mehr ist jeder Tipp wert (bis zu x2,5) und desto mehr gerät das Büro in Panik. Fülle sie ganz und die Etage erleidet für einige Sekunden einen totalen <strong>Kollaps</strong>: pures Chaos und jeder Tipp zählt dreifach (x3). Danach brauchen alle kurz Pause zum Abkühlen.</li>
+  <li>Im Fenster <strong>Aufgaben</strong> kannst du 1 Level, 10 Level oder <strong>MAX</strong> (so viele du dir leisten kannst) auf einmal kaufen.</li>
+</ul>
+<div class="tip"><strong>Tipp:</strong> Jobs auf neuen Etagen bringen viel mehr ein als alte. Steck den Großteil deines Bargelds in deinen neuesten Job und nimm bei den älteren die günstigen Meilenstein-Level mit.</div>
+
+<h2 id="promotions">6. Beförderungen und Etagen</h2>
+<img class="tower" src="img/help-tower.png" alt="The building map showing unlocked floors">
+<ul>
+  <li>Es gibt <strong>150 Beförderungen</strong> – fünf auf jeder der <strong>30 Etagen</strong>.</li>
+  <li>Wenn die Büro-Kudos-Leiste voll ist, blinkt sie: <strong>Tippe darauf, um um eine Beförderung zu bitten</strong>.</li>
+  <li><strong>Jede Beförderung</strong> multipliziert alles Bargeld (×1,10) und alle Büro-Kudos (×1,06).</li>
+  <li>Die <strong>erste Beförderung auf jeder Etage</strong> verlegt deinen Schreibtisch ein Stockwerk höher, schaltet den Job dieser Etage frei und belohnt dich mit goldenen Büroklammern. Ein neuer Manager stellt sich vor.</li>
+  <li>Die 2. und 4. Beförderung auf einer Etage schalten deren <strong>Werkzeuge</strong> frei.</li>
+  <li>Dein Outfit wird umso schicker, je höher du aufsteigst.</li>
+</ul>
+<p>Die Etagen reichen vom Support (Tee, Post, Fotokopieren) über Verwaltung, IT und Gebäudetechnik, Management und Führungskräfte bis zu den Vorstandsetagen: Fusionen, Golf und ganz oben <em>Das Imperium leiten</em>.</p>
+<div class="clear"></div>
+
+<h2 id="menus">7. Aufgaben, Werkzeuge, Karriere und Shop</h2>
+<p>Die vier Buttons am unteren Rand öffnen Menüfenster über dem Büro:</p>
+<table>
+  <tr><th style="width:24%">Button</th><th>What's inside</th></tr>
+  <tr><td><img class="ico" src="img/icon-notepad.png" alt="">Aufgaben</td><td>Alle deine Jobs: Level, Einnahmen, der nächste Tempo-Meilenstein und Sammelkauf von Leveln.</td></tr>
+  <tr><td><img class="ico" src="img/icon-printer.png" alt="">Werkzeuge</td><td>Einmalige Upgrades. Jede Etage hat zwei (eines verdreifacht den Lohn, eines verdoppelt das Tempo), plus firmenweite Werkzeuge für Tempo, Lohn, Kudos und längere Abwesenheitszeit sowie mit Klammern gekaufte Premium-Werkzeuge. Wenn dir etwas Geld fehlt, setzt <strong>Jetzt zahlen</strong> dein ganzes Bargeld ein und Büroklammern decken den Rest.</td></tr>
+  <tr><td><img class="ico" src="img/icon-chart.png" alt="">Karriere</td><td>Jeder Rang im Unternehmen, die dafür nötigen Büro-Kudos und die Büroklammer-Belohnung.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Shop</td><td>Tagesangebote, Gratis-Boni (Werbung), VIP, Büroklammer-Pakete und nützliche Extras: <em>Überstunden</em> (doppeltes Tempo für 30 Minuten) und Zeitsprünge (<em>Lange Mittagspause</em> 1 Stunde, <em>Halber Tag</em> 4 Stunden, <em>Feiertag</em> 24 Stunden Lohn sofort).</td></tr>
+</table>
+
+<h2 id="away">8. Während du weg bist</h2>
+<ul>
+  <li>Dein Team <strong>arbeitet weiter, wenn die App geschlossen ist</strong> – bis zu deiner maximalen <strong>Abwesenheitszeit</strong>: 3 Stunden zu Beginn, bis zu 24 Stunden mit Werkzeugen, plus 4 zusätzliche Stunden für VIPs.</li>
+  <li>Wenn du zurückkehrst, zeigt dir die Karte <strong>Zurück im Büro</strong> deine Einnahmen. Tippe auf <strong>Einsammeln</strong> oder <strong>Verdoppeln</strong> durch einen kurzen Werbespot (VIPs verdoppeln sofort).</li>
+  <li>Wenn deine Abwesenheitszeit abläuft, pausiert die Arbeit, bis du zurückkehrst. Eine <strong>Erinnerung</strong> informiert dich, wenn dein Posteingang voll ist (in den Einstellungen aktivierbar).</li>
+  <li><strong>Bildschirm anlassen</strong> (in den Einstellungen) hält dein Telefon wach, während das Spiel geöffnet ist, damit du dem Büro beim Arbeiten zuschauen kannst.</li>
+  <li>Drückst du <strong>Zurück</strong>, wirst du gefragt, ob du <strong>ausstempeln</strong> möchtest. Beim Ausstempeln wird dein Spielstand gesichert (auch in der Cloud, falls angemeldet), bevor sich der Bildschirm ausschaltet.</li>
+</ul>
+
+<h2 id="attendance">9. Tägliches Einstempeln</h2>
+<p>Tippe auf die Stempeluhr im Foyer (sie öffnet sich auch bei deinem ersten Besuch des Tages), um deine <strong>Anwesenheitsbelohnung</strong> abzuholen. Die Karte läuft über sieben Tage und die Belohnungen wachsen im Laufe der Woche:</p>
+<table>
+  <tr><th style="width:22%">Tag</th><th>Belohnung</th></tr>
+  <tr><td>1</td><td><img class="ico" src="img/icon-cashwad.png" alt="">30 Minuten Lohn</td></tr>
+  <tr><td>2</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">30 Minuten Büro-Kudos</td></tr>
+  <tr><td>3</td><td><img class="ico" src="img/icon-cashwad.png" alt="">1 Stunde Lohn</td></tr>
+  <tr><td>4</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">1 Stunde Büro-Kudos</td></tr>
+  <tr><td>5</td><td><img class="ico" src="img/icon-cashwad.png" alt="">2 Stunden Lohn</td></tr>
+  <tr><td>6</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">2 Stunden Büro-Kudos</td></tr>
+  <tr><td>7</td><td><img class="ico" src="img/icon-paperclip.png" alt="">5 goldene Büroklammern</td></tr>
+</table>
+<ul>
+  <li><strong>Wöchentlicher Serien-Bonus:</strong> Jede volle Woche in Folge bringt <strong>+5 %</strong> Bonus auf Bargeld- und Kudos-Belohnungen, bis zu <strong>+25 %</strong>. Tag 8–14 erhalten +5 %, Tag 15–21 erhalten +10 % usw. Büroklammern bleiben konstant. Die Karte zeigt deine Serie und den aktuellen Bonus.</li>
+  <li><strong>Einen Tag verpasst?</strong> Hast du bis zu zwei Tage verpasst, kannst du <strong>deine Serie retten</strong>, indem du ein Werbevideo ansiehst (für VIPs kostenlos), oder bei Tag 1 neu beginnen.</li>
+  <li>Eine <strong>Erinnerung um 18:30 Uhr</strong> benachrichtigt dich, falls die heutige Belohnung noch wartet.</li>
+</ul>
+
+<h2 id="challenges">10. Herausforderungen</h2>
+<p>Es gibt <strong>50 Herausforderungen</strong>, die nacheinander über den <strong>#</strong>-Button rechts aufgerufen werden. Die Leiste füllt sich bei Fortschritt und blinkt mit <strong>EINFORDERN!</strong>, wenn eine geschafft ist. Jede belohnt mit goldenen Büroklammern (von 3 bis 25 Stück). Sie führen dich an Features heran, die du vielleicht noch nicht entdeckt hast: Aufzug, Karte, Kaffeepausen oder Werkzeuge. Spätere Aufgaben dauern Tage oder Wochen.</p>
+
+<h2 id="events">11. Events</h2>
+<ul>
+  <li>Events laufen über einen begrenzten Zeitraum mit <strong>Bonus-Jobs</strong> und <strong>Boosts</strong>, wie doppelten Kudos oder ×1,5 Bargeld.</li>
+  <li>Achte fünf Tage vor Beginn auf das <strong>„Baldiges Event!“-Plakat</strong> im Foyer und während des Events auf den <strong>Event-Button</strong> rechts.</li>
+  <li>Manche Events schalten <strong>eine Etappe pro Tag</strong> frei. Schließe jede Tagesetappe an ihrem Tag ab; verpasste Etappen sperren sich. Du kannst sie bis zum Event-Ende mit 5 Klammern oder per Werbevideo öffnen (für VIPs gratis). Schließe alle Etappen ab, um eine <strong>Trophäe</strong> für deinen Schreibtisch zu gewinnen.</li>
+  <li>Event-Jobs richten sich preislich nach deinem aktuellen Einkommen und sind somit auf jedem Rang fair gestaltet.</li>
+</ul>
+<img class="scene" src="img/help-christmas.png" alt="The office decorated for Christmas with snow outside and Santa flying past">
+<p class="caption">Zu Weihnachten schmückt sich das ganze Büro festlich: Schnee, Lametta, Lichterketten, Weihnachtspullis, ein Baum im Foyer und der Weihnachtsmann fliegt an den Fenstern vorbei.</p>
+
+<h2 id="boosts">12. Kaffeepausen, Werbung und VIP</h2>
+<ul>
+  <li><img class="ico" src="img/icon-mug.png" alt=""><strong>Kaffeepause:</strong> Schau einen kurzen Werbespot und alles läuft <strong>15 Minuten lang doppelt so schnell</strong>. Pausen lassen sich bis zu 4 Stunden stapeln.</li>
+  <li><img class="ico" src="img/icon-paperclip.png" alt=""><strong>Gratis-Klammern:</strong> Schau ein Werbevideo für 3 goldene Büroklammern (bis zu dreimal täglich).</li>
+  <li><img class="ico" src="img/icon-tv.png" alt="">Werbung ist immer <strong>deine freiwillige Entscheidung</strong> (bis zu 10 belohnte Werbeanzeigen pro Tag). Zudem gibt es einen kurzen Spot nach jeder dritten Beförderung.</li>
+  <li><strong>VIP</strong> (einmaliger Kauf) entfernt Werbung dauerhaft, gibt Werbebelohnungen sofort, rettet gerissene Serien gratis, gewährt 4 Stunden zusätzliche Abwesenheitszeit und verleiht deinem Mitarbeiter ein goldenes Schlüsselband.</li>
+</ul>
+
+<h2 id="settings">13. Einstellungen und Cloud-Speicher</h2>
+<p>Das Zahnrad oben rechts öffnet die Einstellungen:</p>
+<ul>
+  <li><strong>Konto:</strong> Melde dich bei <strong>Google Play Spiele</strong> an, um deine Karriere in der Cloud zu sichern. Auf einem neuen Telefon meldest du dich einfach an und wählst <em>Aus Cloud laden</em>.</li>
+  <li><strong>Ton:</strong> Soundeffekte, Büro-Hintergrundgeräusche und Titelmusik, jeweils mit eigenem Lautstärkeregler. Unten befinden sich <strong>Vibration</strong> und <strong>Auszahlungs-Sound</strong> (das Münzgeräusch).</li>
+  <li><strong>Spiel:</strong> Erinnerungen und Bildschirm aktiv halten.</li>
+  <li><strong>Mehr:</strong> Dieses Handbuch, Sprache, <strong>Käufe wiederherstellen</strong>, Datenschutzeinstellungen und Datenschutzerklärung.</li>
+</ul>
+
+<h2 id="faq">14. Fragen</h2>
+<h3>Verdient das Spiel weiter, wenn es geschlossen ist?</h3>
+<p>Ja, bis zum Limit deiner Abwesenheitszeit (3 Stunden zu Beginn). Erhöhe sie durch Werkzeuge oder VIP.</p>
+<h3>Ich habe etwas gekauft, aber es ist nicht angekommen.</h3>
+<p>Öffne <strong>Einstellungen → Käufe wiederherstellen</strong>. Käufe sind an dein Google-Konto gebunden.</p>
+<h3>Wie übertrage ich meinen Fortschritt auf ein neues Handy?</h3>
+<p>Melde dich auf deinem alten Gerät in den Einstellungen bei Google Play Spiele an und tippe auf <strong>Jetzt speichern</strong>. Melde dich auf dem neuen Gerät mit demselben Konto an und tippe auf <strong>Aus Cloud laden</strong>.</p>
+<h3>Kann ich die Werbung abschalten?</h3>
+<p>Belohnte Videos starten nur, wenn du es möchtest. VIP entfernt sämtliche Werbeeinblendungen, inklusive der Anzeigen nach jeder dritten Beförderung.</p>
+<h3>Etwas sieht fehlerhaft aus oder ich habe einen Bug entdeckt.</h3>
+<p>Schreibe an <a href="mailto:dialupstudios.games@gmail.com">dialupstudios.games@gmail.com</a>. Stan im Foyer verrät dir deine aktuelle Versionsnummer.</p>
+
+<footer>
+  Out of Office von Dial-Up Studios · <a href="index.de.html">Start</a> · <a href="privacy.de.html">Datenschutzerklärung</a> · <a href="mailto:dialupstudios.games@gmail.com">Kontakt</a>
+</footer>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comment jouer – Out of Office</title>
+<meta name="description" content="Le manuel du personnel d’Out of Office : comment jouer, gagner de l’argent, obtenir des promotions et gravir les étages de la tour Synergex.">
+<style>
+  :root { --bg:#008080; --panel:#c0c0c0; --paper:#ffffff; --ink:#1a1a1a; --soft:#4a4a4a; --bar:#000080; --cash:#1e7a32; --kudos:#b8860b; --clip:#a8740a; --tint:#fff4d0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 Georgia, "Times New Roman", serif; }
+  .win { max-width:860px; margin:24px auto; background:var(--panel); border:2px solid; border-color:#fff #404040 #404040 #fff; }
+  .title { background:var(--bar); color:#fff; font:bold 15px/1 Tahoma, Verdana, sans-serif; padding:7px 10px; display:flex; justify-content:space-between; }
+  .title a { color:#fff; text-decoration:none; }
+  .body { background:var(--paper); margin:6px; padding:22px 28px; border:2px solid; border-color:#404040 #fff #fff #404040; }
+  h1 { font-size:1.8rem; margin:0 0 .2rem; }
+  h2 { font:bold 1.15rem Tahoma, Verdana, sans-serif; margin:2.2rem 0 .5rem; color:var(--bar); border-bottom:2px solid #c0c0c0; padding-bottom:.2rem; scroll-margin-top:12px; }
+  h3 { font:bold 1rem Tahoma, Verdana, sans-serif; margin:1.2rem 0 .3rem; }
+  .meta { color:var(--soft); margin:0 0 1rem; }
+  li { margin:.3rem 0; }
+  a { color:var(--bar); }
+  img.scene { width:100%; height:auto; image-rendering:pixelated; border:2px solid #404040; display:block; margin:.6rem 0 .3rem; background:#000; }
+  img.tower { max-width:260px; width:100%; image-rendering:pixelated; border:2px solid #404040; float:right; margin:0 0 1rem 1.2rem; }
+  img.ico { width:28px; height:28px; image-rendering:pixelated; vertical-align:middle; margin-right:6px; }
+  .caption { color:var(--soft); font-size:.9rem; margin:0 0 1rem; }
+  .hero { display:flex; gap:18px; align-items:center; margin-bottom:1rem; }
+  .hero img { width:88px; height:88px; image-rendering:pixelated; border:2px solid #404040; }
+  .toc { background:var(--tint); border:2px solid; border-color:#404040 #fff #fff #404040; padding:10px 16px; columns:2; column-gap:28px; font-family:Tahoma, Verdana, sans-serif; font-size:.92rem; }
+  .toc a { display:block; padding:2px 0; }
+  .callouts { counter-reset:c; list-style:none; padding:0; }
+  .callouts li { counter-increment:c; padding-left:2.2rem; position:relative; }
+  .callouts li::before { content:counter(c); position:absolute; left:0; top:.1rem; width:1.5rem; height:1.5rem; border-radius:50%; background:#c8102e; color:#fff; font:bold .85rem/1.5rem Tahoma, Verdana, sans-serif; text-align:center; border:2px solid #fff; box-shadow:0 0 0 1px #c8102e; }
+  table { border-collapse:collapse; width:100%; margin:.6rem 0 1rem; font-size:.95rem; }
+  th, td { border:1px solid #9a9a9a; padding:6px 8px; text-align:left; vertical-align:top; }
+  th { background:#e4e4e4; font-family:Tahoma, Verdana, sans-serif; font-size:.85rem; }
+  .tip { background:#eaf6ea; border-left:4px solid var(--cash); padding:8px 12px; margin:1rem 0; }
+  .clear { clear:both; }
+  footer { margin-top:2.5rem; color:var(--soft); font-size:.9rem; border-top:2px solid #c0c0c0; padding-top:.8rem; }
+  @media (max-width:640px) {
+    .win { margin:0; border:0; } .body { margin:0; padding:16px; }
+    .toc { columns:1; } img.tower { float:none; display:block; margin:0 auto 1rem; max-width:220px; }
+    .hero img { width:64px; height:64px; }
+  }
+</style>
+<!--langs--><link rel="alternate" hreflang="en" href="help.html"><link rel="alternate" hreflang="fr" href="help.fr.html"><link rel="alternate" hreflang="de" href="help.de.html"><link rel="alternate" hreflang="es" href="help.es.html"><link rel="alternate" hreflang="it" href="help.it.html"><link rel="alternate" hreflang="el" href="help.el.html"><!--/langs-->
+</head>
+<body>
+<div class="win">
+<div class="title"><span>Comment jouer – Out of Office</span><a href="index.fr.html">✕</a></div>
+<div class="body"><!--langs--><nav class="langs" style="font:13px/1.4 sans-serif;text-align:right;margin:0 0 .6rem"><a href="help.html" lang="en" hreflang="en">English</a> · <strong>Français</strong> · <a href="help.de.html" lang="de" hreflang="de">Deutsch</a> · <a href="help.es.html" lang="es" hreflang="es">Español</a> · <a href="help.it.html" lang="it" hreflang="it">Italiano</a> · <a href="help.el.html" lang="el" hreflang="el">Ελληνικά</a></nav><!--/langs-->
+
+<div class="hero">
+  <img src="img/app-icon.png" alt="Out of Office app icon">
+  <div>
+    <h1>Le manuel du personnel</h1>
+    <p class="meta">Tout ce dont tu as besoin pour passer de préposé au thé à Grand Patron là-haut chez Synergex plc.</p>
+  </div>
+</div>
+
+<nav class="toc" aria-label="Sommaire">
+  <a href="#basics">1. Les bases</a>
+  <a href="#money">2. Cash, Kudos et trombones</a>
+  <a href="#office">3. Se déplacer dans le bureau</a>
+  <a href="#foyer">4. Le hall d’accueil</a>
+  <a href="#jobs">5. Boulots et niveaux</a>
+  <a href="#promotions">6. Promotions et étages</a>
+  <a href="#menus">7. Tâches, Outils, Carrière et Boutique</a>
+  <a href="#away">8. Pendant ton absence</a>
+  <a href="#attendance">9. Pointer chaque jour</a>
+  <a href="#challenges">10. Défis</a>
+  <a href="#events">11. Événements</a>
+  <a href="#boosts">12. Pauses café, pubs et VIP</a>
+  <a href="#settings">13. Paramètres et sauvegardes cloud</a>
+  <a href="#faq">14. Questions</a>
+</nav>
+
+<h2 id="basics">1. Les bases</h2>
+<p>Tu commences comme <strong>Stagiaire d’observation</strong> à préparer le thé dans la cuisine au sous-sol de Synergex plc. Chaque étage de la tour de 30 étages a son propre <strong>boulot</strong>, une machine ou un bureau fonctionnant avec un compte à rebours et qui rapporte de l’argent à chaque cycle terminé. Ton objectif est d’engranger du cash, d’améliorer tes installations et d’obtenir des promotions jusqu’au dernier étage.</p>
+<img class="scene" src="img/help-tea.png" alt="The first job: a kettle and toaster making tea">
+<p class="caption">Ton premier boulot : faire le thé. Touche-le pour accélérer la tournée.</p>
+<ul>
+  <li><strong>Les boulots rapportent tout seuls.</strong> Une fois lancé, un boulot continue de tourner, même quand l’application est fermée.</li>
+  <li><strong>Améliore les boulots</strong> pour gagner plus et remplir les bureaux d’employés.</li>
+  <li><strong>Remplis la jauge de Kudos de bureau</strong> en haut de l’écran, puis touche-la pour demander une promotion.</li>
+  <li><strong>Chaque promotion</strong> multiplie tous tes gains, et toutes les quelques promotions, tu montes d’un étage vers un nouveau boulot.</li>
+</ul>
+<p>Lors de ton premier jour, Brenda des RH te fait faire le tour du propriétaire, tu peux donc aussi apprendre sur le tas.</p>
+
+<h2 id="money">2. Cash, Kudos de bureau et trombones dorés</h2>
+<table>
+  <tr><th style="width:34%">Devise</th><th>À quoi ça sert</th></tr>
+  <tr><td><img class="ico" src="img/icon-cashwad.png" alt="">Cash (£)</td><td>Gagné à chaque cycle de travail terminé. Dépense-le pour améliorer tes boulots et acheter des outils.</td></tr>
+  <tr><td><img class="ico" src="img/icon-thumbsup.png" alt="">Kudos de bureau</td><td>Gagnés également à chaque fin de cycle. Ne se dépensent jamais : remplis la jauge pour débloquer ta prochaine promotion.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Trombones dorés</td><td>La devise premium. Obtenus grâce aux promotions, aux défis, à ta carte de pointage, aux événements et aux pubs pour trombones gratuits, ou achetés dans la Boutique. Dépense-les en boosts, sauts dans le temps et outils premium.</td></tr>
+</table>
+
+<h2 id="office">3. Se déplacer dans le bureau</h2>
+<p>L’écran principal affiche un étage de la tour, vu de profil. <strong>Glisse à gauche et à droite</strong> pour le parcourir et <strong>pince pour zoomer</strong>. Presque tout peut être touché.</p>
+<img class="scene" src="img/help-office.png" alt="An office floor with numbered callouts">
+<ol class="callouts">
+  <li><strong>Le boulot de l’étage.</strong> Touche-le pour l’accélérer. Son étiquette en bas de l’écran indique son niveau, ce qu’il rapporte et le bouton <em>Améliorer</em>.</li>
+  <li><strong>Ton équipe.</strong> Les bureaux se remplissent au fur et à mesure que le boulot monte de niveau. Touche n’importe qui pour une réplique.</li>
+  <li><strong>Ton bureau</strong> (marqué TOI) se trouve à l’étage où tu as été promu.</li>
+  <li><strong>Le bureau du chef.</strong> Touche le chef pour entendre ce qu’il a à dire.</li>
+  <li><strong>Les ascenseurs.</strong> Touche un ascenseur pour afficher le panneau de boutons et te rendre à n’importe quel étage débloqué.</li>
+  <li><strong>L’imprimante et la fontaine à eau.</strong> Touche-les pour une surprise.</li>
+  <li><strong>L’escalier de secours.</strong> Garde un œil sur la cage d’escalier : des gens vont et viennent.</li>
+</ol>
+<p>Le <strong>bouton de carte</strong> dans la barre supérieure (la petite tour) montre tout le bâtiment : les étages débloqués, où se trouve ton bureau et qui dirige chaque étage.</p>
+<p>L’éclairage suit l’horloge de ton téléphone : jour à partir de 6h, nuit dès 19h.</p>
+
+<h2 id="foyer">4. Le hall d’accueil</h2>
+<p>Le rez-de-chaussée abrite le hall d’accueil. Prends l’ascenseur jusqu’au <strong>RDC</strong> pour t’y rendre.</p>
+<img class="scene" src="img/help-foyer.png" alt="The foyer with numbered callouts">
+<ol class="callouts">
+  <li><strong>Les ascenseurs</strong> pour remonter vers les bureaux.</li>
+  <li><strong>La pointeuse.</strong> Touche-la pour voir ta carte de pointage et ta série (voir <a href="#attendance">Pointer</a>).</li>
+  <li><strong>Le panneau d’affichage.</strong> Quand un événement est en cours, un ruban ÉVÉNEMENT s’affiche dans un coin : touche le panneau pour l’événement. Le reste du temps, il est couvert des notes de service habituelles.</li>
+  <li><strong>L’affiche « Événement bientôt ! ».</strong> Elle apparaît cinq jours avant le début d’un événement. Touche-la pour découvrir ce qui arrive.</li>
+  <li><strong>Maxine à la réception</strong>, toujours au téléphone.</li>
+  <li><strong>Ron de la sécurité.</strong> Il fait un petit signe.</li>
+  <li><strong>Stan le gardien.</strong> Touche-le pour voir <em>À propos</em> : la version de l’application, les nouveautés et les licences.</li>
+  <li><strong>L’entrée.</strong> Les visiteurs arrivent par la porte tambour.</li>
+</ol>
+
+<h2 id="jobs">5. Boulots et niveaux</h2>
+<ul>
+  <li><strong>Démarre</strong> un boulot avec son premier niveau, puis <strong>améliore-le</strong> avec du cash. Chaque niveau rapporte plus.</li>
+  <li>Aux <strong>niveaux 10, 25, 50, 100</strong> et au-delà, le boulot <strong>tourne deux fois plus vite</strong>.</li>
+  <li><strong>Touche un boulot pour l’accélérer.</strong> Chaque pression fait avancer la tâche en cours, et les gains s’envolent en lettres dorées.</li>
+  <li><strong>Surcharge du bureau.</strong> Touche frénétiquement et la jauge de <em>Surcharge</em> apparaît à gauche. Plus elle chauffe, plus chaque appui rapporte (jusqu’à x2,5) et plus la panique monte. Remplis-la et l’étage passe en <strong>craquage total</strong> pendant quelques secondes : chaos complet et chaque appui vaut x3. Ensuite, tout le monde a besoin de quelques secondes pour se calmer avant de pouvoir la remplir à nouveau.</li>
+  <li>Dans la fenêtre <strong>Tâches</strong>, tu peux acheter un niveau, dix, ou <strong>MAX</strong> (autant que tu peux t’en offrir) d’un seul coup.</li>
+</ul>
+<div class="tip"><strong>Astuce :</strong> les boulots des nouveaux étages rapportent bien plus que les anciens. Mets donc l’essentiel de ton cash dans ton boulot le plus récent, et achète au passage les paliers de vitesse bon marché sur les anciens.</div>
+
+<h2 id="promotions">6. Promotions et étages</h2>
+<img class="tower" src="img/help-tower.png" alt="The building map showing unlocked floors">
+<ul>
+  <li>Il y a <strong>150 promotions</strong>, cinq sur chacun des <strong>30 étages</strong>.</li>
+  <li>Quand la barre de Kudos de bureau est pleine, elle clignote : <strong>touche-la pour réclamer une promotion</strong>.</li>
+  <li><strong>Chaque promotion</strong> multiplie tous tes gains de cash (×1,10) et de Kudos de bureau (×1,06).</li>
+  <li>La <strong>première promotion de chaque étage</strong> déplace ton bureau à l’étage supérieur, débloque le boulot de cet étage et rapporte des trombones dorés. Un nouveau chef se présente.</li>
+  <li>Les 2e et 4e promotions d’un étage débloquent ses <strong>outils</strong>.</li>
+  <li>Ta tenue devient de plus en plus chic à mesure que tu t’élèves dans la hiérarchie.</li>
+</ul>
+<p>Les étages s’étendent du Support (thé, courrier, photocopies) en passant par l’Admin, l’Informatique et les Services généraux, la Direction et les Cadres, jusqu’aux étages Exécutifs : fusions, golf et, au tout dernier étage, <em>Gérer l’empire</em>.</p>
+<div class="clear"></div>
+
+<h2 id="menus">7. Tâches, Outils, Carrière et Boutique</h2>
+<p>Les quatre boutons en bas ouvrent des fenêtres par-dessus le bureau :</p>
+<table>
+  <tr><th style="width:24%">Button</th><th>What's inside</th></tr>
+  <tr><td><img class="ico" src="img/icon-notepad.png" alt="">Tâches</td><td>Tous tes boulots : niveaux, gains, prochain palier de vitesse et achat de niveaux en masse.</td></tr>
+  <tr><td><img class="ico" src="img/icon-printer.png" alt="">Outils</td><td>Améliorations uniques. Chaque étage en possède deux (une triple le salaire du boulot, une double sa vitesse), plus des outils généraux pour toute l’entreprise (vitesse, gains, Kudos, temps d’absence prolongé) et des outils premium achetés avec des trombones. S’il te manque un peu de cash pour un outil, <strong>Payer maintenant</strong> met tout ton cash et complète le reste en trombones.</td></tr>
+  <tr><td><img class="ico" src="img/icon-chart.png" alt="">Carrière</td><td>Tous les échelons de l’entreprise, les Kudos de bureau nécessaires pour chacun et les trombones qu’ils rapportent.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Boutique</td><td>Offres du jour, cadeaux gratuits (pubs), VIP, packs de trombones et boosts à acheter : <em>Heures sup</em> (vitesse doublée pendant 30 min) et sauts dans le temps (<em>Déjeuner prolongé</em> 1 heure, <em>Demi-journée</em> 4 heures, <em>Jour férié</em> 24 heures de salaire d’un coup).</td></tr>
+</table>
+
+<h2 id="away">8. Pendant ton absence</h2>
+<ul>
+  <li>Ton équipe <strong>continue de travailler quand l’application est fermée</strong>, jusqu’à épuisement de ton <strong>temps d’absence</strong> : 3 heures au départ, jusqu’à 24 heures avec les outils, plus 4 heures de bonus pour les VIP.</li>
+  <li>À ton retour, l’encadré <strong>De retour au bureau</strong> te montre ce que tu as gagné. Touche <strong>Encaisser</strong>, ou <strong>Doubler</strong> en regardant une courte pub (les VIP doublent instantanément).</li>
+  <li>Quand ton temps d’absence est écoulé, le travail s’arrête jusqu’à ton retour. Un <strong>rappel</strong> te prévient dès que ta bannette d’arrivée est pleine (active les rappels dans les Paramètres).</li>
+  <li><strong>Garder l’écran allumé</strong> (dans les Paramètres) empêche ton téléphone de se mettre en veille pendant que le jeu tourne, idéal pour laisser tourner le bureau sous tes yeux.</li>
+  <li>Appuyer sur <strong>Retour</strong> te demande si tu veux <strong>pointer la sortie</strong>. Pointer la sortie sauvegarde ta partie (ainsi que sur le cloud si tu es connecté) avant que l’écran ne s’éteigne.</li>
+</ul>
+
+<h2 id="attendance">9. Pointer chaque jour</h2>
+<p>Touche la pointeuse dans le hall (elle s’affiche aussi à ta première visite du jour) pour récupérer ta <strong>récompense de présence</strong>. La carte dure sept jours et les gains augmentent au fil de la semaine :</p>
+<table>
+  <tr><th style="width:22%">Jour</th><th>Récompense</th></tr>
+  <tr><td>1</td><td><img class="ico" src="img/icon-cashwad.png" alt="">30 minutes de salaire</td></tr>
+  <tr><td>2</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">30 minutes de Kudos de bureau</td></tr>
+  <tr><td>3</td><td><img class="ico" src="img/icon-cashwad.png" alt="">1 heure de salaire</td></tr>
+  <tr><td>4</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">1 heure de Kudos de bureau</td></tr>
+  <tr><td>5</td><td><img class="ico" src="img/icon-cashwad.png" alt="">2 heures de salaire</td></tr>
+  <tr><td>6</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">2 heures de Kudos de bureau</td></tr>
+  <tr><td>7</td><td><img class="ico" src="img/icon-paperclip.png" alt="">5 trombones dorés</td></tr>
+</table>
+<ul>
+  <li><strong>Bonus de série hebdomadaire :</strong> chaque semaine complète de série consécutive ajoute <strong>+5 %</strong> aux récompenses de cash et de Kudos, jusqu’à un maximum de <strong>+25 %</strong>. Les jours 8 à 14 bénéficient de +5 %, les jours 15 à 21 de +10 %, etc. Les trombones restent fixes. La carte indique ta série et ton bonus actuel.</li>
+  <li><strong>Un jour manqué ?</strong> Si tu as manqué deux jours ou moins, tu peux <strong>sauver ta série</strong> en regardant une pub (gratuit pour les VIP) ou recommencer au jour 1.</li>
+  <li>Un <strong>rappel à 18h30</strong> te prévient si la récompense du jour t’attend toujours.</li>
+</ul>
+
+<h2 id="challenges">10. Défis</h2>
+<p>Il y a <strong>50 défis</strong>, présentés un par un via le bouton <strong>#</strong> à droite de l’écran. Sa jauge se remplit à mesure que tu progresses, et il clignote avec la mention <strong>RÉCLAMER !</strong> quand un défi est accompli. Chacun rapporte des trombones dorés, de 3 pour les premiers jusqu’à 25 pour les plus avancés. Ils te guident vers des éléments que tu n’as peut-être pas encore découverts : l’ascenseur, la carte, les pauses café, la fenêtre des Outils. Les plus avancés demandent des jours voire des semaines.</p>
+
+<h2 id="events">11. Événements</h2>
+<ul>
+  <li>Les événements durent une période déterminée avec des <strong>boulots bonus</strong> et des <strong>boosts</strong>, comme le double de Kudos ou le cash x1,5.</li>
+  <li>Surveille l’affiche <strong>« Événement bientôt ! »</strong> dans le hall cinq jours avant le lancement, et le <strong>bouton d’événement</strong> à droite pendant qu’il est actif.</li>
+  <li>Certains événements proposent <strong>une étape par jour</strong>. Termine l’étape du jour avant minuit : une étape manquée se verrouille. Tu peux la rouvrir jusqu’à la fin de l’événement avec 5 trombones ou en regardant une pub (gratuit pour les VIP). Termine toutes les étapes pour remporter un <strong>trophée</strong> sur ton bureau.</li>
+  <li>Les boulots d’événement sont indexés sur ton salaire actuel, ils restent donc parfaitement équilibrés quel que soit ton rang.</li>
+</ul>
+<img class="scene" src="img/help-christmas.png" alt="The office decorated for Christmas with snow outside and Santa flying past">
+<p class="caption">À Noël, tout le bureau se pare de fête : neige, guirlandes, lumières, pulls moches, sapin dans le hall et le Père Noël volant devant les fenêtres.</p>
+
+<h2 id="boosts">12. Pauses café, pubs et VIP</h2>
+<ul>
+  <li><img class="ico" src="img/icon-mug.png" alt=""><strong>Pause café :</strong> regarde une courte pub et tout tourne <strong>deux fois plus vite pendant 15 minutes</strong>. Les pauses se cumulent jusqu’à 4 heures.</li>
+  <li><img class="ico" src="img/icon-paperclip.png" alt=""><strong>Trombones gratuits :</strong> regarde une pub pour obtenir 3 trombones dorés, jusqu’à trois fois par jour.</li>
+  <li><img class="ico" src="img/icon-tv.png" alt="">Les pubs restent toujours <strong>ton choix</strong>, dans la limite de 10 pubs récompensées par jour. Une courte pub apparaît aussi après chaque troisième promotion.</li>
+  <li><strong>VIP</strong> (achat unique) supprime définitivement les pubs, te donne les récompenses instantanément, sauve gratuitement les séries brisées, ajoute 4 heures de temps d’absence et habille ton employé d’un tour de cou doré.</li>
+</ul>
+
+<h2 id="settings">13. Paramètres et sauvegardes cloud</h2>
+<p>L’engrenage en haut à droite ouvre les Paramètres :</p>
+<ul>
+  <li><strong>Compte :</strong> connecte-toi à <strong>Google Play Jeux</strong> pour sauvegarder ta carrière dans le cloud. Si tu changes de téléphone, connecte-toi dessus et choisis <em>Charger depuis le cloud</em>.</li>
+  <li><strong>Son :</strong> effets sonores, ambiance sonore du bureau et musique du titre, chacun avec son propre volume. En bas se trouvent les boutons <strong>Vibration</strong> et <strong>Bruitage de gain</strong> (le tintement des pièces).</li>
+  <li><strong>Jeu :</strong> rappels et maintien de l’écran allumé.</li>
+  <li><strong>Plus :</strong> ce manuel, choix de la langue, <strong>restauration des achats</strong>, réglages de confidentialité et politique de confidentialité.</li>
+</ul>
+
+<h2 id="faq">14. Questions</h2>
+<h3>Le jeu continue-t-il de produire des gains lorsqu’il est fermé ?</h3>
+<p>Oui, jusqu’à épuisement de ton temps d’absence (3 heures au début). Augmente-le avec des outils ou grâce au statut VIP.</p>
+<h3>J’ai acheté un article mais je ne l’ai pas reçu.</h3>
+<p>Ouvre <strong>Paramètres → Restaurer les achats</strong>. Les achats sont rattachés à ton compte Google.</p>
+<h3>Comment transférer ma progression sur un nouveau téléphone ?</h3>
+<p>Sur ton ancien téléphone, connecte-toi à Google Play Jeux dans les Paramètres et touche <strong>Sauvegarder maintenant</strong>. Sur le nouveau téléphone, connecte-toi avec le même compte et touche <strong>Charger depuis le cloud</strong>.</p>
+<h3>Puis-je désactiver les publicités ?</h3>
+<p>Les publicités récompensées ne se lancent que si tu le décides. Le statut VIP supprime toutes les publicités, y compris celle survenant après chaque troisième promotion.</p>
+<h3>Un problème d’affichage ou un bug ?</h3>
+<p>Écris à <a href="mailto:dialupstudios.games@gmail.com">dialupstudios.games@gmail.com</a>. Stan dans le hall pourra t’indiquer sur quelle version du jeu tu te trouves.</p>
+
+<footer>
+  Out of Office par Dial-Up Studios · <a href="index.fr.html">Accueil</a> · <a href="privacy.fr.html">Politique de confidentialité</a> · <a href="mailto:dialupstudios.games@gmail.com">Contact</a>
+</footer>
+</div>
+</div>
+</body>
+</html>

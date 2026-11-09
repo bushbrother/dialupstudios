@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Πώς παίζεται – Out of Office</title>
+<meta name="description" content="Το εγχειρίδιο προσωπικού του Out of Office: πώς να παίξεις, να κερδίσεις, να πάρεις προαγωγές και να σκαρφαλώσεις στον πύργο της Synergex.">
+<style>
+  :root { --bg:#008080; --panel:#c0c0c0; --paper:#ffffff; --ink:#1a1a1a; --soft:#4a4a4a; --bar:#000080; --cash:#1e7a32; --kudos:#b8860b; --clip:#a8740a; --tint:#fff4d0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 Georgia, "Times New Roman", serif; }
+  .win { max-width:860px; margin:24px auto; background:var(--panel); border:2px solid; border-color:#fff #404040 #404040 #fff; }
+  .title { background:var(--bar); color:#fff; font:bold 15px/1 Tahoma, Verdana, sans-serif; padding:7px 10px; display:flex; justify-content:space-between; }
+  .title a { color:#fff; text-decoration:none; }
+  .body { background:var(--paper); margin:6px; padding:22px 28px; border:2px solid; border-color:#404040 #fff #fff #404040; }
+  h1 { font-size:1.8rem; margin:0 0 .2rem; }
+  h2 { font:bold 1.15rem Tahoma, Verdana, sans-serif; margin:2.2rem 0 .5rem; color:var(--bar); border-bottom:2px solid #c0c0c0; padding-bottom:.2rem; scroll-margin-top:12px; }
+  h3 { font:bold 1rem Tahoma, Verdana, sans-serif; margin:1.2rem 0 .3rem; }
+  .meta { color:var(--soft); margin:0 0 1rem; }
+  li { margin:.3rem 0; }
+  a { color:var(--bar); }
+  img.scene { width:100%; height:auto; image-rendering:pixelated; border:2px solid #404040; display:block; margin:.6rem 0 .3rem; background:#000; }
+  img.tower { max-width:260px; width:100%; image-rendering:pixelated; border:2px solid #404040; float:right; margin:0 0 1rem 1.2rem; }
+  img.ico { width:28px; height:28px; image-rendering:pixelated; vertical-align:middle; margin-right:6px; }
+  .caption { color:var(--soft); font-size:.9rem; margin:0 0 1rem; }
+  .hero { display:flex; gap:18px; align-items:center; margin-bottom:1rem; }
+  .hero img { width:88px; height:88px; image-rendering:pixelated; border:2px solid #404040; }
+  .toc { background:var(--tint); border:2px solid; border-color:#404040 #fff #fff #404040; padding:10px 16px; columns:2; column-gap:28px; font-family:Tahoma, Verdana, sans-serif; font-size:.92rem; }
+  .toc a { display:block; padding:2px 0; }
+  .callouts { counter-reset:c; list-style:none; padding:0; }
+  .callouts li { counter-increment:c; padding-left:2.2rem; position:relative; }
+  .callouts li::before { content:counter(c); position:absolute; left:0; top:.1rem; width:1.5rem; height:1.5rem; border-radius:50%; background:#c8102e; color:#fff; font:bold .85rem/1.5rem Tahoma, Verdana, sans-serif; text-align:center; border:2px solid #fff; box-shadow:0 0 0 1px #c8102e; }
+  table { border-collapse:collapse; width:100%; margin:.6rem 0 1rem; font-size:.95rem; }
+  th, td { border:1px solid #9a9a9a; padding:6px 8px; text-align:left; vertical-align:top; }
+  th { background:#e4e4e4; font-family:Tahoma, Verdana, sans-serif; font-size:.85rem; }
+  .tip { background:#eaf6ea; border-left:4px solid var(--cash); padding:8px 12px; margin:1rem 0; }
+  .clear { clear:both; }
+  footer { margin-top:2.5rem; color:var(--soft); font-size:.9rem; border-top:2px solid #c0c0c0; padding-top:.8rem; }
+  @media (max-width:640px) {
+    .win { margin:0; border:0; } .body { margin:0; padding:16px; }
+    .toc { columns:1; } img.tower { float:none; display:block; margin:0 auto 1rem; max-width:220px; }
+    .hero img { width:64px; height:64px; }
+  }
+</style>
+<!--langs--><link rel="alternate" hreflang="en" href="help.html"><link rel="alternate" hreflang="fr" href="help.fr.html"><link rel="alternate" hreflang="de" href="help.de.html"><link rel="alternate" hreflang="es" href="help.es.html"><link rel="alternate" hreflang="it" href="help.it.html"><link rel="alternate" hreflang="el" href="help.el.html"><!--/langs-->
+</head>
+<body>
+<div class="win">
+<div class="title"><span>Πώς παίζεται – Out of Office</span><a href="index.el.html">✕</a></div>
+<div class="body"><!--langs--><nav class="langs" style="font:13px/1.4 sans-serif;text-align:right;margin:0 0 .6rem"><a href="help.html" lang="en" hreflang="en">English</a> · <a href="help.fr.html" lang="fr" hreflang="fr">Français</a> · <a href="help.de.html" lang="de" hreflang="de">Deutsch</a> · <a href="help.es.html" lang="es" hreflang="es">Español</a> · <a href="help.it.html" lang="it" hreflang="it">Italiano</a> · <strong>Ελληνικά</strong></nav><!--/langs-->
+
+<div class="hero">
+  <img src="img/app-icon.png" alt="Out of Office app icon">
+  <div>
+    <h1>Το Εγχειρίδιο Προσωπικού</h1>
+    <p class="meta">Όλα όσα χρειάζεσαι για να φτάσεις από παιδί για το τσάι σε Μεγάλο Αφεντικό στον τελευταίο όροφο της Synergex plc.</p>
+  </div>
+</div>
+
+<nav class="toc" aria-label="Περιεχόμενα">
+  <a href="#basics">1. Τα βασικά</a>
+  <a href="#money">2. Μετρητά, Kudos και συνδετήρες</a>
+  <a href="#office">3. Κυκλοφορία στο γραφείο</a>
+  <a href="#foyer">4. Το φουαγιέ</a>
+  <a href="#jobs">5. Δουλειές και επίπεδα</a>
+  <a href="#promotions">6. Προαγωγές και όροφοι</a>
+  <a href="#menus">7. Εργασίες, Εργαλεία, Καριέρα και Κατάστημα</a>
+  <a href="#away">8. Όσο λείπεις</a>
+  <a href="#attendance">9. Χτύπημα κάρτας καθημερινά</a>
+  <a href="#challenges">10. Προκλήσεις</a>
+  <a href="#events">11. Εκδηλώσεις</a>
+  <a href="#boosts">12. Διαλείμματα για καφέ, διαφημίσεις και VIP</a>
+  <a href="#settings">13. Ρυθμίσεις και cloud</a>
+  <a href="#faq">14. Ερωτήσεις</a>
+</nav>
+
+<h2 id="basics">1. Τα βασικά</h2>
+<p>Ξεκινάς ως <strong>Παιδί για πρακτική</strong> φτιάχνοντας τσάι στην κουζίνα του υπογείου της Synergex plc. Κάθε όροφος του 30ώροφου πύργου έχει τη δική του <strong>δουλειά</strong>, ένα μηχάνημα ή γραφείο που δουλεύει με χρονόμετρο και πληρώνει κάθε φορά που ολοκληρώνει τον κύκλο του. Στόχος σου είναι να κερδίζεις, να αναβαθμίζεις και να παίρνεις προαγωγή μέχρι τον τελευταίο όροφο.</p>
+<img class="scene" src="img/help-tea.png" alt="The first job: a kettle and toaster making tea">
+<p class="caption">Η πρώτη σου δουλειά: να φτιάχνεις τσάι. Πάτησέ το για να επιταχύνεις τον γύρο.</p>
+<ul>
+  <li><strong>Οι δουλειές παράγουν μόνες τους.</strong> Μόλις ξεκινήσει μια δουλειά, συνεχίζει αυτόματα, ακόμα και με κλειστή εφαρμογή.</li>
+  <li><strong>Ανέβασε επίπεδο τις δουλειές</strong> για να κερδίζεις περισσότερα και να γεμίσεις τα γραφεία με προσωπικό.</li>
+  <li><strong>Γέμισε τη μπάρα Κύρους Γραφείου (Kudos)</strong> στο πάνω μέρος της οθόνης και πάτησέ την για να ζητήσεις προαγωγή.</li>
+  <li><strong>Κάθε προαγωγή</strong> πολλαπλασιάζει όλα σου τα κέρδη, και κάθε λίγες προαγωγές ανεβαίνεις όροφο σε μια νέα δουλειά.</li>
+</ul>
+<p>Την πρώτη σου μέρα, η Brenda από το HR θα σε ξεναγήσει, ώστε να μαθαίνεις καθώς παίζεις.</p>
+
+<h2 id="money">2. Μετρητά, Κύρος Γραφείου και χρυσοί συνδετήρες</h2>
+<table>
+  <tr><th style="width:34%">Νόμισμα</th><th>Σε τι χρησιμεύει</th></tr>
+  <tr><td><img class="ico" src="img/icon-cashwad.png" alt="">Μετρητά (£)</td><td>Κερδίζονται κάθε φορά που ολοκληρώνεται μια δουλειά. Ξόδεψέ τα σε επίπεδα δουλειάς και εργαλεία.</td></tr>
+  <tr><td><img class="ico" src="img/icon-thumbsup.png" alt="">Κύρος Γραφείου (Kudos)</td><td>Κερδίζονται επίσης με κάθε πληρωμή. Δεν ξοδεύονται ποτέ: γέμισε τη μπάρα για να ξεκλειδώσεις την επόμενη προαγωγή σου.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Χρυσοί συνδετήρες</td><td>Το premium νόμισμα. Αποκτώνται από προαγωγές, προκλήσεις, την κάρτα παρουσίας, εκδηλώσεις και διαφημίσεις δωρεάν συνδετήρων, ή αγοράζονται στο Κατάστημα. Ξόδεψέ τους σε επιταχύνσεις, άλματα χρόνου και premium εργαλεία.</td></tr>
+</table>
+
+<h2 id="office">3. Κυκλοφορία στο γραφείο</h2>
+<p>Η κύρια οθόνη δείχνει έναν όροφο του πύργου σε πλάγια όψη. <strong>Σύρε αριστερά και δεξιά</strong> για να περπατήσεις και <strong>κάνε pinch για ζουμ</strong>. Σχεδόν τα πάντα πατιούνται.</p>
+<img class="scene" src="img/help-office.png" alt="An office floor with numbered callouts">
+<ol class="callouts">
+  <li><strong>Η δουλειά του ορόφου.</strong> Πάτησέ την για να τη βιάσεις. Το καρτελάκι στο κάτω μέρος δείχνει το επίπεδό της, τα κέρδη και το κουμπί <em>Αναβάθμιση</em>.</li>
+  <li><strong>Το προσωπικό σου.</strong> Τα γραφεία γεμίζουν καθώς η δουλειά ανεβαίνει επίπεδο. Πάτησε οποιονδήποτε για μια ατάκα.</li>
+  <li><strong>Το γραφείο σου</strong> (με ένδειξη ΕΣΥ) βρίσκεται στον όροφο στον οποίο έχεις προαχθεί.</li>
+  <li><strong>Το γραφείο του διευθυντή.</strong> Πάτησε τον διευθυντή για να ακούσεις τη γνώμη του.</li>
+  <li><strong>Τα ασανσέρ.</strong> Πάτησε ένα ασανσέρ για τα κουμπιά των ορόφων και ταξίδεψε σε όποιον όροφο έχεις φτάσει.</li>
+  <li><strong>Ο εκτυπωτής και ο ψύκτης νερού.</strong> Πάτησέ τα για μια έκπληξη.</li>
+  <li><strong>Η έξοδος κινδύνου.</strong> Έχε το νου σου στις σκάλες: κόσμος πηγαινοέρχεται.</li>
+</ol>
+<p>Το <strong>κουμπί του χάρτη</strong> στην επάνω μπάρα (ο μικρός πύργος) δείχνει όλο το κτίριο: τους ξεκλείδωτους ορόφους, πού είναι το γραφείο σου και ποιος διευθύνει κάθε όροφο.</p>
+<p>Τα φώτα ακολουθούν το ρολόι του τηλεφώνου σου: μέρα από τις 06:00, νύχτα από τις 19:00.</p>
+
+<h2 id="foyer">4. Το φουαγιέ</h2>
+<p>Το ισόγειο είναι το φουαγιέ. Πάρε το ασανσέρ για το <strong>ΙΣ</strong> για να το επισκεφθείς.</p>
+<img class="scene" src="img/help-foyer.png" alt="The foyer with numbered callouts">
+<ol class="callouts">
+  <li><strong>Τα ασανσέρ</strong> για επιστροφή επάνω στα γραφεία.</li>
+  <li><strong>Το μηχάνημα χτυπήματος κάρτας.</strong> Πάτησέ το για να δεις την κάρτα παρουσίας και το σερί σου (δες <a href="#attendance">Χτύπημα κάρτας</a>).</li>
+  <li><strong>Ο πίνακας ανακοινώσεων.</strong> Όσο τρέχει ένα event, μια κορδέλα EVENT εμφανίζεται στη γωνία: πάτησε τον πίνακα για την εκδήλωση. Τον υπόλοιπο καιρό είναι γεμάτος με τις συνηθισμένες ανακοινώσεις.</li>
+  <li><strong>Η αφίσα «Σύντομα event!».</strong> Εμφανίζεται πέντε μέρες πριν ξεκινήσει ένα event. Πάτησέ την για να δεις τι έρχεται.</li>
+  <li><strong>Η Maxine στη ρεσεψιόν</strong>, μόνιμα στο τηλέφωνο.</li>
+  <li><strong>Ο Ron από την ασφάλεια.</strong> Σου κουνάει το χέρι.</li>
+  <li><strong>Ο Stan ο επιστάτης.</strong> Πάτησέ τον για τις <em>Πληροφορίες</em>: έκδοση εφαρμογής, νέα και άδειες.</li>
+  <li><strong>Η είσοδος.</strong> Οι επισκέπτες μπαίνουν από την περιστρεφόμενη πόρτα.</li>
+</ol>
+
+<h2 id="jobs">5. Δουλειές και επίπεδα</h2>
+<ul>
+  <li><strong>Ξεκίνα</strong> μια δουλειά με το 1ο επίπεδό της και <strong>ανέβασέ την επίπεδο</strong> με μετρητά. Κάθε επίπεδο αποφέρει περισσότερα.</li>
+  <li>Στα <strong>επίπεδα 10, 25, 50, 100</strong> και πέρα, η δουλειά <strong>δουλεύει με διπλάσια ταχύτητα</strong>.</li>
+  <li><strong>Πάτησε μια δουλειά για να τη βιάσεις.</strong> Κάθε πάτημα προχωράει την παρτίδα και οι εισπράξεις ανεβαίνουν με χρυσά γράμματα.</li>
+  <li><strong>Υπερφόρτωση γραφείου.</strong> Πάτα γρήγορα και ο μετρητής <em>Υπερφόρτωσης</em> θα εμφανιστεί αριστερά. Όσο θερμαίνεται, τόσο περισσότερο αξίζει κάθε πάτημα (έως x2,5) και τόσο περισσότερο πανικοβάλλεται το γραφείο. Γέμισέ τον και ο όροφος μπαίνει σε <strong>ολική κρίση</strong> για λίγα δευτερόλεπτα: απόλυτο χάος και κάθε πάτημα αξίζει x3. Μετά όλοι χρειάζονται λίγο χρόνο να ηρεμήσουν πριν γεμίσει ξανά.</li>
+  <li>Στο παράθυρο <strong>Εργασίες</strong> μπορείς να αγοράσεις 1 επίπεδο, 10, ή <strong>MAX</strong> (όσα αντέχει η τσέπη σου) με τη μία.</li>
+</ul>
+<div class="tip"><strong>Συμβουλή:</strong> οι δουλειές στους νέους ορόφους αποφέρουν πολύ περισσότερα από τις παλιές, γι’ αυτό ρίξε τα περισσότερα μετρητά σου στη νεότερη δουλειά και μάζεψε τα φθηνά ορόσημα ταχύτητας στις παλιότερες.</div>
+
+<h2 id="promotions">6. Προαγωγές και όροφοι</h2>
+<img class="tower" src="img/help-tower.png" alt="The building map showing unlocked floors">
+<ul>
+  <li>Υπάρχουν <strong>150 προαγωγές</strong>, πέντε σε καθέναν από τους <strong>30 ορόφους</strong>.</li>
+  <li>Όταν η μπάρα Κύρους Γραφείου γεμίσει, αναβοσβήνει: <strong>πάτησέ την για να ζητήσεις προαγωγή</strong>.</li>
+  <li><strong>Κάθε προαγωγή</strong> πολλαπλασιάζει όλα τα μετρητά (×1,10) και το Κύρος Γραφείου (×1,06).</li>
+  <li>Η <strong>πρώτη προαγωγή σε κάθε όροφο</strong> μεταφέρει το γραφείο σου έναν όροφο πάνω, ξεκλειδώνει τη δουλειά του ορόφου και δίνει χρυσούς συνδετήρες. Ένας νέος διευθυντής σου συστήνεται.</li>
+  <li>Η 2η και 4η προαγωγή σε έναν όροφο ξεκλειδώνουν τα <strong>εργαλεία</strong> του.</li>
+  <li>Το ντύσιμό σου γίνεται πιο κομψό όσο ψηλότερα ανεβαίνεις.</li>
+</ul>
+<p>Οι όροφοι ξεκινούν από την Υποστήριξη (τσάι, αλληλογραφία, φωτοτυπίες), περνούν από Διοίκηση, IT και Συντήρηση, Διεύθυνση και Στελέχη, μέχρι τους Προεδρικούς ορόφους: συγχωνεύσεις, γκολφ και, στην κορυφή, <em>Διοίκηση της Αυτοκρατορίας</em>.</p>
+<div class="clear"></div>
+
+<h2 id="menus">7. Εργασίες, Εργαλεία, Καριέρα και Κατάστημα</h2>
+<p>Τα τέσσερα κουμπιά στο κάτω μέρος ανοίγουν παράθυρα πάνω από το γραφείο:</p>
+<table>
+  <tr><th style="width:24%">Button</th><th>What's inside</th></tr>
+  <tr><td><img class="ico" src="img/icon-notepad.png" alt="">Εργασίες</td><td>Όλες οι δουλειές σου: επίπεδα, κέρδη, το επόμενο ορόσημο ταχύτητας και μαζική αγορά επιπέδων.</td></tr>
+  <tr><td><img class="ico" src="img/icon-printer.png" alt="">Εργαλεία</td><td>Μοναδικές αναβαθμίσεις. Κάθε όροφος έχει δύο (μία τριπλασιάζει την πληρωμή της δουλειάς, μία διπλασιάζει την ταχύτητα), συν γενικά εργαλεία για όλη την εταιρεία (ταχύτητα, μισθός, Kudos, χρόνος απουσίας) και premium εργαλεία με συνδετήρες. Αν δεν σου φτάνουν τα μετρητά, το <strong>Πληρωμή τώρα</strong> βάζει όλα τα μετρητά σου και καλύπτει τα υπόλοιπα με συνδετήρες.</td></tr>
+  <tr><td><img class="ico" src="img/icon-chart.png" alt="">Καριέρα</td><td>Κάθε βαθμίδα στην εταιρεία, το Κύρος Γραφείου που απαιτεί και οι συνδετήρες που δίνει.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Κατάστημα</td><td>Σημερινές προσφορές, δωρεάν δώρα (διαφημίσεις), VIP, πακέτα συνδετήρων και επιταχύνσεις: <em>Υπερωρίες</em> (διπλάσια ταχύτητα για 30 λεπτά) και χρονικά άλματα (<em>Μεγάλο μεσημεριανό</em> 1 ώρα, <em>Μισή μέρα</em> 4 ώρες, <em>Αργία</em> 24 ώρες πληρωμής αμέσως).</td></tr>
+</table>
+
+<h2 id="away">8. Όσο λείπεις</h2>
+<ul>
+  <li>Η ομάδα σου <strong>συνεχίζει να δουλεύει όσο η εφαρμογή είναι κλειστή</strong>, μέχρι το όριο του <strong>χρόνου απουσίας σου</strong>: 3 ώρες αρχικά, έως 24 ώρες με εργαλεία, συν 4 έξτρα ώρες για τους VIP.</li>
+  <li>Όταν επιστρέψεις, η κάρτα <strong>Πίσω στο γραφείο</strong> σου δείχνει τι κέρδισες. Πάτησε <strong>Συλλογή</strong> ή <strong>Διπλασιασμός</strong> βλέποντας μια σύντομη διαφήμιση (οι VIP διπλασιάζουν αμέσως).</li>
+  <li>Όταν τελειώσει ο χρόνος απουσίας, η δουλειά σταματά μέχρι να γυρίσεις. Μια <strong>υπενθύμιση</strong> σε ειδοποιεί όταν γεμίσει ο δίσκος εισερχομένων σου (ενεργοποίησέ τες στις Ρυθμίσεις).</li>
+  <li>Η επιλογή <strong>Ανοιχτή οθόνη</strong> (στις Ρυθμίσεις) κρατά το τηλέφωνο ξύπνιο όσο το παιχνίδι είναι ανοιχτό, για να παρακολουθείς το γραφείο εν δράσει.</li>
+  <li>Πατώντας <strong>Πίσω</strong> σε ρωτάει αν θέλεις να <strong>σχολάσεις</strong>. Το σχόλασμα αποθηκεύει την πρόοδό σου (και στο cloud αν έχεις συνδεθεί) πριν σβήσει η οθόνη.</li>
+</ul>
+
+<h2 id="attendance">9. Χτύπημα κάρτας καθημερινά</h2>
+<p>Πάτησε το μηχάνημα κάρτας στο φουαγιέ (εμφανίζεται και στην πρώτη σου επίσκεψη κάθε μέρα) για να πάρεις την <strong>ανταμοιβή παρουσίας</strong> σου. Η κάρτα κρατά 7 μέρες και οι ανταμοιβές μεγαλώνουν μέσα στην εβδομάδα:</p>
+<table>
+  <tr><th style="width:22%">Ημέρα</th><th>Ανταμοιβή</th></tr>
+  <tr><td>1</td><td><img class="ico" src="img/icon-cashwad.png" alt="">30 λεπτά μισθού</td></tr>
+  <tr><td>2</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">30 λεπτά Κύρους Γραφείου</td></tr>
+  <tr><td>3</td><td><img class="ico" src="img/icon-cashwad.png" alt="">1 ώρα μισθού</td></tr>
+  <tr><td>4</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">1 ώρα Κύρους Γραφείου</td></tr>
+  <tr><td>5</td><td><img class="ico" src="img/icon-cashwad.png" alt="">2 ώρες μισθού</td></tr>
+  <tr><td>6</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">2 ώρες Κύρους Γραφείου</td></tr>
+  <tr><td>7</td><td><img class="ico" src="img/icon-paperclip.png" alt="">5 χρυσοί συνδετήρες</td></tr>
+</table>
+<ul>
+  <li><strong>Μπόνους εβδομαδιαίου σερί:</strong> κάθε γεμάτη συνεχόμενη εβδομάδα σερί προσθέτει <strong>+5%</strong> στις ανταμοιβές μετρητών και Kudos, έως <strong>+25%</strong>. Οι ημέρες 8–14 παίρνουν +5%, οι 15–21 +10% κ.ο.κ. Οι συνδετήρες παραμένουν σταθεροί. Η κάρτα δείχνει το σερί σου και το τρέχον μπόνους.</li>
+  <li><strong>Έχασες μια μέρα;</strong> Αν έχασες έως 2 μέρες, μπορείς να <strong>σώσεις το σερί σου</strong> βλέποντας μια διαφήμιση (δωρεάν για VIP), ή να ξεκινήσεις ξανά από την 1η μέρα.</li>
+  <li>Μια <strong>υπενθύμιση στις 18:30</strong> σε ειδοποιεί αν η σημερινή ανταμοιβή σε περιμένει ακόμα.</li>
+</ul>
+
+<h2 id="challenges">10. Προκλήσεις</h2>
+<p>Υπάρχουν <strong>50 προκλήσεις</strong>, που εμφανίζονται μία-μία μέσω του κουμπιού <strong>#</strong> στα δεξιά της οθόνης. Η μπάρα του γεμίζει καθώς προχωράς και αναβοσβήνει <strong>ΔΙΕΚΔΙΚΗΣΗ!</strong> όταν ολοκληρωθεί. Κάθε μία δίνει χρυσούς συνδετήρες (από 3 έως 25 συνδετήρες). Σε καθοδηγούν σε πράγματα που ίσως δεν έχεις ανακαλύψει ακόμα: το ασανσέρ, τον χάρτη, τα διαλείμματα για καφέ ή τα εργαλεία. Οι πιο προχωρημένες παίρνουν μέρες ή εβδομάδες.</p>
+
+<h2 id="events">11. Εκδηλώσεις</h2>
+<ul>
+  <li>Τα events τρέχουν για ορισμένο διάστημα με <strong>έξτρα δουλειές</strong> και <strong>ενισχύσεις</strong>, όπως διπλάσια Kudos ή x1,5 μετρητά.</li>
+  <li>Ψάξε για την <strong>αφίσα «Σύντομα event!»</strong> στο φουαγιέ 5 μέρες πριν αρχίσει, και το <strong>κουμπί event</strong> στα δεξιά όσο είναι ενεργό.</li>
+  <li>Ορισμένα events τρέχουν <strong>ένα στάδιο την ημέρα</strong>. Ολοκλήρωσε το στάδιο κάθε ημέρας στην ώρα του: ένα στάδιο που χάθηκε κλειδώνει. Μπορείς να το ξεκλειδώσεις μέχρι το τέλος του event με 5 συνδετήρες ή βλέποντας μια διαφήμιση (δωρεάν για VIP). Ολοκλήρωσε όλα τα στάδια για να κερδίσεις ένα <strong>τρόπαιο</strong> για το γραφείο σου.</li>
+  <li>Οι δουλειές των events κοστολογούνται με βάση τα δικά σου τρέχοντα έσοδα, ώστε να είναι δίκαιες σε κάθε βαθμίδα.</li>
+</ul>
+<img class="scene" src="img/help-christmas.png" alt="The office decorated for Christmas with snow outside and Santa flying past">
+<p class="caption">Τα Χριστούγεννα όλο το γραφείο στολίζεται: χιόνι, γιρλάντες, φωτάκια, γιορτινά πουλόβερ, δέντρο στο φουαγιέ και ο Άγιος Βασίλης πετάει έξω από τα παράθυρα.</p>
+
+<h2 id="boosts">12. Διαλείμματα για καφέ, διαφημίσεις και VIP</h2>
+<ul>
+  <li><img class="ico" src="img/icon-mug.png" alt=""><strong>Διάλειμμα για καφέ:</strong> δες μια σύντομη διαφήμιση και τα πάντα θα τρέχουν <strong>δύο φορές πιο γρήγορα για 15 λεπτά</strong>. Τα διαλείμματα συσσωρεύονται έως 4 ώρες.</li>
+  <li><img class="ico" src="img/icon-paperclip.png" alt=""><strong>Δωρεάν συνδετήρες:</strong> δες μια διαφήμιση για 3 χρυσούς συνδετήρες, έως τρεις φορές την ημέρα.</li>
+  <li><img class="ico" src="img/icon-tv.png" alt="">Οι διαφημίσεις είναι πάντα <strong>δική σου επιλογή</strong>, έως 10 διαφημίσεις ανταμοιβής την ημέρα. Υπάρχει επίσης μια σύντομη διαφήμιση μετά από κάθε τρίτη προαγωγή.</li>
+  <li>Το <strong>VIP</strong> (εφάπαξ αγορά) αφαιρεί οριστικά τις διαφημίσεις, δίνει άμεσα τις ανταμοιβές, σώζει δωρεάν τα σπασμένα σερί, προσθέτει 4 ώρες χρόνου απουσίας και δίνει ένα χρυσό περιλαίμιο στον υπάλληλό σου.</li>
+</ul>
+
+<h2 id="settings">13. Ρυθμίσεις και cloud</h2>
+<p>Το γρανάζι επάνω δεξιά ανοίγει τις Ρυθμίσεις:</p>
+<ul>
+  <li><strong>Λογαριασμός:</strong> συνδέσου στο <strong>Google Play Παιχνίδια</strong> για να σώσεις την καριέρα σου στο cloud. Αν αλλάξεις τηλέφωνο, συνδέσου εκεί και επίλεξε <em>Φόρτωση από cloud</em>.</li>
+  <li><strong>Ήχος:</strong> ηχητικά εφέ, θόρυβος φόντου γραφείου και μουσική τίτλων, το καθένα με τη δική του ένταση. Στο κάτω μέρος βρίσκονται η <strong>Δόνηση</strong> και ο <strong>Ήχος πληρωμής δουλειάς</strong> (ο ήχος κερμάτων).</li>
+  <li><strong>Παιχνίδι:</strong> υπενθυμίσεις και ανοιχτή οθόνη.</li>
+  <li><strong>Περισσότερα:</strong> αυτό το εγχειρίδιο, γλώσσα, <strong>επαναφορά αγορών</strong>, ρυθμίσεις απορρήτου και πολιτική απορρήτου.</li>
+</ul>
+
+<h2 id="faq">14. Ερωτήσεις</h2>
+<h3>Συνεχίζει το παιχνίδι να κερδίζει όταν είναι κλειστό;</h3>
+<p>Ναι, μέχρι το όριο του χρόνου απουσίας σου (3 ώρες αρχικά). Αύξησέ τον με εργαλεία ή με το VIP.</p>
+<h3>Αγόρασα κάτι και δεν εμφανίστηκε.</h3>
+<p>Άνοιξε <strong>Ρυθμίσεις → Επαναφορά αγορών</strong>. Οι αγορές συνδέονται με τον λογαριασμό σου στην Google.</p>
+<h3>Πώς μεταφέρω την πρόοδό μου σε νέο τηλέφωνο;</h3>
+<p>Στο παλιό τηλέφωνο, συνδέσου στο Google Play Παιχνίδια στις Ρυθμίσεις και πάτησε <strong>Αποθήκευση τώρα</strong>. Στο νέο τηλέφωνο, συνδέσου με τον ίδιο λογαριασμό και πάτησε <strong>Φόρτωση από cloud</strong>.</p>
+<h3>Μπορώ να απενεργοποιήσω τις διαφημίσεις;</h3>
+<p>Οι διαφημίσεις με ανταμοιβή παίζουν μόνο αν το επιλέξεις. Το VIP αφαιρεί όλες τις διαφημίσεις, συμπεριλαμβανομένης αυτής μετά από κάθε τρίτη προαγωγή.</p>
+<h3>Κάτι φαίνεται λάθος ή βρήκα κάποιο σφάλμα.</h3>
+<p>Στείλε email στο <a href="mailto:dialupstudios.games@gmail.com">dialupstudios.games@gmail.com</a>. Ο Stan στο φουαγιέ θα σου πει σε ποια έκδοση βρίσκεσαι.</p>
+
+<footer>
+  Out of Office από την Dial-Up Studios · <a href="index.el.html">Αρχική</a> · <a href="privacy.el.html">Πολιτική απορρήτου</a> · <a href="mailto:dialupstudios.games@gmail.com">Επικοινωνία</a>
+</footer>
+</div>
+</div>
+</body>
+</html>

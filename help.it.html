@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Come giocare – Out of Office</title>
+<meta name="description" content="Il manuale del dipendente di Out of Office: come giocare, guadagnare, ottenere promozioni e scalare la torre Synergex.">
+<style>
+  :root { --bg:#008080; --panel:#c0c0c0; --paper:#ffffff; --ink:#1a1a1a; --soft:#4a4a4a; --bar:#000080; --cash:#1e7a32; --kudos:#b8860b; --clip:#a8740a; --tint:#fff4d0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 Georgia, "Times New Roman", serif; }
+  .win { max-width:860px; margin:24px auto; background:var(--panel); border:2px solid; border-color:#fff #404040 #404040 #fff; }
+  .title { background:var(--bar); color:#fff; font:bold 15px/1 Tahoma, Verdana, sans-serif; padding:7px 10px; display:flex; justify-content:space-between; }
+  .title a { color:#fff; text-decoration:none; }
+  .body { background:var(--paper); margin:6px; padding:22px 28px; border:2px solid; border-color:#404040 #fff #fff #404040; }
+  h1 { font-size:1.8rem; margin:0 0 .2rem; }
+  h2 { font:bold 1.15rem Tahoma, Verdana, sans-serif; margin:2.2rem 0 .5rem; color:var(--bar); border-bottom:2px solid #c0c0c0; padding-bottom:.2rem; scroll-margin-top:12px; }
+  h3 { font:bold 1rem Tahoma, Verdana, sans-serif; margin:1.2rem 0 .3rem; }
+  .meta { color:var(--soft); margin:0 0 1rem; }
+  li { margin:.3rem 0; }
+  a { color:var(--bar); }
+  img.scene { width:100%; height:auto; image-rendering:pixelated; border:2px solid #404040; display:block; margin:.6rem 0 .3rem; background:#000; }
+  img.tower { max-width:260px; width:100%; image-rendering:pixelated; border:2px solid #404040; float:right; margin:0 0 1rem 1.2rem; }
+  img.ico { width:28px; height:28px; image-rendering:pixelated; vertical-align:middle; margin-right:6px; }
+  .caption { color:var(--soft); font-size:.9rem; margin:0 0 1rem; }
+  .hero { display:flex; gap:18px; align-items:center; margin-bottom:1rem; }
+  .hero img { width:88px; height:88px; image-rendering:pixelated; border:2px solid #404040; }
+  .toc { background:var(--tint); border:2px solid; border-color:#404040 #fff #fff #404040; padding:10px 16px; columns:2; column-gap:28px; font-family:Tahoma, Verdana, sans-serif; font-size:.92rem; }
+  .toc a { display:block; padding:2px 0; }
+  .callouts { counter-reset:c; list-style:none; padding:0; }
+  .callouts li { counter-increment:c; padding-left:2.2rem; position:relative; }
+  .callouts li::before { content:counter(c); position:absolute; left:0; top:.1rem; width:1.5rem; height:1.5rem; border-radius:50%; background:#c8102e; color:#fff; font:bold .85rem/1.5rem Tahoma, Verdana, sans-serif; text-align:center; border:2px solid #fff; box-shadow:0 0 0 1px #c8102e; }
+  table { border-collapse:collapse; width:100%; margin:.6rem 0 1rem; font-size:.95rem; }
+  th, td { border:1px solid #9a9a9a; padding:6px 8px; text-align:left; vertical-align:top; }
+  th { background:#e4e4e4; font-family:Tahoma, Verdana, sans-serif; font-size:.85rem; }
+  .tip { background:#eaf6ea; border-left:4px solid var(--cash); padding:8px 12px; margin:1rem 0; }
+  .clear { clear:both; }
+  footer { margin-top:2.5rem; color:var(--soft); font-size:.9rem; border-top:2px solid #c0c0c0; padding-top:.8rem; }
+  @media (max-width:640px) {
+    .win { margin:0; border:0; } .body { margin:0; padding:16px; }
+    .toc { columns:1; } img.tower { float:none; display:block; margin:0 auto 1rem; max-width:220px; }
+    .hero img { width:64px; height:64px; }
+  }
+</style>
+<!--langs--><link rel="alternate" hreflang="en" href="help.html"><link rel="alternate" hreflang="fr" href="help.fr.html"><link rel="alternate" hreflang="de" href="help.de.html"><link rel="alternate" hreflang="es" href="help.es.html"><link rel="alternate" hreflang="it" href="help.it.html"><link rel="alternate" hreflang="el" href="help.el.html"><!--/langs-->
+</head>
+<body>
+<div class="win">
+<div class="title"><span>Come giocare – Out of Office</span><a href="index.it.html">✕</a></div>
+<div class="body"><!--langs--><nav class="langs" style="font:13px/1.4 sans-serif;text-align:right;margin:0 0 .6rem"><a href="help.html" lang="en" hreflang="en">English</a> · <a href="help.fr.html" lang="fr" hreflang="fr">Français</a> · <a href="help.de.html" lang="de" hreflang="de">Deutsch</a> · <a href="help.es.html" lang="es" hreflang="es">Español</a> · <strong>Italiano</strong> · <a href="help.el.html" lang="el" hreflang="el">Ελληνικά</a></nav><!--/langs-->
+
+<div class="hero">
+  <img src="img/app-icon.png" alt="Out of Office app icon">
+  <div>
+    <h1>Il manuale del dipendente</h1>
+    <p class="meta">Tutto ciò che ti serve per passare da addetto al tè a Grande Capo del Piano di Sopra presso Synergex plc.</p>
+  </div>
+</div>
+
+<nav class="toc" aria-label="Indice">
+  <a href="#basics">1. Le basi</a>
+  <a href="#money">2. Contanti, Kudos e graffette</a>
+  <a href="#office">3. Muoversi in ufficio</a>
+  <a href="#foyer">4. L’atrio</a>
+  <a href="#jobs">5. Lavori e livelli</a>
+  <a href="#promotions">6. Promozioni e piani</a>
+  <a href="#menus">7. Mansioni, Strumenti, Carriera e Negozio</a>
+  <a href="#away">8. Mentre sei via</a>
+  <a href="#attendance">9. Timbrare ogni giorno</a>
+  <a href="#challenges">10. Sfide</a>
+  <a href="#events">11. Eventi</a>
+  <a href="#boosts">12. Pause caffè, pubblicità e VIP</a>
+  <a href="#settings">13. Impostazioni e salvataggi cloud</a>
+  <a href="#faq">14. Domande</a>
+</nav>
+
+<h2 id="basics">1. Le basi</h2>
+<p>Inizi come <strong>Ragazzo in stage</strong> a preparare il tè nella cucina del seminterrato di Synergex plc. Ogni piano del grattacielo di 30 piani ha il suo <strong>lavoro</strong>: un macchinario o una scrivania che opera a tempo e paga ogni volta che completa il ciclo. Il tuo scopo è guadagnare, acquistare miglioramenti ed essere promosso fino all’ultimo piano.</p>
+<img class="scene" src="img/help-tea.png" alt="The first job: a kettle and toaster making tea">
+<p class="caption">Il tuo primo lavoro: preparare il tè. Toccalo per velocizzare il giro.</p>
+<ul>
+  <li><strong>I lavori guadagnano da soli.</strong> Una volta avviato, un lavoro continua a operare, anche ad app chiusa.</li>
+  <li><strong>Aumenta di livello i lavori</strong> per guadagnare di più e riempire le scrivanie di colleghi.</li>
+  <li><strong>Riempi la barra dei Kudos d’ufficio</strong> in cima allo schermo e toccala per chiedere una promozione.</li>
+  <li><strong>Ogni promozione</strong> moltiplica tutti i tuoi guadagni, e ogni poche promozioni sali di un piano verso un nuovo lavoro.</li>
+</ul>
+<p>Il tuo primo giorno, Brenda delle Risorse Umane ti mostrerà l’ufficio per farti imparare sul campo.</p>
+
+<h2 id="money">2. Contanti, Kudos d’ufficio e graffette dorate</h2>
+<table>
+  <tr><th style="width:34%">Valuta</th><th>A cosa serve</th></tr>
+  <tr><td><img class="ico" src="img/icon-cashwad.png" alt="">Contanti (£)</td><td>Guadagnati a ogni ciclo completato. Spendili per aumentare i livelli dei lavori e comprare strumenti.</td></tr>
+  <tr><td><img class="ico" src="img/icon-thumbsup.png" alt="">Kudos d’ufficio</td><td>Guadagnati a ogni ciclo completato. Non si spendono mai: riempi la barra per sbloccare la promozione successiva.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Graffette dorate</td><td>La valuta premium. Ottenute tramite promozioni, sfide, il cartellino delle presenze, eventi e video pubblicitari, oppure acquistate nel Negozio. Usale per boost, salti temporali e strumenti premium.</td></tr>
+</table>
+
+<h2 id="office">3. Muoversi in ufficio</h2>
+<p>La schermata principale mostra un piano della torre visto di profilo. <strong>Trascina a sinistra e a destra</strong> per camminare lungo il piano e <strong>pizzica per lo zoom</strong>. Quasi tutto può essere toccato.</p>
+<img class="scene" src="img/help-office.png" alt="An office floor with numbered callouts">
+<ol class="callouts">
+  <li><strong>Il lavoro del piano.</strong> Toccalo per affrettarlo. La targhetta in basso mostra il suo livello, i guadagni e il pulsante <em>Livello su</em>.</li>
+  <li><strong>I tuoi colleghi.</strong> Le scrivanie si popolano all’aumentare del livello del lavoro. Tocca chiunque per una battuta.</li>
+  <li><strong>La tua scrivania</strong> (contrassegnata da TU) si trova al piano a cui sei stato promosso.</li>
+  <li><strong>L’ufficio del capo.</strong> Tocca il capo per scoprire cosa ne pensa.</li>
+  <li><strong>Gli ascensori.</strong> Tocca un ascensore per aprire la pulsantiera e viaggiare verso qualsiasi piano raggiunto.</li>
+  <li><strong>La fotocopiatrice e il boccione d’acqua.</strong> Toccali per una sorpresa.</li>
+  <li><strong>La scala antincendio.</strong> Tieni d’occhio le scale: la gente va e viene.</li>
+</ol>
+<p>Il <strong>pulsante della mappa</strong> nella barra in alto (la torretta) mostra l’intero edificio: i piani sbloccati, dove si trova la tua scrivania e chi gestisce ogni piano.</p>
+<p>L’illuminazione segue l’orologio del telefono: giorno dalle 6:00, notte dalle 19:00.</p>
+
+<h2 id="foyer">4. L’atrio</h2>
+<p>Il piano terra è l’atrio. Prendi l’ascensore per il <strong>PT</strong> per visitarlo.</p>
+<img class="scene" src="img/help-foyer.png" alt="The foyer with numbered callouts">
+<ol class="callouts">
+  <li><strong>Gli ascensori</strong> per risalire verso gli uffici.</li>
+  <li><strong>La timbratrice.</strong> Toccala per visualizzare il cartellino e la tua serie (vedi <a href="#attendance">Timbrare</a>).</li>
+  <li><strong>La bacheca.</strong> Durante un evento, un nastro EVENTO compare sull’angolo: tocca la bacheca per aprirlo. Il resto del tempo mostra i soliti avvisi d’ufficio.</li>
+  <li><strong>Il poster «Evento in arrivo!».</strong> Compare cinque giorni prima dell’inizio di un evento. Toccalo per vedere le novità in arrivo.</li>
+  <li><strong>Maxine alla reception</strong>, sempre al telefono.</li>
+  <li><strong>Ron della sicurezza.</strong> Saluta con la mano.</li>
+  <li><strong>Stan il custode.</strong> Toccalo per <em>Info</em>: versione dell’app, novità e licenze.</li>
+  <li><strong>L’ingresso.</strong> I visitatori entrano dalla porta girevole.</li>
+</ol>
+
+<h2 id="jobs">5. Lavori e livelli</h2>
+<ul>
+  <li><strong>Avvia</strong> un lavoro acquistando il suo primo livello, poi <strong>aumentalo di livello</strong> con i contanti. Ogni livello rende di più.</li>
+  <li>Ai <strong>livelli 10, 25, 50, 100</strong> e successivi, il lavoro <strong>opera al doppio della velocità</strong>.</li>
+  <li><strong>Tocca un lavoro per mettergli fretta.</strong> Ogni tocco accelera il ciclo corrente e i guadagni salgono in lettere dorate.</li>
+  <li><strong>Sovraccarico d’ufficio.</strong> Tocca a raffica e comparirà l’indicatore di <em>Sovraccarico</em> a sinistra. Più si scalda, più vale ogni tocco (fino a x2,5) e più l’ufficio va nel panico. Se lo riempi, il piano entra in <strong>crisi totale</strong> per alcuni secondi: caos assoluto e ogni tocco vale il triplo (x3). Poi tutti avranno bisogno di un attimo di calma prima che possa riempirsi di nuovo.</li>
+  <li>Nella finestra <strong>Mansioni</strong> puoi comprare 1 livello, 10 livelli o il <strong>MAX</strong> (tutti quelli che puoi permetterti) in una volta sola.</li>
+</ul>
+<div class="tip"><strong>Consiglio:</strong> i lavori dei nuovi piani rendono molto più di quelli vecchi. Investi la maggior parte dei tuoi contanti nel lavoro più recente e raccogli i traguardi di velocità economici sui vecchi.</div>
+
+<h2 id="promotions">6. Promozioni e piani</h2>
+<img class="tower" src="img/help-tower.png" alt="The building map showing unlocked floors">
+<ul>
+  <li>Ci sono <strong>150 promozioni</strong>, cinque su ciascuno dei <strong>30 piani</strong>.</li>
+  <li>Quando la barra dei Kudos d’ufficio è piena, lampeggia: <strong>toccala per chiedere una promozione</strong>.</li>
+  <li><strong>Ogni promozione</strong> moltiplica tutti i contanti (×1,10) e tutti i Kudos d’ufficio (×1,06).</li>
+  <li>La <strong>prima promozione di ogni piano</strong> sposta la tua scrivania al piano superiore, sblocca il lavoro di quel piano e regala graffette dorate. Un nuovo responsabile si presenterà.</li>
+  <li>La 2ª e la 4ª promozione di un piano ne sbloccano gli <strong>strumenti</strong>.</li>
+  <li>Il tuo abbigliamento si fa più elegante man mano che scali la gerarchia.</li>
+</ul>
+<p>I piani vanno dal Supporto (tè, posta, fotocopie), passando per Amministrazione, IT e Manutenzione, Gestione e Dirigenza, fino ai Piani Esecutivi: fusioni, golf e, in cima a tutto, <em>Gestire l’impero</em>.</p>
+<div class="clear"></div>
+
+<h2 id="menus">7. Mansioni, Strumenti, Carriera e Negozio</h2>
+<p>I quattro pulsanti in basso aprono le finestre sovrapposte all’ufficio:</p>
+<table>
+  <tr><th style="width:24%">Button</th><th>What's inside</th></tr>
+  <tr><td><img class="ico" src="img/icon-notepad.png" alt="">Mansioni</td><td>Tutti i tuoi lavori: livelli, guadagni, il prossimo traguardo di velocità e acquisto cumulativo di livelli.</td></tr>
+  <tr><td><img class="ico" src="img/icon-printer.png" alt="">Strumenti</td><td>Miglioramenti una tantum. Ogni piano ne ha due (uno triplica la paga, uno raddoppia la velocità), oltre a strumenti aziendali per velocità, paga, Kudos e tempo di assenza prolungato, nonché strumenti premium con graffette. Se ti mancano contanti, <strong>Paga ora</strong> versa tutti i tuoi contanti e copre il resto con le graffette.</td></tr>
+  <tr><td><img class="ico" src="img/icon-chart.png" alt="">Carriera</td><td>Ogni grado aziendale, i Kudos d’ufficio necessari per ciascuno e le graffette dorate che riconosce.</td></tr>
+  <tr><td><img class="ico" src="img/icon-paperclip.png" alt="">Negozio</td><td>Offerte del giorno, omaggi gratuiti (pubblicità), VIP, pacchetti di graffette e vantaggi utili: <em>Straordinari</em> (doppia velocità per 30 min) e salti temporali (<em>Pausa pranzo lunga</em> 1 ora, <em>Mezza giornata</em> 4 ore, <em>Festa aziendale</em> 24 ore di paga subito).</td></tr>
+</table>
+
+<h2 id="away">8. Mentre sei via</h2>
+<ul>
+  <li>Il tuo team <strong>continua a lavorare mentre l’app è chiusa</strong>, fino al limite del tuo <strong>tempo di assenza</strong>: 3 ore all’inizio, fino a 24 ore con gli strumenti, più 4 ore extra per i VIP.</li>
+  <li>Al tuo ritorno, la scheda <strong>Di nuovo in ufficio</strong> mostra quanto hai guadagnato. Tocca <strong>Incassa</strong>, oppure <strong>Raddoppia</strong> guardando un breve video (i VIP raddoppiano subito).</li>
+  <li>Esaurito il tempo di assenza, il lavoro si ferma fino al tuo ritorno. Un <strong>promemoria</strong> ti avviserà quando la vaschetta della posta è piena (attivabile in Impostazioni).</li>
+  <li><strong>Schermo sempre attivo</strong> (in Impostazioni) impedisce al telefono di spegnersi a gioco aperto, permettendoti di ammirare l’ufficio in piena attività.</li>
+  <li>Premendo <strong>Indietro</strong> ti verrà chiesto se vuoi <strong>timbrare l’uscita</strong>. Timbrare l’uscita salva la partita (anche sul cloud se connesso) prima che lo schermo si spenga.</li>
+</ul>
+
+<h2 id="attendance">9. Timbrare ogni giorno</h2>
+<p>Tocca la timbratrice nell’atrio (compare anche al tuo primo accesso giornaliero) per ritirare la tua <strong>ricompensa di presenza</strong>. Il cartellino copre sette giorni e i premi crescono nel corso della settimana:</p>
+<table>
+  <tr><th style="width:22%">Giorno</th><th>Ricompensa</th></tr>
+  <tr><td>1</td><td><img class="ico" src="img/icon-cashwad.png" alt="">30 minuti di paga</td></tr>
+  <tr><td>2</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">30 minuti di Kudos d’ufficio</td></tr>
+  <tr><td>3</td><td><img class="ico" src="img/icon-cashwad.png" alt="">1 ora di paga</td></tr>
+  <tr><td>4</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">1 ora di Kudos d’ufficio</td></tr>
+  <tr><td>5</td><td><img class="ico" src="img/icon-cashwad.png" alt="">2 ore di paga</td></tr>
+  <tr><td>6</td><td><img class="ico" src="img/icon-thumbsup.png" alt="">2 ore di Kudos d’ufficio</td></tr>
+  <tr><td>7</td><td><img class="ico" src="img/icon-paperclip.png" alt="">5 graffette dorate</td></tr>
+</table>
+<ul>
+  <li><strong>Bonus per serie settimanale:</strong> ogni settimana completa consecutiva aggiunge <strong>+5%</strong> ai premi in contanti e Kudos, fino a un massimo di <strong>+25%</strong>. I giorni 8–14 ricevono +5%, i giorni 15–21 +10%, e così via. Le graffette rimangono costanti. Il cartellino mostra la serie e il bonus attuale.</li>
+  <li><strong>Hai saltato un giorno?</strong> Se hai mancato fino a due giorni, puoi <strong>salvare la serie</strong> guardando una pubblicità (gratis per i VIP), oppure ricominciare dal giorno 1.</li>
+  <li>Un <strong>promemoria alle 18:30</strong> ti avvisa se la ricompensa di oggi ti sta ancora aspettando.</li>
+</ul>
+
+<h2 id="challenges">10. Sfide</h2>
+<p>Ci sono <strong>50 sfide</strong>, presentate una alla volta tramite il pulsante <strong>#</strong> sulla destra dello schermo. La barra si riempie man mano e lampeggia con la scritta <strong>RISCATTA!</strong> al compimento. Ciascuna premia con graffette dorate (da 3 fino a 25 graffette). Ti orientano verso funzioni che potresti non aver ancora esplorato: l’ascensore, la mappa, le pause caffè o gli strumenti. Le sfide più avanzate richiedono giorni o settimane.</p>
+
+<h2 id="events">11. Eventi</h2>
+<ul>
+  <li>Gli eventi durano un periodo prestabilito con <strong>lavori bonus</strong> e <strong>potenziamenti</strong>, come doppi Kudos o contanti x1,5.</li>
+  <li>Cerca il <strong>poster «Evento in arrivo!»</strong> nell’atrio cinque giorni prima dell’inizio e il <strong>pulsante evento</strong> a destra quando è attivo.</li>
+  <li>Alcuni eventi prevedono <strong>una fase al giorno</strong>. Completa la fase di ogni giorno prima che si chiuda: le fasi non completate si bloccano. Puoi riaprirle fino al termine dell’evento con 5 graffette o guardando una pubblicità (gratis per i VIP). Concludi ogni fase per vincere un <strong>trofeo</strong> da sfoggiare sulla scrivania.</li>
+  <li>I lavori degli eventi sono parametrati sui tuoi guadagni attuali, risultando bilanciati a qualsiasi livello di carriera.</li>
+</ul>
+<img class="scene" src="img/help-christmas.png" alt="The office decorated for Christmas with snow outside and Santa flying past">
+<p class="caption">A Natale tutto l’ufficio si addobba a festa: neve, festoni, lucine, maglioni natalizi, albero nell’atrio e Babbo Natale che vola oltre le finestre.</p>
+
+<h2 id="boosts">12. Pause caffè, pubblicità e VIP</h2>
+<ul>
+  <li><img class="ico" src="img/icon-mug.png" alt=""><strong>Pausa caffè:</strong> guarda un breve video promozionale e tutto funzionerà al <strong>doppio della velocità per 15 minuti</strong>. Le pause si accumulano fino a 4 ore.</li>
+  <li><img class="ico" src="img/icon-paperclip.png" alt=""><strong>Graffette gratis:</strong> guarda un video per ricevere 3 graffette dorate (fino a tre volte al giorno).</li>
+  <li><img class="ico" src="img/icon-tv.png" alt="">I video rimangono sempre <strong>una tua libera scelta</strong> (fino a 10 video con ricompensa al giorno). C’è anche un breve spot dopo ogni terza promozione.</li>
+  <li><strong>VIP</strong> (acquisto una tantum) rimuove la pubblicità per sempre, accredita le ricompense all’istante, salva gratis le serie interrotte, aggiunge 4 ore di tempo di assenza e dona un cordino dorato al tuo impiegato.</li>
+</ul>
+
+<h2 id="settings">13. Impostazioni e salvataggi cloud</h2>
+<p>L’ingranaggio in alto a destra apre le Impostazioni:</p>
+<ul>
+  <li><strong>Account:</strong> accedi a <strong>Google Play Giochi</strong> per salvare la carriera nel cloud. Se cambi telefono, accedi e seleziona <em>Carica dal cloud</em>.</li>
+  <li><strong>Audio:</strong> effetti sonori, rumore di fondo dell’ufficio e musica dei titoli, ciascuno con volume indipendente. In basso si trovano <strong>Vibrazione</strong> ed <strong>Effetto sonoro guadagni</strong> (il tintinnio di monete).</li>
+  <li><strong>Gioco:</strong> promemoria e schermo sempre attivo.</li>
+  <li><strong>Altro:</strong> questo manuale, lingua, <strong>ripristina acquisti</strong>, impostazioni della privacy e informativa sulla privacy.</li>
+</ul>
+
+<h2 id="faq">14. Domande</h2>
+<h3>Il gioco continua a guadagnare quando è chiuso?</h3>
+<p>Sì, fino al limite del tuo tempo di assenza (3 ore all’inizio). Puoi incrementarlo con gli strumenti o con il VIP.</p>
+<h3>Ho acquistato un articolo ma non è arrivato.</h3>
+<p>Apri <strong>Impostazioni → Ripristina acquisti</strong>. Gli acquisti sono vincolati al tuo account Google.</p>
+<h3>Come sposto i miei progressi su un nuovo telefono?</h3>
+<p>Sul vecchio dispositivo, accedi a Google Play Giochi in Impostazioni e tocca <strong>Salva ora</strong>. Sul nuovo dispositivo, accedi con lo stesso account e tocca <strong>Carica dal cloud</strong>.</p>
+<h3>Posso disattivare la pubblicità?</h3>
+<p>I video con ricompensa partono solo se lo desideri. Il pass VIP rimuove tutte le pubblicità, inclusa quella successiva a ogni terza promozione.</p>
+<h3>Qualcosa non si vede bene o ho trovato un bug.</h3>
+<p>Invia un’email a <a href="mailto:dialupstudios.games@gmail.com">dialupstudios.games@gmail.com</a>. Stan nell’atrio ti dirà con precisione quale versione stai usando.</p>
+
+<footer>
+  Out of Office di Dial-Up Studios · <a href="index.it.html">Home</a> · <a href="privacy.it.html">Informativa sulla privacy</a> · <a href="mailto:dialupstudios.games@gmail.com">Contatti</a>
+</footer>
+</div>
+</div>
+</body>
+</html>
