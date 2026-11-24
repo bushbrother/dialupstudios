@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 15,
+  "contentVersion": 18,
   "gameTitle": "Out of Office",
   "company": "Synergex plc",
   "economy": {
@@ -23,7 +23,10 @@
     "rankCashMult": 1.1,
     "rankKudosMult": 1.06,
     "tapSpeedupFraction": 0.15,
-    "startingCash": 4
+    "startingCash": 4,
+    "welcomeBackDays": 7,
+    "welcomeBackGems": 10,
+    "welcomeBackBoostMinutes": 30
   },
   "ranks": [
     {
@@ -2385,7 +2388,7 @@
     {
       "id": "486_desktop_pc",
       "name": "486 Desktop PC",
-      "description": "Turbo button engaged. All cash x2.",
+      "description": "Turbo button engaged. All Synbux x2.",
       "unlockRank": 13,
       "currency": "CASH",
       "cost": 18400000000.0,
@@ -2399,7 +2402,7 @@
     {
       "id": "corner_office",
       "name": "Corner Office",
-      "description": "Two windows! All cash x2.",
+      "description": "Two windows! All Synbux x2.",
       "unlockRank": 48,
       "currency": "CASH",
       "cost": 3.94e+18,
@@ -2413,7 +2416,7 @@
     {
       "id": "company_car",
       "name": "Company Car",
-      "description": "Very shiny. All cash x3.",
+      "description": "Very shiny. All Synbux x3.",
       "unlockRank": 115,
       "currency": "CASH",
       "cost": 6.39e+33,
@@ -2511,7 +2514,7 @@
     {
       "id": "goldstapler",
       "name": "Platinum Stapler",
-      "description": "Premium. All cash x1.5 forever.",
+      "description": "Premium. All Synbux x1.5 forever.",
       "unlockRank": 1,
       "currency": "GEMS",
       "cost": 150,
@@ -2567,7 +2570,7 @@
     {
       "id": "paperweight",
       "name": "Diamond Paperweight",
-      "description": "Premium. All cash x2 forever.",
+      "description": "Premium. All Synbux x2 forever.",
       "unlockRank": 80,
       "currency": "GEMS",
       "cost": 900,
@@ -3525,7 +3528,7 @@
           "glasses": true
         },
         "quips": [
-          "Forty pounds. On custard creams. Last quarter. Forty.",
+          "Forty Synbux. On custard creams. Last quarter. Forty.",
           "Receipts, please. Yes, even for the bus.",
           "I balanced the books once. Then someone ordered biros.",
           "An upgrade is an investment. A biscuit is not."
@@ -3542,7 +3545,7 @@
         },
         {
           "who": "manager",
-          "text": "Especially that. We spent forty pounds on custard creams last quarter. Forty."
+          "text": "Especially that. We spent forty Synbux on custard creams last quarter. Forty."
         },
         {
           "who": "you",
@@ -3669,7 +3672,7 @@
           "glasses": true
         },
         "quips": [
-          "Notwithstanding the foregoing, good morning.",
+          "{greeting}, notwithstanding the foregoing.",
           "Clause 4.2 is very important. Nobody knows why.",
           "I read the back of a cereal box once. Took three days.",
           "Hire another paralegal. Whereas I am tired."
@@ -4048,7 +4051,7 @@
         "glasses": true
       },
       "quips": [
-        "Good morning and welcome to Synergex plc! Lanyard on, please.",
+        "{greeting} and welcome to Synergex plc! Lanyard on, please.",
         "Clock in at the machine. HR counts. Brenda counts twice.",
         "Check the noticeboard, love. There's always something on.",
         "Lift's that way. Press the button once. It hears you.",
@@ -4862,7 +4865,7 @@
     {
       "id": "xmas_2026",
       "title": "Office Christmas Party",
-      "description": "Tinsel on every monitor and cash x1.5 all December. Twelve days of jobs, one a day: miss one and it locks.",
+      "description": "Tinsel on every monitor and Synbux x1.5 all December. Twelve days of tasks, one a day, across three party jobs: miss one and it locks.",
       "startUtc": "2026-12-01T00:00:00Z",
       "endUtc": "2027-01-02T00:00:00Z",
       "bannerColor": "#C8102E",
@@ -5011,7 +5014,8 @@
       "finalRewardGems": 30,
       "trophyName": "Christmas Party Cup",
       "pricedInPayMinutes": true,
-      "theme": "christmas"
+      "theme": "christmas",
+      "trophyIcon": "tree"
     },
     {
       "id": "valentine_2027",
@@ -5039,7 +5043,7 @@
         {
           "id": "ev_carnation",
           "name": "Sell Carnation Grams",
-          "flavour": "\u00a31 each, for the Christmas fund.",
+          "flavour": "\u00a71 each, for the Christmas fund.",
           "unlockRank": 1,
           "baseDurationSec": 120,
           "baseCash": 14,
@@ -5125,12 +5129,13 @@
       "reopenCostGems": 5,
       "finalRewardGems": 15,
       "trophyName": "Golden Heart",
-      "pricedInPayMinutes": true
+      "pricedInPayMinutes": true,
+      "trophyIcon": "heart"
     },
     {
       "id": "easter_2027",
       "title": "The Great Easter Egg Hunt",
-      "description": "Seven days of eggs, hunts and hot cross buns, one a day: miss one and it locks. Cash x1.25 for a fortnight.",
+      "description": "Seven days of eggs, hunts and hot cross buns, one a day: miss one and it locks. Synbux x1.25 for a fortnight.",
       "startUtc": "2027-03-22T00:00:00Z",
       "endUtc": "2027-04-06T00:00:00Z",
       "bannerColor": "#E9A23B",
@@ -5239,7 +5244,8 @@
       "reopenCostGems": 5,
       "finalRewardGems": 15,
       "trophyName": "Golden Egg",
-      "pricedInPayMinutes": true
+      "pricedInPayMinutes": true,
+      "trophyIcon": "egg"
     },
     {
       "id": "heatwave_2027",
@@ -5353,7 +5359,602 @@
       "reopenCostGems": 5,
       "finalRewardGems": 15,
       "trophyName": "Golden Ice Lolly",
-      "pricedInPayMinutes": true
+      "pricedInPayMinutes": true,
+      "trophyIcon": "lolly"
+    }
+  ],
+  "hunts": [
+    {
+      "id": "kevin_lunch",
+      "owner": "Kevin from Data Entry",
+      "notify": "Kevin from Data Entry has lost his lunch again. It's in bits all over the building.",
+      "intro": [
+        "Kevin from Data Entry has lost his lunch. Again.",
+        "He put it down somewhere \"for a second\" and now it's all over the building."
+      ],
+      "thanks": "Kevin says thanks. Well, he grunted with his mouth full.",
+      "items": [
+        {
+          "id": "lunchbox",
+          "name": "Kevin's lunchbox",
+          "sprite": "lunchbox"
+        },
+        {
+          "id": "flask",
+          "name": "Kevin's flask",
+          "sprite": "flask"
+        },
+        {
+          "id": "banana",
+          "name": "Kevin's banana",
+          "sprite": "banana"
+        },
+        {
+          "id": "sandwich",
+          "name": "Kevin's sandwich",
+          "sprite": "sandwich"
+        },
+        {
+          "id": "yoghurt",
+          "name": "Kevin's yoghurt",
+          "sprite": "yoghurt"
+        }
+      ]
+    },
+    {
+      "id": "dev_gadgets",
+      "owner": "Dev from the IT Helpdesk",
+      "notify": "Dev from the IT Helpdesk has lost his gadgets. He's tried turning the building off and on again.",
+      "intro": [
+        "Dev from the IT Helpdesk has lost his gadgets.",
+        "He's tried turning the building off and on again. It didn't help."
+      ],
+      "thanks": "Dev's back online. He says you've saved him a ticket.",
+      "items": [
+        {
+          "id": "headphones",
+          "name": "Dev's headphones",
+          "sprite": "headphones"
+        },
+        {
+          "id": "mouse",
+          "name": "Dev's mouse",
+          "sprite": "mouse"
+        },
+        {
+          "id": "usb",
+          "name": "Dev's USB stick",
+          "sprite": "usb"
+        },
+        {
+          "id": "phone",
+          "name": "Dev's phone",
+          "sprite": "phone"
+        },
+        {
+          "id": "cable",
+          "name": "Dev's charger",
+          "sprite": "cable"
+        }
+      ]
+    },
+    {
+      "id": "brenda_keys",
+      "owner": "Brenda from HR",
+      "notify": "Brenda from HR has lost her keys. Nobody can get into the stationery cupboard.",
+      "intro": [
+        "Brenda from HR has lost her keys.",
+        "Until they turn up, nobody can get into the stationery cupboard. Morale is low."
+      ],
+      "thanks": "Brenda's got her keys back. The stationery cupboard is open for business.",
+      "items": [
+        {
+          "id": "keys",
+          "name": "Brenda's keys",
+          "sprite": "keys"
+        },
+        {
+          "id": "fob",
+          "name": "Brenda's door fob",
+          "sprite": "fob"
+        },
+        {
+          "id": "lanyard",
+          "name": "Brenda's lanyard",
+          "sprite": "lanyard"
+        },
+        {
+          "id": "whistle",
+          "name": "Brenda's fire whistle",
+          "sprite": "whistle"
+        },
+        {
+          "id": "glasses",
+          "name": "Brenda's reading glasses",
+          "sprite": "glasses"
+        }
+      ]
+    },
+    {
+      "id": "rupert_golf",
+      "owner": "Rupert in Finance",
+      "notify": "Rupert in Finance has lost his golf kit, and he's playing the auditors on Saturday.",
+      "intro": [
+        "Rupert in Finance has lost his golf kit.",
+        "He's playing the auditors on Saturday and says it's \"strategically vital\"."
+      ],
+      "thanks": "Rupert's kit is back. He says he'll let the auditors win. Probably.",
+      "items": [
+        {
+          "id": "ball",
+          "name": "Rupert's golf ball",
+          "sprite": "golfball"
+        },
+        {
+          "id": "tee",
+          "name": "Rupert's lucky tee",
+          "sprite": "tee"
+        },
+        {
+          "id": "glove",
+          "name": "Rupert's golf glove",
+          "sprite": "glove"
+        },
+        {
+          "id": "card",
+          "name": "Rupert's scorecard",
+          "sprite": "card"
+        },
+        {
+          "id": "visor",
+          "name": "Rupert's visor",
+          "sprite": "cap"
+        }
+      ]
+    },
+    {
+      "id": "babs_desk",
+      "owner": "Babs in the Typing Pool",
+      "notify": "Babs in the Typing Pool has lost half her desk. She can't type a word without it.",
+      "intro": [
+        "Babs in the Typing Pool has lost half her desk.",
+        "She says she can't type a single word without her things. She's typed me three memos about it."
+      ],
+      "thanks": "Babs is back at full speed. Ninety words a minute, all of them about you, all of them nice.",
+      "items": [
+        {
+          "id": "glasses",
+          "name": "Babs's glasses",
+          "sprite": "glasses"
+        },
+        {
+          "id": "tippex",
+          "name": "Babs's correction fluid",
+          "sprite": "tippex"
+        },
+        {
+          "id": "pencil",
+          "name": "Babs's pencil",
+          "sprite": "pencil"
+        },
+        {
+          "id": "mug",
+          "name": "Babs's mug",
+          "sprite": "mug"
+        },
+        {
+          "id": "cardigan",
+          "name": "Babs's cardigan",
+          "sprite": "cardigan"
+        }
+      ]
+    },
+    {
+      "id": "terry_tools",
+      "owner": "Big Terry from Facilities",
+      "notify": "Big Terry from Facilities has lost his tools. Every door in the building is squeaking.",
+      "intro": [
+        "Big Terry from Facilities has lost his tools.",
+        "Every door in the building squeaks and he can't fix a thing till they're back."
+      ],
+      "thanks": "Terry's got his tools. The doors have stopped squeaking. He's started whistling instead.",
+      "items": [
+        {
+          "id": "hammer",
+          "name": "Terry's hammer",
+          "sprite": "hammer"
+        },
+        {
+          "id": "screwdriver",
+          "name": "Terry's screwdriver",
+          "sprite": "screwdriver"
+        },
+        {
+          "id": "spanner",
+          "name": "Terry's spanner",
+          "sprite": "spanner"
+        },
+        {
+          "id": "tape",
+          "name": "Terry's tape measure",
+          "sprite": "tapemeasure"
+        },
+        {
+          "id": "torch",
+          "name": "Terry's torch",
+          "sprite": "torch"
+        }
+      ]
+    },
+    {
+      "id": "doreen_tea",
+      "owner": "Doreen in the Basement Kitchen",
+      "notify": "Doreen has lost her tea things. Without them there's no eleven o'clock round.",
+      "intro": [
+        "Doreen in the Basement Kitchen has lost her tea things.",
+        "No tea things, no eleven o'clock round. People are getting twitchy."
+      ],
+      "thanks": "Doreen's tea round is back on. She's saved you the last custard cream.",
+      "items": [
+        {
+          "id": "caddy",
+          "name": "Doreen's tea caddy",
+          "sprite": "caddy"
+        },
+        {
+          "id": "sugar",
+          "name": "Doreen's sugar bowl",
+          "sprite": "sugar"
+        },
+        {
+          "id": "jug",
+          "name": "Doreen's milk jug",
+          "sprite": "milkjug"
+        },
+        {
+          "id": "tin",
+          "name": "Doreen's biscuit tin",
+          "sprite": "biscuittin"
+        },
+        {
+          "id": "spoon",
+          "name": "Doreen's teaspoon",
+          "sprite": "spoon"
+        }
+      ]
+    },
+    {
+      "id": "hilary_safety",
+      "owner": "Hilary from Health & Safety",
+      "notify": "Hilary from Health & Safety has lost her safety kit. She's calling it a hazard.",
+      "intro": [
+        "Hilary from Health & Safety has lost her safety kit.",
+        "She's written it up as a hazard. Then she lost the form."
+      ],
+      "thanks": "Hilary's kit is back. She's given you a gold star for vigilance. It's a sticker.",
+      "items": [
+        {
+          "id": "hardhat",
+          "name": "Hilary's hard hat",
+          "sprite": "hardhat"
+        },
+        {
+          "id": "clipboard",
+          "name": "Hilary's clipboard",
+          "sprite": "clipboard"
+        },
+        {
+          "id": "firstaid",
+          "name": "Hilary's first aid kit",
+          "sprite": "firstaid"
+        },
+        {
+          "id": "whistle",
+          "name": "Hilary's whistle",
+          "sprite": "whistle"
+        },
+        {
+          "id": "torch",
+          "name": "Hilary's torch",
+          "sprite": "torch"
+        }
+      ]
+    },
+    {
+      "id": "danny_lucky",
+      "owner": "Danny on the Sales Floor",
+      "notify": "Danny on the Sales Floor has lost his lucky things. He hasn't closed a deal since.",
+      "intro": [
+        "Danny on the Sales Floor has lost his lucky things.",
+        "He hasn't closed a deal since Tuesday and says it's not a coincidence."
+      ],
+      "thanks": "Danny's lucky again. He sold Ron a timeshare on the way back from the lift.",
+      "items": [
+        {
+          "id": "pen",
+          "name": "Danny's lucky pen",
+          "sprite": "pen"
+        },
+        {
+          "id": "shades",
+          "name": "Danny's sunglasses",
+          "sprite": "sunglasses"
+        },
+        {
+          "id": "cards",
+          "name": "Danny's business cards",
+          "sprite": "cards"
+        },
+        {
+          "id": "phone",
+          "name": "Danny's phone",
+          "sprite": "phone"
+        },
+        {
+          "id": "watch",
+          "name": "Danny's watch",
+          "sprite": "watch"
+        }
+      ]
+    },
+    {
+      "id": "clive_meeting",
+      "owner": "Clive in the Meeting Suite",
+      "notify": "Clive has lost his meeting kit, right before a meeting about meetings.",
+      "intro": [
+        "Clive in the Meeting Suite has lost his meeting kit.",
+        "He's got a meeting about meetings and nothing to point at."
+      ],
+      "thanks": "Clive's meeting went ahead. It's been moved to next week.",
+      "items": [
+        {
+          "id": "pointer",
+          "name": "Clive's laser pointer",
+          "sprite": "pointer"
+        },
+        {
+          "id": "marker",
+          "name": "Clive's marker pen",
+          "sprite": "marker"
+        },
+        {
+          "id": "badge",
+          "name": "Clive's name badge",
+          "sprite": "badge"
+        },
+        {
+          "id": "biscuits",
+          "name": "Clive's biscuits",
+          "sprite": "biscuittin"
+        },
+        {
+          "id": "diary",
+          "name": "Clive's diary",
+          "sprite": "book"
+        }
+      ]
+    },
+    {
+      "id": "ron_patrol",
+      "owner": "Ron on the front desk",
+      "notify": "Ron the security guard has lost his patrol kit. Security is, as he puts it, compromised.",
+      "intro": [
+        "Ron on security has lost his patrol kit.",
+        "He says security is \"compromised\". He's guarding the door with a stapler."
+      ],
+      "thanks": "Ron's kit is back. He's patrolling again, with feeling.",
+      "items": [
+        {
+          "id": "torch",
+          "name": "Ron's torch",
+          "sprite": "torch"
+        },
+        {
+          "id": "radio",
+          "name": "Ron's radio",
+          "sprite": "radio"
+        },
+        {
+          "id": "cap",
+          "name": "Ron's cap",
+          "sprite": "cap"
+        },
+        {
+          "id": "keys",
+          "name": "Ron's keys",
+          "sprite": "keys"
+        },
+        {
+          "id": "flask",
+          "name": "Ron's flask",
+          "sprite": "flask"
+        }
+      ]
+    },
+    {
+      "id": "maxine_own",
+      "owner": "Maxine",
+      "notify": "Even Maxine on reception has lost something this week. Don't tell anyone.",
+      "intro": [
+        "This one's a bit embarrassing. It's my things that are missing.",
+        "I lose track of everyone else's, then go and lose my own."
+      ],
+      "thanks": "You've found all my things. I'll never hear the end of it. Thank you, honestly.",
+      "items": [
+        {
+          "id": "umbrella",
+          "name": "Maxine's umbrella",
+          "sprite": "umbrella"
+        },
+        {
+          "id": "novel",
+          "name": "Maxine's paperback",
+          "sprite": "book"
+        },
+        {
+          "id": "scarf",
+          "name": "Maxine's scarf",
+          "sprite": "scarf"
+        },
+        {
+          "id": "glasses",
+          "name": "Maxine's glasses",
+          "sprite": "glasses"
+        },
+        {
+          "id": "lipstick",
+          "name": "Maxine's lipstick",
+          "sprite": "lipstick"
+        }
+      ]
+    },
+    {
+      "id": "reginald_things",
+      "owner": "Sir Reginald, the Chairman",
+      "notify": "Sir Reginald has mislaid his things. He's blaming a draught.",
+      "intro": [
+        "Sir Reginald, the Chairman, has mislaid his things.",
+        "He blames a draught. There isn't a draught."
+      ],
+      "thanks": "Sir Reginald is delighted. He called you \"young Thompson\". Close enough.",
+      "items": [
+        {
+          "id": "watch",
+          "name": "Sir Reginald's pocket watch",
+          "sprite": "pocketwatch"
+        },
+        {
+          "id": "monocle",
+          "name": "Sir Reginald's monocle",
+          "sprite": "monocle"
+        },
+        {
+          "id": "bowler",
+          "name": "Sir Reginald's bowler hat",
+          "sprite": "bowler"
+        },
+        {
+          "id": "cufflink",
+          "name": "Sir Reginald's cufflink",
+          "sprite": "cufflink"
+        },
+        {
+          "id": "paper",
+          "name": "Sir Reginald's newspaper",
+          "sprite": "newspaper"
+        }
+      ]
+    },
+    {
+      "id": "graham_party",
+      "owner": "Graham in the Spreadsheet Team",
+      "notify": "Graham's birthday party has gone missing. The surprise is ruined, but the cake isn't. Yet.",
+      "intro": [
+        "It's Graham's birthday on the Spreadsheet Team, and the party things have gone missing.",
+        "The surprise is ruined, but the cake isn't. Yet."
+      ],
+      "thanks": "Graham had his party. He made a pie chart of who sang loudest. You came first.",
+      "items": [
+        {
+          "id": "hat",
+          "name": "the party hat",
+          "sprite": "partyhat"
+        },
+        {
+          "id": "candles",
+          "name": "the birthday candles",
+          "sprite": "candles"
+        },
+        {
+          "id": "balloon",
+          "name": "the balloon",
+          "sprite": "balloon"
+        },
+        {
+          "id": "card",
+          "name": "the birthday card",
+          "sprite": "card"
+        },
+        {
+          "id": "knife",
+          "name": "the cake knife",
+          "sprite": "cakeknife"
+        }
+      ]
+    },
+    {
+      "id": "fiona_desk",
+      "owner": "Fiona in the Admin Office",
+      "notify": "Fiona in the Admin Office has lost her desk kit. Nothing's been stamped since Monday.",
+      "intro": [
+        "Fiona in the Admin Office has lost her desk kit.",
+        "Nothing's been stamped, punched or stapled since Monday. It's chaos up there."
+      ],
+      "thanks": "Fiona's stamped everything twice to catch up. She stamped your hand too.",
+      "items": [
+        {
+          "id": "stapler",
+          "name": "Fiona's stapler",
+          "sprite": "stapler"
+        },
+        {
+          "id": "punch",
+          "name": "Fiona's hole punch",
+          "sprite": "holepunch"
+        },
+        {
+          "id": "stamp",
+          "name": "Fiona's rubber stamp",
+          "sprite": "stamp"
+        },
+        {
+          "id": "tape",
+          "name": "Fiona's sticky tape",
+          "sprite": "sellotape"
+        },
+        {
+          "id": "ruler",
+          "name": "Fiona's ruler",
+          "sprite": "ruler"
+        }
+      ]
+    },
+    {
+      "id": "augustus_comforts",
+      "owner": "the Old Boss Upstairs",
+      "notify": "The Old Boss Upstairs has lost his home comforts. Nobody wants him cranky.",
+      "intro": [
+        "The Old Boss Upstairs has lost his home comforts.",
+        "He's cranky without them, and when he's cranky, everybody's cranky."
+      ],
+      "thanks": "The boss has his comforts back and he's purring. Well, snoring. Same thing.",
+      "items": [
+        {
+          "id": "slippers",
+          "name": "the boss's slippers",
+          "sprite": "slippers"
+        },
+        {
+          "id": "bottle",
+          "name": "the boss's hot water bottle",
+          "sprite": "hotwater"
+        },
+        {
+          "id": "paper",
+          "name": "the boss's crossword",
+          "sprite": "newspaper"
+        },
+        {
+          "id": "glasses",
+          "name": "the boss's reading glasses",
+          "sprite": "glasses"
+        },
+        {
+          "id": "mug",
+          "name": "the boss's cocoa mug",
+          "sprite": "mug"
+        }
+      ]
     }
   ]
 }
